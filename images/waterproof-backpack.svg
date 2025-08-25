@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200" width="150" height="200">
+  <defs>
+    <linearGradient id="backpackGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pocketGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="150" height="200" fill="#f8fafc"/>
+  
+  <!-- Main backpack body -->
+  <path d="M40 50 L110 50 L110 160 L40 160 Z" fill="url(#backpackGradient)" stroke="#1e3a8a" stroke-width="2" rx="8"/>
+  
+  <!-- Front main pocket -->
+  <path d="M45 70 L105 70 L105 130 L45 130 Z" fill="url(#pocketGradient)" stroke="#1e40af" stroke-width="1.5" rx="6"/>
+  
+  <!-- Small front pocket -->
+  <path d="M50 80 L100 80 L100 100 L50 100 Z" fill="#60a5fa" stroke="#1e40af" stroke-width="1" rx="4"/>
+  
+  <!-- Side pockets -->
+  <ellipse cx="25" cy="100" rx="8" ry="15" fill="url(#pocketGradient)" stroke="#1e40af" stroke-width="1"/>
+  <ellipse cx="125" cy="100" rx="8" ry="15" fill="url(#pocketGradient)" stroke="#1e40af" stroke-width="1"/>
+  
+  <!-- Shoulder straps -->
+  <path d="M30 55 Q20 60 25 70 L25 140 Q20 150 30 155" fill="none" stroke="#1e3a8a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M120 55 Q130 60 125 70 L125 140 Q130 150 120 155" fill="none" stroke="#1e3a8a" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Chest strap -->
+  <line x1="25" y1="85" x2="125" y2="85" stroke="#1e3a8a" stroke-width="2" stroke-linecap="round"/>
+  <rect x="70" y="82" width="10" height="6" fill="#374151" rx="2"/>
+  
+  <!-- Top handle -->
+  <path d="M55 45 Q75 35 95 45" fill="none" stroke="#1e3a8a" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Zippers -->
+  <line x1="50" y1="68" x2="100" y2="68" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+  <line x1="45" y1="52" x2="105" y2="52" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+  <line x1="55" y1="78" x2="95" y2="78" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+  
+  <!-- Zipper pulls -->
+  <circle cx="100" cy="68" r="2" fill="#fbbf24"/>
+  <circle cx="105" cy="52" r="2" fill="#fbbf24"/>
+  <circle cx="95" cy="78" r="1.5" fill="#fbbf24"/>
+  
+  <!-- Waterproof indicators -->
+  <g opacity="0.7">
+    <circle cx="60" cy="110" r="2" fill="#06b6d4"/>
+    <circle cx="90" cy="120" r="1.5" fill="#06b6d4"/>
+    <circle cx="70" cy="140" r="2" fill="#06b6d4"/>
+    <circle cx="80" cy="105" r="1" fill="#06b6d4"/>
+  </g>
+  
+  <!-- Brand label -->
+  <rect x="60" y="150" width="30" height="8" fill="#ffffff" stroke="#1e40af" stroke-width="1" rx="2"/>
+  <text x="75" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#1e40af">WATERPROOF</text>
+  
+  <!-- Bottom reinforcement -->
+  <rect x="45" y="155" width="60" height="5" fill="#1e3a8a" rx="2"/>
+</svg>

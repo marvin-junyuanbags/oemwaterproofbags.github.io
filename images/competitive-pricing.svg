@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="priceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#priceGradient)" opacity="0.1"/>
+  
+  <!-- Price tag -->
+  <g transform="translate(25, 25)">
+    <path d="M0 10 L40 10 L50 25 L40 40 L0 40 Z" fill="url(#priceGradient)" stroke="#b91c1c" stroke-width="2"/>
+    <!-- Tag hole -->
+    <circle cx="10" cy="25" r="3" fill="#ffffff"/>
+    <!-- Dollar sign -->
+    <text x="25" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">$</text>
+  </g>
+  
+  <!-- Discount percentage -->
+  <g transform="translate(60, 15)">
+    <circle cx="15" cy="15" r="12" fill="#10b981" stroke="#059669" stroke-width="2"/>
+    <text x="15" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">-20</text>
+    <text x="15" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ffffff">%</text>
+  </g>
+  
+  <!-- Coins -->
+  <g transform="translate(15, 65)">
+    <circle cx="8" cy="8" r="6" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+    <text x="8" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#92400e">¢</text>
+  </g>
+  <g transform="translate(25, 70)">
+    <circle cx="8" cy="8" r="6" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+    <text x="8" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#92400e">¢</text>
+  </g>
+  
+  <!-- Chart showing price decrease -->
+  <g transform="translate(65, 55)">
+    <polyline points="0,20 5,15 10,10 15,8 20,5" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+    <!-- Arrow -->
+    <path d="M18 3 L20 5 L18 7" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Chart axes -->
+    <line x1="0" y1="20" x2="20" y2="20" stroke="#6b7280" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="20" stroke="#6b7280" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main fishing bag body -->
+  <rect x="15" y="25" width="50" height="35" rx="3" fill="#0891b2" stroke="#0e7490" stroke-width="2"/>
+  
+  <!-- Top flap -->
+  <path d="M15 25 Q15 20 20 20 L60 20 Q65 20 65 25 L65 30 L15 30 Z" fill="#0284c7" stroke="#0e7490" stroke-width="2"/>
+  
+  <!-- Handle -->
+  <path d="M28 20 Q28 15 33 15 L47 15 Q52 15 52 20" stroke="#0e7490" stroke-width="3" fill="none"/>
+  
+  <!-- Fishing rod holder tubes -->
+  <rect x="10" y="30" width="6" height="25" rx="3" fill="#0284c7" stroke="#0e7490" stroke-width="1.5"/>
+  <rect x="64" y="30" width="6" height="25" rx="3" fill="#0284c7" stroke="#0e7490" stroke-width="1.5"/>
+  
+  <!-- Tackle box compartments -->
+  <rect x="20" y="35" width="12" height="8" fill="#38bdf8" stroke="#0e7490" stroke-width="1"/>
+  <rect x="34" y="35" width="12" height="8" fill="#38bdf8" stroke="#0e7490" stroke-width="1"/>
+  <rect x="48" y="35" width="12" height="8" fill="#38bdf8" stroke="#0e7490" stroke-width="1"/>
+  
+  <!-- Dividers -->
+  <line x1="26" y1="35" x2="26" y2="43" stroke="#0e7490" stroke-width="1"/>
+  <line x1="40" y1="35" x2="40" y2="43" stroke="#0e7490" stroke-width="1"/>
+  <line x1="54" y1="35" x2="54" y2="43" stroke="#0e7490" stroke-width="1"/>
+  
+  <!-- Fishing hooks/lures -->
+  <circle cx="23" cy="39" r="1.5" fill="#fbbf24"/>
+  <circle cx="37" cy="39" r="1.5" fill="#ef4444"/>
+  <circle cx="51" cy="39" r="1.5" fill="#10b981"/>
+  
+  <!-- Water-resistant zipper -->
+  <line x1="18" y1="27" x2="62" y2="27" stroke="#64748b" stroke-width="2"/>
+  <circle cx="60" cy="27" r="2" fill="#64748b"/>
+  
+  <!-- Side mesh pocket -->
+  <path d="M12 45 Q8 45 8 50 L8 55 Q8 58 12 58 L15 58 L15 45 Z" fill="#0284c7" stroke="#0e7490" stroke-width="1" opacity="0.7"/>
+  <path d="M68 45 Q72 45 72 50 L72 55 Q72 58 68 58 L65 58 L65 45 Z" fill="#0284c7" stroke="#0e7490" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Mesh pattern -->
+  <path d="M10 47 L13 47 M10 50 L13 50 M10 53 L13 53" stroke="#0e7490" stroke-width="0.5"/>
+  <path d="M67 47 L70 47 M67 50 L70 50 M67 53 L70 53" stroke="#0e7490" stroke-width="0.5"/>
+</svg>
