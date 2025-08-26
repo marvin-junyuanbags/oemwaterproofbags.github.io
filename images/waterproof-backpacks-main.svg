@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#f0f8ff" stroke="#4a90e2" stroke-width="2" rx="10"/>
+  <path d="M70 40 L130 40 L140 50 L140 150 L130 160 L70 160 L60 150 L60 50 Z" fill="#4a90e2" stroke="#ffffff" stroke-width="2"/>
+  <rect x="75" y="50" width="50" height="40" fill="#ffffff" stroke="#4a90e2" stroke-width="1" rx="3"/>
+  <rect x="80" y="55" width="40" height="8" fill="#4a90e2" rx="2"/>
+  <rect x="80" y="68" width="30" height="6" fill="#6c757d" rx="1"/>
+  <rect x="80" y="78" width="35" height="6" fill="#6c757d" rx="1"/>
+  <circle cx="85" cy="110" r="8" fill="#ffffff" stroke="#4a90e2" stroke-width="2"/>
+  <circle cx="115" cy="110" r="8" fill="#ffffff" stroke="#4a90e2" stroke-width="2"/>
+  <rect x="75" y="130" width="50" height="20" fill="#ffffff" stroke="#4a90e2" stroke-width="1" rx="3"/>
+  <path d="M90 35 Q100 25 110 35" stroke="#4a90e2" stroke-width="3" fill="none"/>
+  <path d="M85 35 L85 45" stroke="#4a90e2" stroke-width="2"/>
+  <path d="M115 35 L115 45" stroke="#4a90e2" stroke-width="2"/>
+  <text x="100" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Waterproof Backpacks</text>
+</svg>

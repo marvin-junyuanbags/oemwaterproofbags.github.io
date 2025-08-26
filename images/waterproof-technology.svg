@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#e7f3ff" stroke="#007bff" stroke-width="2" rx="10"/>
+  <circle cx="100" cy="80" r="40" fill="#007bff" stroke="#ffffff" stroke-width="3"/>
+  <path d="M80 60 Q100 40 120 60 Q140 80 120 100 Q100 120 80 100 Q60 80 80 60" fill="#ffffff" stroke="#007bff" stroke-width="2"/>
+  <circle cx="100" cy="80" r="15" fill="#007bff"/>
+  <path d="M90 80 L95 85 L110 70" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="70" y="130" width="60" height="20" fill="#007bff" rx="10"/>
+  <text x="100" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Waterproof</text>
+  <circle cx="60" cy="160" r="4" fill="#007bff"/>
+  <circle cx="100" cy="160" r="4" fill="#007bff"/>
+  <circle cx="140" cy="160" r="4" fill="#007bff"/>
+  <text x="100" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Technology</text>
+</svg>
