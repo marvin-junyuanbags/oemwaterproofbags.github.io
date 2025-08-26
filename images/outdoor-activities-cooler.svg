@@ -1,0 +1,178 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#87ceeb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682b4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b7355;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4e37;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="outdoorCoolerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d5016;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3e6b1f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d5016;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grassGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7cb342;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#558b2f;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffeb3b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffc107;stop-opacity:0.8" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Sky Background -->
+  <rect width="400" height="200" fill="url(#skyGradient)"/>
+  
+  <!-- Mountains -->
+  <polygon points="0,150 80,80 160,120 240,60 320,100 400,90 400,200 0,200" fill="url(#mountainGradient)"/>
+  
+  <!-- Mountain Peaks -->
+  <polygon points="200,40 240,60 280,45 320,100 350,85 400,90 400,0 200,0" fill="#6d4c41" opacity="0.8"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="50" r="25" fill="url(#sunGradient)"/>
+  
+  <!-- Clouds -->
+  <g opacity="0.7">
+    <circle cx="100" cy="60" r="15" fill="#ffffff"/>
+    <circle cx="115" cy="55" r="20" fill="#ffffff"/>
+    <circle cx="130" cy="60" r="15" fill="#ffffff"/>
+    
+    <circle cx="280" cy="80" r="12" fill="#ffffff"/>
+    <circle cx="290" cy="75" r="15" fill="#ffffff"/>
+    <circle cx="300" cy="80" r="10" fill="#ffffff"/>
+  </g>
+  
+  <!-- Ground/Grass -->
+  <rect x="0" y="200" width="400" height="100" fill="url(#grassGradient)"/>
+  
+  <!-- Trees -->
+  <g>
+    <!-- Tree 1 -->
+    <rect x="50" y="160" width="8" height="40" fill="#5d4037"/>
+    <circle cx="54" cy="160" r="20" fill="#388e3c"/>
+    
+    <!-- Tree 2 -->
+    <rect x="320" y="140" width="10" height="60" fill="#5d4037"/>
+    <circle cx="325" cy="140" r="25" fill="#388e3c"/>
+    
+    <!-- Tree 3 -->
+    <rect x="380" y="170" width="6" height="30" fill="#5d4037"/>
+    <circle cx="383" cy="170" r="15" fill="#388e3c"/>
+  </g>
+  
+  <!-- Camping Tent -->
+  <g transform="translate(80, 180)">
+    <polygon points="0,20 20,0 40,20 40,30 0,30" fill="#ff5722"/>
+    <polygon points="5,20 35,20 35,30 5,30" fill="#d84315"/>
+    <rect x="18" y="15" width="4" height="15" fill="#424242"/>
+  </g>
+  
+  <!-- Outdoor Cooler Bag -->
+  <rect x="180" y="180" width="120" height="80" fill="url(#outdoorCoolerGradient)" rx="6" ry="6"/>
+  
+  <!-- Cooler Shadow -->
+  <ellipse cx="240" cy="270" rx="65" ry="12" fill="#000000" opacity="0.3"/>
+  
+  <!-- Cooler Front Panel -->
+  <rect x="185" y="185" width="110" height="70" fill="#3e6b1f" rx="4" ry="4"/>
+  
+  <!-- Camouflage Pattern -->
+  <g opacity="0.4">
+    <circle cx="200" cy="200" r="8" fill="#2d5016"/>
+    <circle cx="220" cy="210" r="6" fill="#1b5e20"/>
+    <circle cx="250" cy="195" r="10" fill="#2d5016"/>
+    <circle cx="270" cy="220" r="7" fill="#1b5e20"/>
+    <circle cx="210" cy="235" r="9" fill="#2d5016"/>
+    <circle cx="260" cy="240" r="6" fill="#1b5e20"/>
+  </g>
+  
+  <!-- Heavy-duty Zipper -->
+  <rect x="190" y="190" width="100" height="5" fill="#ffc107" rx="2"/>
+  <circle cx="285" cy="192.5" r="4" fill="#ff8f00"/>
+  
+  <!-- Reinforced Handle -->
+  <rect x="220" y="170" width="40" height="8" fill="#424242" rx="4"/>
+  <rect x="215" y="168" width="8" height="12" fill="#212121" rx="4"/>
+  <rect x="257" y="168" width="8" height="12" fill="#212121" rx="4"/>
+  
+  <!-- Side Straps -->
+  <rect x="175" y="200" width="8" height="40" fill="#424242" rx="2"/>
+  <rect x="297" y="200" width="8" height="40" fill="#424242" rx="2"/>
+  
+  <!-- Adventure Badge -->
+  <circle cx="350" cy="120" r="20" fill="#ff6f00" opacity="0.9"/>
+  <text x="350" y="118" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">ADVENTURE</text>
+  <text x="350" y="128" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="6">READY</text>
+  
+  <!-- Waterproof Badge -->
+  <rect x="30" y="100" width="50" height="18" fill="#2196f3" rx="9"/>
+  <text x="55" y="112" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">WATERPROOF</text>
+  
+  <!-- Capacity Indicator -->
+  <rect x="320" y="200" width="40" height="12" fill="#4caf50" rx="6"/>
+  <text x="340" y="208" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">25L+</text>
+  
+  <!-- Temperature Display -->
+  <rect x="225" y="200" width="30" height="10" fill="#000000" opacity="0.8" rx="2"/>
+  <text x="240" y="207" text-anchor="middle" fill="#00ff00" font-family="monospace" font-size="7">2°C</text>
+  
+  <!-- Outdoor Items Inside -->
+  <g opacity="0.6">
+    <!-- Water Bottles -->
+    <rect x="200" y="210" width="8" height="20" fill="#2196f3" rx="4"/>
+    <rect x="210" y="210" width="8" height="20" fill="#2196f3" rx="4"/>
+    
+    <!-- Energy Bars -->
+    <rect x="225" y="220" width="20" height="8" fill="#8bc34a" rx="2"/>
+    <rect x="225" y="230" width="20" height="8" fill="#ff9800" rx="2"/>
+    
+    <!-- Sandwiches -->
+    <rect x="250" y="215" width="25" height="12" fill="#ffc107" rx="2"/>
+    <rect x="250" y="230" width="25" height="12" fill="#ffc107" rx="2"/>
+    
+    <!-- Ice Packs -->
+    <rect x="280" y="210" width="10" height="25" fill="#e3f2fd" rx="2"/>
+    <circle cx="285" cy="222" r="3" fill="#bbdefb"/>
+  </g>
+  
+  <!-- Campfire -->
+  <g transform="translate(120, 240)">
+    <!-- Fire Base -->
+    <circle cx="0" cy="10" r="8" fill="#5d4037"/>
+    <!-- Flames -->
+    <path d="M-5,10 Q-3,0 0,5 Q3,0 5,10" fill="#ff5722"/>
+    <path d="M-3,8 Q-1,-2 2,6" fill="#ff9800"/>
+    <path d="M-1,6 Q1,-1 3,4" fill="#ffc107"/>
+  </g>
+  
+  <!-- Hiking Boots -->
+  <g transform="translate(300, 250)">
+    <ellipse cx="0" cy="5" rx="15" ry="8" fill="#5d4037"/>
+    <rect x="-12" y="-3" width="24" height="8" fill="#8d6e63" rx="4"/>
+    <rect x="-10" y="-1" width="20" height="4" fill="#6d4c41"/>
+  </g>
+  
+  <!-- Compass Icon -->
+  <g transform="translate(50, 250)">
+    <circle cx="0" cy="0" r="10" fill="#424242"/>
+    <circle cx="0" cy="0" r="8" fill="#ffffff"/>
+    <polygon points="0,-6 2,0 0,6 -2,0" fill="#f44336"/>
+    <text x="0" y="-12" text-anchor="middle" fill="#424242" font-family="Arial, sans-serif" font-size="6">N</text>
+  </g>
+  
+  <!-- Activity Icons -->
+  <g transform="translate(370, 250)">
+    <!-- Camping Icon -->
+    <polygon points="-8,5 0,-5 8,5" fill="#ff5722" opacity="0.8"/>
+    <!-- Hiking Icon -->
+    <rect x="10" y="-5" width="2" height="10" fill="#8bc34a"/>
+    <circle cx="11" cy="-8" r="2" fill="#8bc34a"/>
+    <!-- Fishing Icon -->
+    <line x1="-15" y1="0" x2="-5" y2="-8" stroke="#2196f3" stroke-width="2"/>
+    <circle cx="-5" cy="-8" r="1" fill="#2196f3"/>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#f8f9fa" stroke="#dc3545" stroke-width="2" rx="10"/>
+  <path d="M100 40 C120 40 140 55 140 80 C140 110 100 160 100 160 S60 110 60 80 C60 55 80 40 100 40 Z" fill="#dc3545" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="100" cy="80" r="15" fill="#ffffff"/>
+  <circle cx="100" cy="80" r="8" fill="#dc3545"/>
+  <text x="100" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Location</text>
+</svg>

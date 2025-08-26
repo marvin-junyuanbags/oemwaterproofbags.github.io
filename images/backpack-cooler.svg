@@ -1,0 +1,147 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4f1d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="backpackGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d5016;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3009;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="strapGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a4a4a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a2a2a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with mountain silhouette -->
+  <rect width="400" height="300" fill="url(#bgGradient)"/>
+  <path d="M0 200 L80 150 L150 180 L220 140 L300 170 L400 130 L400 300 L0 300 Z" fill="#a8d8a8" opacity="0.3"/>
+  
+  <!-- Trees in background -->
+  <g opacity="0.4">
+    <polygon points="50,200 60,170 70,200" fill="#228B22"/>
+    <rect x="58" y="200" width="4" height="15" fill="#8B4513"/>
+    <polygon points="320,190 335,150 350,190" fill="#228B22"/>
+    <rect x="332" y="190" width="6" height="20" fill="#8B4513"/>
+  </g>
+  
+  <!-- Main backpack body -->
+  <path d="M150 80 Q150 70 160 70 L240 70 Q250 70 250 80 L250 220 Q250 230 240 230 L160 230 Q150 230 150 220 Z" fill="url(#backpackGradient)" stroke="#1a3009" stroke-width="2"/>
+  
+  <!-- Backpack side panels -->
+  <path d="M150 80 Q140 85 140 150 Q140 215 150 220" fill="#1a3009" stroke="#0f1a04" stroke-width="1"/>
+  <path d="M250 80 Q260 85 260 150 Q260 215 250 220" fill="#1a3009" stroke="#0f1a04" stroke-width="1"/>
+  
+  <!-- Main compartment zipper -->
+  <rect x="160" y="68" width="80" height="4" fill="#c0c0c0" rx="2"/>
+  <circle cx="170" cy="70" r="3" fill="#808080"/>
+  <circle cx="230" cy="70" r="3" fill="#808080"/>
+  
+  <!-- Front pocket -->
+  <rect x="170" y="100" width="60" height="40" fill="#2d5016" stroke="#1a3009" stroke-width="1" rx="3"/>
+  <rect x="175" y="98" width="50" height="3" fill="#c0c0c0" rx="1"/>
+  <circle cx="185" cy="99.5" r="2" fill="#808080"/>
+  
+  <!-- Top compartment -->
+  <rect x="165" y="85" width="70" height="20" fill="#2d5016" stroke="#1a3009" stroke-width="1" rx="3"/>
+  <rect x="170" y="83" width="60" height="3" fill="#c0c0c0" rx="1"/>
+  <circle cx="180" cy="84.5" r="2" fill="#808080"/>
+  
+  <!-- Shoulder straps -->
+  <rect x="130" y="90" width="12" height="120" fill="url(#strapGradient)" rx="6"/>
+  <rect x="258" y="90" width="12" height="120" fill="url(#strapGradient)" rx="6"/>
+  
+  <!-- Strap padding -->
+  <rect x="132" y="110" width="8" height="30" fill="#666666" rx="4"/>
+  <rect x="260" y="110" width="8" height="30" fill="#666666" rx="4"/>
+  
+  <!-- Chest strap -->
+  <rect x="142" y="120" width="116" height="4" fill="url(#strapGradient)" rx="2"/>
+  <rect x="190" y="118" width="20" height="8" fill="#666666" rx="4"/>
+  
+  <!-- Side water bottle holder -->
+  <ellipse cx="270" cy="160" rx="8" ry="25" fill="#4169E1" opacity="0.7"/>
+  <rect x="267" y="140" width="6" height="5" fill="#1E90FF" rx="3"/>
+  
+  <!-- Hydration tube -->
+  <path d="M200 85 Q220 60 240 50" fill="none" stroke="#4169E1" stroke-width="3"/>
+  <circle cx="240" cy="50" r="4" fill="#1E90FF"/>
+  
+  <!-- Cooling compartment indicator -->
+  <rect x="175" y="150" width="50" height="60" fill="#87CEEB" opacity="0.3" stroke="#4682B4" stroke-width="1" stroke-dasharray="3,3" rx="3"/>
+  
+  <!-- Ice crystals pattern -->
+  <g opacity="0.6">
+    <path d="M185 160 L190 165 L185 170 L180 165 Z" fill="#E0F6FF"/>
+    <path d="M205 170 L210 175 L205 180 L200 175 Z" fill="#E0F6FF"/>
+    <path d="M215 155 L220 160 L215 165 L210 160 Z" fill="#E0F6FF"/>
+  </g>
+  
+  <!-- Insulation lines -->
+  <g stroke="#4682B4" stroke-width="1" opacity="0.5">
+    <line x1="180" y1="155" x2="220" y2="155"/>
+    <line x1="180" y1="165" x2="220" y2="165"/>
+    <line x1="180" y1="175" x2="220" y2="175"/>
+    <line x1="180" y1="185" x2="220" y2="185"/>
+    <line x1="180" y1="195" x2="220" y2="195"/>
+    <line x1="180" y1="205" x2="220" y2="205"/>
+  </g>
+  
+  <!-- Brand logo area -->
+  <rect x="180" y="115" width="40" height="12" fill="#ffffff" opacity="0.9" rx="2"/>
+  <text x="200" y="123" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#1a3009">ADVENTURE</text>
+  
+  <!-- Adventure Ready badge -->
+  <circle cx="350" cy="50" r="25" fill="#ff6b35" stroke="#ffffff" stroke-width="2"/>
+  <path d="M340 45 L350 40 L360 45 L355 55 L345 55 Z" fill="#ffffff"/>
+  <text x="350" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ff6b35">ADVENTURE</text>
+  <text x="350" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ff6b35">READY</text>
+  
+  <!-- Ergonomic indicator -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="35" height="20" fill="#28a745" rx="3"/>
+    <path d="M8 10 Q17.5 5 27 10" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="8" cy="10" r="2" fill="#ffffff"/>
+    <circle cx="27" cy="10" r="2" fill="#ffffff"/>
+    <text x="17.5" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#28a745">ERGONOMIC</text>
+  </g>
+  
+  <!-- Capacity indicator -->
+  <g transform="translate(320, 250)">
+    <rect x="0" y="0" width="60" height="25" fill="#6f42c1" rx="3"/>
+    <text x="30" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">15L-35L</text>
+    <text x="30" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#ffffff">CAPACITY</text>
+  </g>
+  
+  <!-- Hands-free indicator -->
+  <g transform="translate(20, 250)">
+    <circle r="15" fill="#17a2b8"/>
+    <path d="M-8 -5 L-8 5 M8 -5 L8 5" stroke="#ffffff" stroke-width="2"/>
+    <path d="M-5 0 L5 0" stroke="#ffffff" stroke-width="3"/>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#17a2b8">HANDS-FREE</text>
+  </g>
+  
+  <!-- Multiple compartments indicator -->
+  <g transform="translate(100, 250)">
+    <rect x="0" y="0" width="40" height="20" fill="#fd7e14" rx="3"/>
+    <rect x="5" y="5" width="8" height="10" fill="#ffffff" rx="1"/>
+    <rect x="16" y="5" width="8" height="10" fill="#ffffff" rx="1"/>
+    <rect x="27" y="5" width="8" height="10" fill="#ffffff" rx="1"/>
+    <text x="20" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#fd7e14">MULTI-POCKET</text>
+  </g>
+  
+  <!-- Drinks/snacks inside cooling compartment -->
+  <g opacity="0.6">
+    <rect x="185" y="160" width="6" height="20" fill="#ff6b6b" rx="3"/>
+    <rect x="195" y="165" width="6" height="15" fill="#4ecdc4" rx="3"/>
+    <rect x="205" y="170" width="6" height="18" fill="#45b7d1" rx="3"/>
+    <rect x="215" y="162" width="6" height="22" fill="#96ceb4" rx="3"/>
+  </g>
+  
+  <!-- Compass on side -->
+  <circle cx="130" cy="180" r="8" fill="#ffd700" stroke="#b8860b" stroke-width="1"/>
+  <path d="M130 175 L132 180 L130 185 L128 180 Z" fill="#dc143c"/>
+  <circle cx="130" cy="180" r="2" fill="#ffffff"/>
+</svg>

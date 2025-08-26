@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="labTechGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#805AD5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6B46C1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#labTechGradient)" stroke="#553C9A" stroke-width="2"/>
+  
+  <!-- Lab Technician elements -->
+  <g transform="translate(50,50)">
+    <!-- Technician figure -->
+    <g transform="translate(0,-5)">
+      <!-- Head -->
+      <circle cx="0" cy="-15" r="8" fill="#F7FAFC" stroke="#553C9A" stroke-width="2"/>
+      <!-- Hair with hair net -->
+      <path d="M -6,-20 Q 0,-25 6,-20 Q 4,-22 0,-22 Q -4,-22 -6,-20" fill="#4A5568"/>
+      <path d="M -6,-20 Q 0,-23 6,-20" fill="none" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="1,1"/>
+      <!-- Safety goggles -->
+      <rect x="-6" y="-18" width="12" height="5" fill="none" stroke="#553C9A" stroke-width="2" rx="2"/>
+      <circle cx="-3" cy="-15.5" r="2.5" fill="rgba(255,255,255,0.3)" stroke="#553C9A" stroke-width="1"/>
+      <circle cx="3" cy="-15.5" r="2.5" fill="rgba(255,255,255,0.3)" stroke="#553C9A" stroke-width="1"/>
+      <!-- Nose -->
+      <line x1="0" y1="-14" x2="0" y2="-12" stroke="#553C9A" stroke-width="1"/>
+      <!-- Mouth with mask -->
+      <rect x="-3" y="-12" width="6" height="3" fill="#E2E8F0" stroke="#553C9A" stroke-width="1" rx="1"/>
+      
+      <!-- Lab coat -->
+      <rect x="-8" y="-7" width="16" height="22" fill="white" stroke="#553C9A" stroke-width="2" rx="2"/>
+      <!-- Lab coat buttons -->
+      <circle cx="-2" cy="-2" r="0.8" fill="#553C9A"/>
+      <circle cx="-2" cy="2" r="0.8" fill="#553C9A"/>
+      <circle cx="-2" cy="6" r="0.8" fill="#553C9A"/>
+      <!-- Pocket -->
+      <rect x="2" y="-2" width="4" height="3" fill="none" stroke="#553C9A" stroke-width="1" rx="0.5"/>
+      <!-- Pen in pocket -->
+      <line x1="5" y1="-2" x2="5" y2="-3" stroke="#E53E3E" stroke-width="1" stroke-linecap="round"/>
+      
+      <!-- Arms -->
+      <rect x="-12" y="-5" width="4" height="12" fill="white" stroke="#553C9A" stroke-width="2" rx="2"/>
+      <rect x="8" y="-5" width="4" height="12" fill="white" stroke="#553C9A" stroke-width="2" rx="2"/>
+      
+      <!-- Gloved hands -->
+      <circle cx="-10" cy="7" r="2.5" fill="#4299E1" stroke="#553C9A" stroke-width="1"/>
+      <circle cx="10" cy="7" r="2.5" fill="#4299E1" stroke="#553C9A" stroke-width="1"/>
+      
+      <!-- Legs -->
+      <rect x="-4" y="15" width="3" height="10" fill="#553C9A" rx="1"/>
+      <rect x="1" y="15" width="3" height="10" fill="#553C9A" rx="1"/>
+      
+      <!-- Lab shoes -->
+      <ellipse cx="-2.5" cy="26" rx="2.5" ry="1.5" fill="white"/>
+      <ellipse cx="2.5" cy="26" rx="2.5" ry="1.5" fill="white"/>
+    </g>
+    
+    <!-- Laboratory equipment -->
+    <!-- Microscope -->
+    <g transform="translate(-20,8)">
+      <!-- Base -->
+      <rect x="-3" y="2" width="6" height="2" fill="#4A5568" rx="1"/>
+      <!-- Stand -->
+      <rect x="-0.5" y="-2" width="1" height="4" fill="#4A5568"/>
+      <!-- Stage -->
+      <rect x="-2" y="-2" width="4" height="1" fill="#718096"/>
+      <!-- Objective -->
+      <rect x="-1" y="-4" width="2" height="2" fill="#4A5568" rx="0.5"/>
+      <!-- Eyepiece -->
+      <circle cx="0" cy="-6" r="1.5" fill="#2D3748"/>
+      <circle cx="0" cy="-6" r="0.8" fill="#4299E1" opacity="0.5"/>
+    </g>
+    
+    <!-- Test tubes rack -->
+    <g transform="translate(18,10)">
+      <!-- Rack base -->
+      <rect x="-4" y="2" width="8" height="2" fill="#4A5568" rx="1"/>
+      <!-- Test tubes -->
+      <g transform="translate(-2,0)">
+        <rect x="-0.5" y="-4" width="1" height="6" fill="#E2E8F0" stroke="#553C9A" stroke-width="0.5" rx="0.5"/>
+        <rect x="-0.5" y="-4" width="1" height="2" fill="#E53E3E" opacity="0.6"/>
+      </g>
+      <g transform="translate(0,0)">
+        <rect x="-0.5" y="-4" width="1" height="6" fill="#E2E8F0" stroke="#553C9A" stroke-width="0.5" rx="0.5"/>
+        <rect x="-0.5" y="-4" width="1" height="3" fill="#4299E1" opacity="0.6"/>
+      </g>
+      <g transform="translate(2,0)">
+        <rect x="-0.5" y="-4" width="1" height="6" fill="#E2E8F0" stroke="#553C9A" stroke-width="0.5" rx="0.5"/>
+        <rect x="-0.5" y="-4" width="1" height="1.5" fill="#48BB78" opacity="0.6"/>
+      </g>
+    </g>
+    
+    <!-- Beaker with solution -->
+    <g transform="translate(-8,15)">
+      <!-- Beaker -->
+      <path d="M -2,-3 L -2,2 L -3,4 L 3,4 L 2,2 L 2,-3 Z" fill="#E2E8F0" stroke="#553C9A" stroke-width="1"/>
+      <!-- Spout -->
+      <path d="M 2,-1 L 3,-1" stroke="#553C9A" stroke-width="1"/>
+      <!-- Solution -->
+      <path d="M -1.5,1 L -2.5,3.5 L 2.5,3.5 L 1.5,1 Z" fill="#805AD5" opacity="0.4"/>
+      <!-- Bubbles -->
+      <circle cx="-0.5" cy="2" r="0.3" fill="#805AD5" opacity="0.6"/>
+      <circle cx="0.5" cy="1.5" r="0.2" fill="#805AD5" opacity="0.6"/>
+      <circle cx="0" cy="2.5" r="0.25" fill="#805AD5" opacity="0.6"/>
+    </g>
+    
+    <!-- Petri dish -->
+    <g transform="translate(8,15)">
+      <ellipse cx="0" cy="0" rx="3" ry="1.5" fill="#E2E8F0" stroke="#553C9A" stroke-width="1"/>
+      <!-- Bacterial cultures -->
+      <circle cx="-1" cy="0" r="0.5" fill="#48BB78" opacity="0.6"/>
+      <circle cx="1" cy="0.3" r="0.4" fill="#E53E3E" opacity="0.6"/>
+      <circle cx="0.5" cy="-0.5" r="0.3" fill="#4299E1" opacity="0.6"/>
+    </g>
+    
+    <!-- Lab notebook -->
+    <g transform="translate(-25,-8)">
+      <rect x="-2" y="-3" width="4" height="6" fill="#F7FAFC" stroke="#553C9A" stroke-width="1" rx="0.5"/>
+      <!-- Spiral binding -->
+      <line x1="-2" y1="-2" x2="-2" y2="2" stroke="#553C9A" stroke-width="0.5" stroke-dasharray="0.5,0.5"/>
+      <!-- Writing lines -->
+      <line x1="-1" y1="-1" x2="1" y2="-1" stroke="#553C9A" stroke-width="0.3"/>
+      <line x1="-1" y1="0" x2="1" y2="0" stroke="#553C9A" stroke-width="0.3"/>
+      <line x1="-1" y1="1" x2="1" y2="1" stroke="#553C9A" stroke-width="0.3"/>
+    </g>
+    
+    <!-- Computer/data analysis -->
+    <g transform="translate(25,-8)">
+      <rect x="-3" y="-2" width="6" height="4" fill="#2D3748" stroke="#553C9A" stroke-width="1" rx="0.5"/>
+      <!-- Screen -->
+      <rect x="-2.5" y="-1.5" width="5" height="3" fill="#4299E1" opacity="0.3"/>
+      <!-- Data visualization -->
+      <rect x="-2" y="-1" width="0.5" height="2" fill="#48BB78"/>
+      <rect x="-1" y="-0.5" width="0.5" height="1.5" fill="#E53E3E"/>
+      <rect x="0" y="-1.2" width="0.5" height="2.2" fill="#805AD5"/>
+      <rect x="1" y="-0.8" width="0.5" height="1.8" fill="#D69E2E"/>
+    </g>
+    
+    <!-- Safety symbols -->
+    <g transform="translate(0,-30)">
+      <!-- Biohazard symbol -->
+      <circle cx="-8" cy="0" r="2" fill="#E53E3E" opacity="0.8"/>
+      <text x="-8" y="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="2" fill="white" font-weight="bold">☣</text>
+      
+      <!-- Chemical hazard -->
+      <polygon points="8,-2 6,0 6,1 8,3 10,1 10,0" fill="#FFD700" stroke="#B7791F" stroke-width="0.5"/>
+      <text x="8" y="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="1.5" fill="#B7791F" font-weight="bold">!</text>
+    </g>
+  </g>
+  
+  <!-- Lab Technician text -->
+  <text x="50" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="5.5" fill="#553C9A" font-weight="bold">Lab Technician</text>
+</svg>

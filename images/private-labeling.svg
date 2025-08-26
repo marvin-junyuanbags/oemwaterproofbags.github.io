@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="labelingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38A169;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F855A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#labelingGradient)" stroke="#1A202C" stroke-width="2"/>
+  
+  <!-- Private labeling elements -->
+  <g transform="translate(50,50)">
+    <!-- Main label/tag -->
+    <rect x="-15" y="-10" width="30" height="20" fill="white" stroke="#1A202C" stroke-width="1.5" rx="2"/>
+    
+    <!-- Label hole -->
+    <circle cx="-10" cy="-5" r="2" fill="#38A169"/>
+    
+    <!-- Brand text lines -->
+    <rect x="-5" y="-7" width="15" height="1.5" fill="#1A202C"/>
+    <rect x="-5" y="-4" width="12" height="1.5" fill="#1A202C"/>
+    <rect x="-5" y="-1" width="18" height="1.5" fill="#1A202C"/>
+    <rect x="-5" y="2" width="10" height="1.5" fill="#1A202C"/>
+    <rect x="-5" y="5" width="16" height="1.5" fill="#1A202C"/>
+    
+    <!-- String/cord -->
+    <line x1="-10" y1="-5" x2="-10" y2="-20" stroke="#1A202C" stroke-width="1.5"/>
+    
+    <!-- Secondary labels -->
+    <rect x="-25" y="5" width="15" height="10" fill="white" stroke="#1A202C" stroke-width="1" rx="1" opacity="0.8"/>
+    <circle cx="-22" cy="8" r="1" fill="#38A169"/>
+    <rect x="-19" y="7" width="8" height="0.8" fill="#1A202C"/>
+    <rect x="-19" y="9" width="6" height="0.8" fill="#1A202C"/>
+    <rect x="-19" y="11" width="9" height="0.8" fill="#1A202C"/>
+    
+    <rect x="10" y="5" width="15" height="10" fill="white" stroke="#1A202C" stroke-width="1" rx="1" opacity="0.8"/>
+    <circle cx="13" cy="8" r="1" fill="#38A169"/>
+    <rect x="16" y="7" width="8" height="0.8" fill="#1A202C"/>
+    <rect x="16" y="9" width="6" height="0.8" fill="#1A202C"/>
+    <rect x="16" y="11" width="9" height="0.8" fill="#1A202C"/>
+    
+    <!-- Crown/premium symbol -->
+    <polygon points="0,-25 -3,-20 0,-18 3,-20" fill="#FFD700" stroke="#1A202C" stroke-width="0.5"/>
+    <circle cx="-2" cy="-22" r="0.5" fill="#FFD700"/>
+    <circle cx="0" cy="-23" r="0.5" fill="#FFD700"/>
+    <circle cx="2" cy="-22" r="0.5" fill="#FFD700"/>
+  </g>
+  
+  <!-- Private labeling text -->
+  <text x="50" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#1A202C" font-weight="bold">PRIVATE LABEL</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="outdoorGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48BB78;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38A169;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#outdoorGradient)" stroke="#2F855A" stroke-width="2"/>
+  
+  <!-- Outdoor recreation elements -->
+  <g transform="translate(50,50)">
+    <!-- Mountains -->
+    <polygon points="-25,10 -15,-5 -5,10" fill="#2D3748" stroke="#1A202C" stroke-width="1"/>
+    <polygon points="-10,10 0,-8 10,10" fill="#4A5568" stroke="#1A202C" stroke-width="1"/>
+    <polygon points="5,10 15,-3 25,10" fill="#2D3748" stroke="#1A202C" stroke-width="1"/>
+    
+    <!-- Snow caps -->
+    <polygon points="-15,-5 -12,-2 -18,-2" fill="white"/>
+    <polygon points="0,-8 3,-5 -3,-5" fill="white"/>
+    <polygon points="15,-3 18,0 12,0" fill="white"/>
+    
+    <!-- Trees -->
+    <polygon points="-20,10 -18,5 -16,10" fill="#2F855A"/>
+    <rect x="-18.5" y="10" width="1" height="3" fill="#8B4513"/>
+    
+    <polygon points="-8,10 -6,6 -4,10" fill="#2F855A"/>
+    <rect x="-6.5" y="10" width="1" height="3" fill="#8B4513"/>
+    
+    <polygon points="8,10 10,6 12,10" fill="#2F855A"/>
+    <rect x="9.5" y="10" width="1" height="3" fill="#8B4513"/>
+    
+    <polygon points="20,10 22,6 24,10" fill="#2F855A"/>
+    <rect x="21.5" y="10" width="1" height="3" fill="#8B4513"/>
+    
+    <!-- Tent -->
+    <polygon points="-5,10 0,2 5,10" fill="#E53E3E" stroke="#C53030" stroke-width="1"/>
+    <line x1="0" y1="2" x2="0" y2="10" stroke="#C53030" stroke-width="0.5"/>
+    <rect x="-1" y="8" width="2" height="2" fill="#2D3748"/>
+    
+    <!-- Campfire -->
+    <ellipse cx="8" cy="12" rx="2" ry="0.5" fill="#8B4513"/>
+    <rect x="7" y="11" width="0.5" height="1.5" fill="#8B4513"/>
+    <rect x="8.5" y="11" width="0.5" height="1.5" fill="#8B4513"/>
+    
+    <!-- Fire flames -->
+    <path d="M 8,11 Q 7,9 8,8 Q 9,9 8,11" fill="#FF6B35" opacity="0.8"/>
+    <path d="M 8,10 Q 7.5,8.5 8,7.5 Q 8.5,8.5 8,10" fill="#FFD23F" opacity="0.8"/>
+    
+    <!-- Hiking figure -->
+    <g transform="translate(-12,5)">
+      <!-- Head -->
+      <circle cx="0" cy="-2" r="1.5" fill="#F7FAFC" stroke="#2D3748" stroke-width="0.5"/>
+      <!-- Body -->
+      <rect x="-0.5" y="-0.5" width="1" height="3" fill="#4299E1" rx="0.5"/>
+      <!-- Legs -->
+      <line x1="-0.5" y1="2.5" x2="-1" y2="4.5" stroke="#2D3748" stroke-width="1" stroke-linecap="round"/>
+      <line x1="0.5" y1="2.5" x2="1" y2="4.5" stroke="#2D3748" stroke-width="1" stroke-linecap="round"/>
+      <!-- Arms -->
+      <line x1="-0.5" y1="0.5" x2="-1.5" y2="1.5" stroke="#F7FAFC" stroke-width="1" stroke-linecap="round"/>
+      <line x1="0.5" y1="0.5" x2="1.5" y2="-0.5" stroke="#F7FAFC" stroke-width="1" stroke-linecap="round"/>
+      <!-- Hiking stick -->
+      <line x1="1.5" y1="-0.5" x2="1.5" y2="3" stroke="#8B4513" stroke-width="1" stroke-linecap="round"/>
+      <!-- Backpack -->
+      <ellipse cx="0.8" cy="0.5" rx="0.8" ry="1.2" fill="#E53E3E"/>
+    </g>
+    
+    <!-- Sun -->
+    <circle cx="18" cy="-15" r="3" fill="#FFD23F" stroke="#F6AD55" stroke-width="1"/>
+    <line x1="18" y1="-22" x2="18" y2="-20" stroke="#FFD23F" stroke-width="1"/>
+    <line x1="25" y1="-15" x2="23" y2="-15" stroke="#FFD23F" stroke-width="1"/>
+    <line x1="22.5" y1="-20.5" x2="21.1" y2="-19.1" stroke="#FFD23F" stroke-width="1"/>
+    <line x1="22.5" y1="-9.5" x2="21.1" y2="-10.9" stroke="#FFD23F" stroke-width="1"/>
+  </g>
+  
+  <!-- Outdoor recreation text -->
+  <text x="50" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2F855A" font-weight="bold">OUTDOOR RECREATION</text>
+</svg>

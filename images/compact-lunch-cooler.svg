@@ -1,0 +1,126 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="officeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lunchCoolerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#495057;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6c757d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#495057;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="zipperGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffed4e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="handleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#343a40;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#495057;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="coolGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#bbdefb;stop-opacity:0.4" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Office Background -->
+  <rect width="400" height="300" fill="url(#officeGradient)"/>
+  
+  <!-- Desk Surface -->
+  <rect x="0" y="200" width="400" height="100" fill="#dee2e6" opacity="0.6"/>
+  
+  <!-- Office Elements -->
+  <rect x="20" y="180" width="60" height="80" fill="#adb5bd" opacity="0.4" rx="3"/>
+  <rect x="320" y="160" width="50" height="100" fill="#adb5bd" opacity="0.4" rx="3"/>
+  
+  <!-- Lunch Cooler Bag Main Body -->
+  <rect x="120" y="120" width="160" height="100" fill="url(#lunchCoolerGradient)" rx="8" ry="8"/>
+  
+  <!-- Cooler Bag Shadow -->
+  <ellipse cx="200" cy="230" rx="85" ry="15" fill="#000000" opacity="0.2"/>
+  
+  <!-- Front Panel -->
+  <rect x="125" y="125" width="150" height="90" fill="#6c757d" rx="6" ry="6"/>
+  
+  <!-- Zipper -->
+  <rect x="130" y="130" width="140" height="4" fill="url(#zipperGradient)" rx="2"/>
+  <circle cx="265" r="3" cy="132" fill="#ffd700"/>
+  
+  <!-- Handle -->
+  <rect x="180" y="110" width="40" height="8" fill="url(#handleGradient)" rx="4"/>
+  <rect x="175" y="108" width="6" height="12" fill="#343a40" rx="3"/>
+  <rect x="219" y="108" width="6" height="12" fill="#343a40" rx="3"/>
+  
+  <!-- Side Mesh Pocket -->
+  <rect x="285" y="140" width="20" height="60" fill="#868e96" opacity="0.7" rx="3"/>
+  <g stroke="#495057" stroke-width="1" opacity="0.6">
+    <line x1="287" y1="145" x2="303" y2="145"/>
+    <line x1="287" y1="155" x2="303" y2="155"/>
+    <line x1="287" y1="165" x2="303" y2="165"/>
+    <line x1="287" y1="175" x2="303" y2="175"/>
+    <line x1="287" y1="185" x2="303" y2="185"/>
+    <line x1="287" y1="195" x2="303" y2="195"/>
+  </g>
+  
+  <!-- Front Pocket -->
+  <rect x="140" y="180" width="120" height="25" fill="#5a6268" rx="3"/>
+  <rect x="145" y="185" width="110" height="15" fill="#6c757d" rx="2"/>
+  
+  <!-- Brand Logo Area -->
+  <rect x="160" y="145" width="80" height="20" fill="#495057" rx="3"/>
+  <text x="200" y="158" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">LUNCH COOLER</text>
+  
+  <!-- Cooling Indicators -->
+  <circle cx="150" cy="170" r="8" fill="url(#coolGradient)"/>
+  <text x="150" y="175" text-anchor="middle" fill="#1976d2" font-family="Arial, sans-serif" font-size="8" font-weight="bold">❄</text>
+  
+  <!-- Compact Badge -->
+  <circle cx="350" cy="50" r="25" fill="#28a745" opacity="0.9"/>
+  <text x="350" y="48" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">COMPACT</text>
+  <text x="350" y="58" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="6">SIZE</text>
+  
+  <!-- Professional Badge -->
+  <rect x="30" y="30" width="60" height="20" fill="#6f42c1" rx="10"/>
+  <text x="60" y="43" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">PROFESSIONAL</text>
+  
+  <!-- Capacity Indicator -->
+  <rect x="320" y="90" width="50" height="15" fill="#fd7e14" rx="7"/>
+  <text x="345" y="100" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">3L-12L</text>
+  
+  <!-- Easy Clean Indicator -->
+  <circle cx="80" cy="80" r="15" fill="#20c997"/>
+  <text x="80" y="85" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">✓</text>
+  <text x="80" y="105" text-anchor="middle" fill="#20c997" font-family="Arial, sans-serif" font-size="8" font-weight="bold">EASY CLEAN</text>
+  
+  <!-- Lunch Items Inside (visible through transparent section) -->
+  <g opacity="0.6">
+    <!-- Sandwich -->
+    <rect x="160" y="155" width="25" height="15" fill="#ffc107" rx="2"/>
+    <rect x="162" y="157" width="21" height="11" fill="#28a745" rx="1"/>
+    
+    <!-- Apple -->
+    <circle cx="200" cy="162" r="8" fill="#dc3545"/>
+    <rect x="198" y="154" width="4" height="6" fill="#28a745"/>
+    
+    <!-- Water Bottle -->
+    <rect x="220" y="150" width="12" height="25" fill="#17a2b8" rx="6"/>
+    <rect x="222" y="148" width="8" height="4" fill="#6c757d" rx="2"/>
+    
+    <!-- Yogurt Cup -->
+    <rect x="245" y="160" width="15" height="12" fill="#ffffff" rx="2"/>
+    <rect x="247" y="158" width="11" height="3" fill="#ffc107" rx="1"/>
+  </g>
+  
+  <!-- Temperature Display -->
+  <rect x="200" y="135" width="30" height="12" fill="#000000" opacity="0.8" rx="2"/>
+  <text x="215" y="143" text-anchor="middle" fill="#00ff00" font-family="monospace" font-size="8">4°C</text>
+  
+  <!-- Office Lunch Icon -->
+  <g transform="translate(300, 250)">
+    <circle cx="0" cy="0" r="12" fill="#6f42c1" opacity="0.9"/>
+    <rect x="-6" y="-6" width="12" height="8" fill="#ffffff" rx="1"/>
+    <rect x="-4" y="-4" width="8" height="2" fill="#6f42c1"/>
+    <rect x="-4" y="-1" width="8" height="2" fill="#6f42c1"/>
+    <rect x="-3" y="2" width="6" height="4" fill="#ffffff" rx="1"/>
+  </g>
+</svg>

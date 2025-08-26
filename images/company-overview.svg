@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#f0f8ff" stroke="#4a90e2" stroke-width="2" rx="10"/>
+  <rect x="20" y="40" width="160" height="80" fill="#4a90e2" rx="5"/>
+  <rect x="30" y="50" width="20" height="60" fill="#ffffff"/>
+  <rect x="60" y="50" width="20" height="60" fill="#ffffff"/>
+  <rect x="90" y="50" width="20" height="60" fill="#ffffff"/>
+  <rect x="120" y="50" width="20" height="60" fill="#ffffff"/>
+  <rect x="150" y="50" width="20" height="60" fill="#ffffff"/>
+  <text x="100" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Manufacturing</text>
+  <text x="100" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Facility</text>
+  <circle cx="50" cy="170" r="8" fill="#4a90e2"/>
+  <circle cx="100" cy="170" r="8" fill="#4a90e2"/>
+  <circle cx="150" cy="170" r="8" fill="#4a90e2"/>
+</svg>

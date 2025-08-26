@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#e7f3ff" stroke="#007bff" stroke-width="2" rx="10"/>
+  <circle cx="70" cy="70" r="20" fill="#007bff"/>
+  <circle cx="130" cy="70" r="20" fill="#007bff"/>
+  <circle cx="65" cy="65" r="3" fill="#ffffff"/>
+  <circle cx="75" cy="65" r="3" fill="#ffffff"/>
+  <circle cx="125" cy="65" r="3" fill="#ffffff"/>
+  <circle cx="135" cy="65" r="3" fill="#ffffff"/>
+  <path d="M65 75 Q70 80 75 75" stroke="#ffffff" stroke-width="2" fill="none"/>
+  <path d="M125 75 Q130 80 135 75" stroke="#ffffff" stroke-width="2" fill="none"/>
+  <path d="M90 80 Q100 70 110 80" stroke="#007bff" stroke-width="3" fill="none"/>
+  <rect x="60" y="100" width="80" height="30" fill="#007bff" rx="15"/>
+  <text x="100" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Partnership</text>
+  <text x="100" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Strong</text>
+  <text x="100" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Relationships</text>
+</svg>

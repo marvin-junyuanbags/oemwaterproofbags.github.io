@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="travelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299E1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3182CE;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#travelGradient)" stroke="#2C5282" stroke-width="2"/>
+  
+  <!-- Travel tourism elements -->
+  <g transform="translate(50,50)">
+    <!-- Airplane -->
+    <g transform="translate(-15,-10) rotate(-15)">
+      <!-- Fuselage -->
+      <ellipse cx="0" cy="0" rx="8" ry="2" fill="white" stroke="#2C5282" stroke-width="1"/>
+      <!-- Wings -->
+      <ellipse cx="-2" cy="0" rx="3" ry="6" fill="white" stroke="#2C5282" stroke-width="1"/>
+      <!-- Tail -->
+      <polygon points="6,0 10,-2 10,2" fill="white" stroke="#2C5282" stroke-width="1"/>
+      <!-- Windows -->
+      <circle cx="-3" cy="0" r="0.8" fill="#4299E1"/>
+      <circle cx="-1" cy="0" r="0.8" fill="#4299E1"/>
+      <circle cx="1" cy="0" r="0.8" fill="#4299E1"/>
+    </g>
+    
+    <!-- Suitcase -->
+    <rect x="5" y="5" width="12" height="8" fill="#8B4513" stroke="#744210" stroke-width="1" rx="1"/>
+    <rect x="7" y="7" width="8" height="1" fill="#744210"/>
+    <rect x="7" y="10" width="8" height="1" fill="#744210"/>
+    <!-- Handle -->
+    <rect x="10" y="3" width="2" height="2" fill="none" stroke="#744210" stroke-width="1" rx="1"/>
+    <!-- Wheels -->
+    <circle cx="7" cy="14" r="1" fill="#2D3748"/>
+    <circle cx="15" cy="14" r="1" fill="#2D3748"/>
+    
+    <!-- Globe/Earth -->
+    <circle cx="-8" cy="8" r="6" fill="#48BB78" stroke="#38A169" stroke-width="1"/>
+    <!-- Continents -->
+    <path d="M -10,5 Q -6,3 -4,6 Q -8,8 -10,5" fill="#2F855A"/>
+    <path d="M -6,10 Q -4,12 -2,10 Q -4,14 -6,10" fill="#2F855A"/>
+    <ellipse cx="-10" cy="12" rx="2" ry="1.5" fill="#2F855A"/>
+    
+    <!-- Camera -->
+    <rect x="8" y="-8" width="8" height="5" fill="#2D3748" stroke="#1A202C" stroke-width="1" rx="1"/>
+    <circle cx="12" cy="-5.5" r="2" fill="#4A5568" stroke="#2D3748" stroke-width="1"/>
+    <circle cx="12" cy="-5.5" r="1.2" fill="#1A202C"/>
+    <rect x="14.5" y="-7" width="1" height="1" fill="#E53E3E" rx="0.2"/>
+    
+    <!-- Passport -->
+    <rect x="-18" y="-5" width="6" height="8" fill="#C53030" stroke="#9B2C2C" stroke-width="1" rx="0.5"/>
+    <rect x="-17" y="-3" width="4" height="1" fill="#FFD700"/>
+    <rect x="-16" y="-1" width="2" height="2" fill="#F7FAFC" stroke="#9B2C2C" stroke-width="0.5"/>
+    <rect x="-17" y="2" width="4" height="0.5" fill="#9B2C2C"/>
+    
+    <!-- Location pins -->
+    <g transform="translate(15,-15)">
+      <path d="M 0,-3 Q -2,-3 -2,-1 Q -2,1 0,3 Q 2,1 2,-1 Q 2,-3 0,-3" fill="#E53E3E"/>
+      <circle cx="0" cy="-1" r="1" fill="white"/>
+    </g>
+    
+    <g transform="translate(-20,15)">
+      <path d="M 0,-3 Q -2,-3 -2,-1 Q -2,1 0,3 Q 2,1 2,-1 Q 2,-3 0,-3" fill="#E53E3E"/>
+      <circle cx="0" cy="-1" r="1" fill="white"/>
+    </g>
+    
+    <!-- Travel route line -->
+    <path d="M -15,-10 Q 0,-20 15,-15 Q 10,0 -8,8" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.8"/>
+  </g>
+  
+  <!-- Travel tourism text -->
+  <text x="50" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2C5282" font-weight="bold">TRAVEL & TOURISM</text>
+</svg>
