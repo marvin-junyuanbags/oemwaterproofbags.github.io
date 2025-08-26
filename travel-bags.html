@@ -12,25 +12,33 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="nav-brand">
-                <img src="images/logo.svg" alt="OEM Waterproof Bags" class="logo">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="OEM Waterproof Bags Logo">
+                    <span>OEM Waterproof Bags</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="products.html">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="waterproof-backpacks.html">Waterproof Backpacks</a></li>
+                            <li><a href="travel-bags.html" class="active">Travel Bags</a></li>
+                            <li><a href="cooler-bags.html">Cooler Bags</a></li>
+                            <li><a href="fishing-bags.html">Fishing Bags</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="quality.html">Quality</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li class="dropdown">
-                    <a href="products.html">Products</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="waterproof-backpacks.html">Waterproof Backpacks</a></li>
-                        <li><a href="travel-bags.html" class="active">Travel Bags</a></li>
-                        <li><a href="cooler-bags.html">Cooler Bags</a></li>
-                        <li><a href="fishing-bags.html">Fishing Bags</a></li>
-                    </ul>
-                </li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="quality.html">Quality</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
         </nav>
     </header>
 
@@ -51,115 +59,373 @@
             </div>
         </section>
 
-        <section class="product-features">
+        <!-- Product Features Section -->
+        <section class="product-features modern-features">
             <div class="container">
-                <h2>Product Features</h2>
+                <div class="section-header">
+                    <h2 class="section-title">Premium Features</h2>
+                    <p class="section-subtitle">Advanced engineering meets practical design for the ultimate travel experience</p>
+                </div>
                 <div class="features-grid">
-                    <div class="feature-item">
-                        <h3>Waterproof Protection</h3>
-                        <p>Complete protection against water, rain, and moisture for your travel essentials.</p>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>100% Waterproof Protection</h3>
+                            <p>IPX8 certified waterproof construction with welded seams and waterproof zippers. Complete protection against water, rain, and moisture for your travel essentials.</p>
+                            <div class="feature-highlight">
+                                <span class="highlight-badge">IPX8 Certified</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="feature-item">
-                        <h3>Large Capacity</h3>
-                        <p>Spacious interior with multiple compartments for organized packing.</p>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Expandable Capacity</h3>
+                            <p>Intelligent design with expandable compartments and compression zippers. Spacious interior with multiple organizational pockets for efficient packing.</p>
+                            <div class="feature-highlight">
+                                <span class="highlight-badge">30L - 120L Range</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="feature-item">
-                        <h3>Durable Construction</h3>
-                        <p>Heavy-duty materials and reinforced stitching for long-lasting use.</p>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-hammer"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Military-Grade Durability</h3>
+                            <p>Heavy-duty 600D TPU materials with reinforced stress points and double-stitched seams. Built to withstand extreme conditions and heavy use.</p>
+                            <div class="feature-highlight">
+                                <span class="highlight-badge">2-Year Warranty</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="feature-item">
-                        <h3>Versatile Design</h3>
-                        <p>Multiple carrying options - handles, shoulder strap, and backpack straps.</p>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-hand-paper"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Ergonomic Versatility</h3>
+                            <p>Multiple carrying options with padded handles, adjustable shoulder straps, and convertible backpack system. Comfort-focused design for extended use.</p>
+                            <div class="feature-highlight">
+                                <span class="highlight-badge">4-Way Carry</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="specifications" class="specifications">
+        <!-- Technical Specifications Section -->
+        <section id="specifications" class="specifications modern-specs">
             <div class="container">
-                <h2>Specifications</h2>
-                <div class="spec-table">
-                    <table>
-                        <tr>
-                            <td>Material</td>
-                            <td>600D TPU, 500D PVC, Ripstop Nylon</td>
-                        </tr>
-                        <tr>
-                            <td>Capacity Range</td>
-                            <td>30L - 120L</td>
-                        </tr>
-                        <tr>
-                            <td>Waterproof Rating</td>
-                            <td>IPX7/IPX8</td>
-                        </tr>
-                        <tr>
-                            <td>Weight</td>
-                            <td>1.2kg - 3.8kg</td>
-                        </tr>
-                        <tr>
-                            <td>Closure Type</td>
-                            <td>Heavy-duty zippers, Roll-top</td>
-                        </tr>
-                        <tr>
-                            <td>Handle Type</td>
-                            <td>Padded handles, Detachable shoulder strap</td>
-                        </tr>
-                        <tr>
-                            <td>MOQ</td>
-                            <td>300 pieces</td>
-                        </tr>
-                        <tr>
-                            <td>Lead Time</td>
-                            <td>18-28 days</td>
-                        </tr>
-                    </table>
+                <div class="section-header">
+                    <h2 class="section-title">Technical Specifications</h2>
+                    <p class="section-subtitle">Detailed specifications and manufacturing capabilities</p>
+                </div>
+                <div class="specs-container">
+                    <div class="specs-table-wrapper">
+                        <table class="specs-table">
+                            <thead>
+                                <tr>
+                                    <th>Specification</th>
+                                    <th>Details</th>
+                                    <th>Benefits</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="spec-label">
+                                            <i class="fas fa-layer-group"></i>
+                                            <span>Outer Material</span>
+                                        </div>
+                                    </td>
+                                    <td>600D TPU, 500D PVC, Ripstop Nylon with reinforced coating</td>
+                                    <td>Superior durability and complete waterproofing</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="spec-label">
+                                            <i class="fas fa-expand-arrows-alt"></i>
+                                            <span>Capacity Range</span>
+                                        </div>
+                                    </td>
+                                    <td>30L - 120L (multiple size options available)</td>
+                                    <td>Suitable for weekend trips to extended travel</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="spec-label">
+                                            <i class="fas fa-shield-alt"></i>
+                                            <span>Waterproof Rating</span>
+                                        </div>
+                                    </td>
+                                    <td>IPX8 Certified (submersion tested)</td>
+                                    <td>Complete protection in extreme weather</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="spec-label">
+                                            <i class="fas fa-weight-hanging"></i>
+                                            <span>Weight Range</span>
+                                        </div>
+                                    </td>
+                                    <td>1.2kg - 3.8kg (depending on size and features)</td>
+                                    <td>Lightweight yet robust construction</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="spec-label">
+                                            <i class="fas fa-lock"></i>
+                                            <span>Closure System</span>
+                                        </div>
+                                    </td>
+                                    <td>Heavy-duty waterproof zippers, Roll-top, Compression straps</td>
+                                    <td>Multiple sealing options for maximum security</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="spec-label">
+                                            <i class="fas fa-hand-paper"></i>
+                                            <span>Carrying Options</span>
+                                        </div>
+                                    </td>
+                                    <td>Padded handles, Detachable shoulder strap, Backpack conversion</td>
+                                    <td>Ergonomic comfort for extended carrying</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="spec-label">
+                                            <i class="fas fa-boxes"></i>
+                                            <span>Minimum Order</span>
+                                        </div>
+                                    </td>
+                                    <td>300 pieces (mixed sizes and colors available)</td>
+                                    <td>Flexible ordering for business requirements</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="spec-label">
+                                            <i class="fas fa-clock"></i>
+                                            <span>Production Time</span>
+                                        </div>
+                                    </td>
+                                    <td>18-28 days (depending on customization level)</td>
+                                    <td>Fast turnaround with quality assurance</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="specs-highlights">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <h3>Quality Guarantee</h3>
+                            <p>2-year warranty on all manufacturing defects</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-shipping-fast"></i>
+                            </div>
+                            <h3>Global Shipping</h3>
+                            <p>Express delivery options available worldwide</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <h3>Full Customization</h3>
+                            <p>Colors, logos, sizes, and features tailored to your needs</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="product-types">
+        <!-- Product Types Section -->
+        <section class="product-types modern-types">
             <div class="container">
-                <h2>Product Types</h2>
+                <div class="section-header">
+                    <h2 class="section-title">Product Categories</h2>
+                    <p class="section-subtitle">Comprehensive range of waterproof travel bags for every journey</p>
+                </div>
                 <div class="types-grid">
-                    <div class="type-item">
-                        <h3>Duffel Bags</h3>
-                        <p>Large capacity waterproof duffel bags perfect for extended travel and outdoor adventures.</p>
+                    <div class="type-card">
+                        <div class="type-image">
+                            <img src="images/travel-bags-collection.jpg" alt="Duffel Bags" class="type-img">
+                            <div class="type-overlay">
+                                <div class="type-badge">Most Popular</div>
+                            </div>
+                        </div>
+                        <div class="type-content">
+                            <h3>Waterproof Duffel Bags</h3>
+                            <p>Large capacity waterproof duffel bags perfect for extended travel, outdoor adventures, and sports activities. Features multiple carrying options and organizational compartments.</p>
+                            <ul class="type-features">
+                                <li><i class="fas fa-check"></i> Multiple carrying options</li>
+                                <li><i class="fas fa-check"></i> Expandable compartments</li>
+                                <li><i class="fas fa-check"></i> 45L - 120L capacity range</li>
+                            </ul>
+                            <div class="type-specs">
+                                <span class="spec-tag">45L - 120L</span>
+                                <span class="spec-tag">1.8kg - 3.8kg</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="type-item">
-                        <h3>Rolling Luggage</h3>
-                        <p>Waterproof rolling suitcases with durable wheels and telescopic handles.</p>
+                    <div class="type-card">
+                        <div class="type-image">
+                            <img src="images/travel-bags-collection.jpg" alt="Rolling Luggage" class="type-img">
+                            <div class="type-overlay">
+                                <div class="type-badge">Business Travel</div>
+                            </div>
+                        </div>
+                        <div class="type-content">
+                            <h3>Waterproof Rolling Luggage</h3>
+                            <p>Professional waterproof rolling suitcases with smooth-rolling wheels and telescopic handles. Perfect for business travel and extended trips.</p>
+                            <ul class="type-features">
+                                <li><i class="fas fa-check"></i> Smooth-rolling wheels</li>
+                                <li><i class="fas fa-check"></i> Telescopic handle system</li>
+                                <li><i class="fas fa-check"></i> TSA-approved locks</li>
+                            </ul>
+                            <div class="type-specs">
+                                <span class="spec-tag">35L - 85L</span>
+                                <span class="spec-tag">2.2kg - 4.5kg</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="type-item">
-                        <h3>Garment Bags</h3>
-                        <p>Specialized waterproof garment bags to keep clothes wrinkle-free and dry.</p>
+                    <div class="type-card">
+                        <div class="type-image">
+                            <img src="images/travel-bags-collection.jpg" alt="Garment Bags" class="type-img">
+                            <div class="type-overlay">
+                                <div class="type-badge">Professional</div>
+                            </div>
+                        </div>
+                        <div class="type-content">
+                            <h3>Waterproof Garment Bags</h3>
+                            <p>Specialized waterproof garment bags designed to keep clothes wrinkle-free and completely dry. Ideal for business travelers and formal events.</p>
+                            <ul class="type-features">
+                                <li><i class="fas fa-check"></i> Wrinkle-free design</li>
+                                <li><i class="fas fa-check"></i> Multiple garment hooks</li>
+                                <li><i class="fas fa-check"></i> Shoe compartments</li>
+                            </ul>
+                            <div class="type-specs">
+                                <span class="spec-tag">25L - 45L</span>
+                                <span class="spec-tag">1.2kg - 2.1kg</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="type-item">
-                        <h3>Carry-on Bags</h3>
-                        <p>Compact waterproof carry-on bags that meet airline size requirements.</p>
+                    <div class="type-card">
+                        <div class="type-image">
+                            <img src="images/travel-bags-collection.jpg" alt="Carry-on Bags" class="type-img">
+                            <div class="type-overlay">
+                                <div class="type-badge">Airline Approved</div>
+                            </div>
+                        </div>
+                        <div class="type-content">
+                            <h3>Waterproof Carry-on Bags</h3>
+                            <p>Compact waterproof carry-on bags that meet international airline size requirements. Perfect for short trips and as personal items.</p>
+                            <ul class="type-features">
+                                <li><i class="fas fa-check"></i> Airline size compliant</li>
+                                <li><i class="fas fa-check"></i> Laptop compartment</li>
+                                <li><i class="fas fa-check"></i> Quick-access pockets</li>
+                            </ul>
+                            <div class="type-specs">
+                                <span class="spec-tag">20L - 35L</span>
+                                <span class="spec-tag">1.0kg - 1.8kg</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="applications">
+        <!-- Applications Section -->
+        <section class="applications modern-applications">
             <div class="container">
-                <h2>Applications</h2>
+                <div class="section-header">
+                    <h2 class="section-title">Application Scenarios</h2>
+                    <p class="section-subtitle">Versatile waterproof travel bags for every lifestyle and adventure</p>
+                </div>
                 <div class="applications-grid">
-                    <div class="application-item">
-                        <h3>Business Travel</h3>
-                        <p>Professional appearance with waterproof protection for important documents and electronics.</p>
+                    <div class="app-card">
+                        <div class="app-image">
+                            <img src="images/travel-bags-collection.jpg" alt="Business Travel" class="app-img">
+                            <div class="app-overlay">
+                                <div class="app-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="app-content">
+                            <h3>Business Travel</h3>
+                            <p>Professional waterproof bags designed for business trips, corporate travel, and formal occasions. Keep documents, electronics, and formal wear completely dry.</p>
+                            <ul class="app-features">
+                                <li><i class="fas fa-laptop"></i> Laptop protection</li>
+                                <li><i class="fas fa-file-alt"></i> Document organization</li>
+                                <li><i class="fas fa-shield-alt"></i> Professional appearance</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="application-item">
-                        <h3>Adventure Travel</h3>
-                        <p>Rugged construction for outdoor expeditions and extreme weather conditions.</p>
+                    <div class="app-card">
+                        <div class="app-image">
+                            <img src="images/travel-bags-collection.jpg" alt="Adventure Travel" class="app-img">
+                            <div class="app-overlay">
+                                <div class="app-icon">
+                                    <i class="fas fa-mountain"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="app-content">
+                            <h3>Adventure Travel</h3>
+                            <p>Ultra-durable bags built for outdoor adventures, extreme weather conditions, and challenging environments. Perfect for hiking, camping, and expedition travel.</p>
+                            <ul class="app-features">
+                                <li><i class="fas fa-cloud-rain"></i> Weather resistance</li>
+                                <li><i class="fas fa-hiking"></i> Outdoor durability</li>
+                                <li><i class="fas fa-compass"></i> Adventure ready</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="application-item">
-                        <h3>Beach Vacations</h3>
-                        <p>Sand and water resistant for beach and coastal destinations.</p>
+                    <div class="app-card">
+                        <div class="app-image">
+                            <img src="images/travel-bags-collection.jpg" alt="Beach Vacations" class="app-img">
+                            <div class="app-overlay">
+                                <div class="app-icon">
+                                    <i class="fas fa-umbrella-beach"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="app-content">
+                            <h3>Beach Vacations</h3>
+                            <p>Sand and water resistant bags perfect for beach and coastal destinations. Protect your belongings from salt water, sand, and humidity.</p>
+                            <ul class="app-features">
+                                <li><i class="fas fa-water"></i> Salt water resistant</li>
+                                <li><i class="fas fa-sun"></i> UV protection</li>
+                                <li><i class="fas fa-waves"></i> Beach ready</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="application-item">
-                        <h3>Sports Events</h3>
-                        <p>Ideal for transporting sports equipment and gear in wet conditions.</p>
+                    <div class="app-card">
+                        <div class="app-image">
+                            <img src="images/travel-bags-collection.jpg" alt="Sports Events" class="app-img">
+                            <div class="app-overlay">
+                                <div class="app-icon">
+                                    <i class="fas fa-dumbbell"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="app-content">
+                            <h3>Sports Events</h3>
+                            <p>Specialized bags ideal for transporting sports equipment and gear in wet conditions. Perfect for water sports, outdoor training, and athletic competitions.</p>
+                            <ul class="app-features">
+                                <li><i class="fas fa-football-ball"></i> Equipment storage</li>
+                                <li><i class="fas fa-swimmer"></i> Water sports ready</li>
+                                <li><i class="fas fa-trophy"></i> Performance focused</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

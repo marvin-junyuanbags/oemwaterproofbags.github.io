@@ -12,25 +12,33 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="nav-brand">
-                <img src="images/logo.svg" alt="OEM Waterproof Bags" class="logo">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="OEM Waterproof Bags Logo">
+                    <span>OEM Waterproof Bags</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="products.html">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="waterproof-backpacks.html" class="active">Waterproof Backpacks</a></li>
+                            <li><a href="travel-bags.html">Travel Bags</a></li>
+                            <li><a href="cooler-bags.html">Cooler Bags</a></li>
+                            <li><a href="fishing-bags.html">Fishing Bags</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="quality.html">Quality</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li class="dropdown">
-                    <a href="products.html">Products</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="waterproof-backpacks.html" class="active">Waterproof Backpacks</a></li>
-                        <li><a href="travel-bags.html">Travel Bags</a></li>
-                        <li><a href="cooler-bags.html">Cooler Bags</a></li>
-                        <li><a href="fishing-bags.html">Fishing Bags</a></li>
-                    </ul>
-                </li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="quality.html">Quality</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
         </nav>
     </header>
 
@@ -51,91 +59,256 @@
             </div>
         </section>
 
-        <section class="product-features">
+        <!-- Features Section -->
+        <section class="features modern-features">
             <div class="container">
-                <h2>Product Features</h2>
+                <div class="section-header">
+                    <h2 class="section-title">Advanced Features</h2>
+                    <p class="section-subtitle">Cutting-edge technology meets practical design for ultimate waterproof protection</p>
+                </div>
                 <div class="features-grid">
-                    <div class="feature-item">
-                        <h3>100% Waterproof</h3>
-                        <p>Advanced sealing technology ensures complete water protection for your belongings.</p>
+                    <div class="feature-card premium">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                            <div class="feature-badge">IPX8 Rated</div>
+                        </div>
+                        <h3>100% Waterproof Protection</h3>
+                        <p>Military-grade waterproof construction with welded seams, waterproof zippers, and roll-top closure system. Tested to withstand complete submersion up to 1 meter for 30 minutes.</p>
+                        <ul class="feature-highlights">
+                            <li><i class="fas fa-check-circle"></i> Welded seam construction</li>
+                            <li><i class="fas fa-check-circle"></i> YKK AquaGuard® zippers</li>
+                            <li><i class="fas fa-check-circle"></i> Roll-top closure system</li>
+                        </ul>
                     </div>
-                    <div class="feature-item">
-                        <h3>Durable Materials</h3>
-                        <p>High-grade TPU and PVC materials for long-lasting performance in harsh conditions.</p>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-weight-hanging"></i>
+                            <div class="feature-badge">Ultra-Light</div>
+                        </div>
+                        <h3>Lightweight Engineering</h3>
+                        <p>Advanced TPU-coated ripstop nylon provides maximum protection while maintaining minimal weight. 40% lighter than traditional waterproof backpacks without compromising durability.</p>
+                        <ul class="feature-highlights">
+                            <li><i class="fas fa-check-circle"></i> 420D ripstop nylon</li>
+                            <li><i class="fas fa-check-circle"></i> TPU coating technology</li>
+                            <li><i class="fas fa-check-circle"></i> Weight optimization</li>
+                        </ul>
                     </div>
-                    <div class="feature-item">
-                        <h3>Ergonomic Design</h3>
-                        <p>Comfortable padded straps and back panel for extended wear during outdoor activities.</p>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-cogs"></i>
+                            <div class="feature-badge">Smart Design</div>
+                        </div>
+                        <h3>Intelligent Organization</h3>
+                        <p>Multi-compartment design with dedicated waterproof pockets for electronics, documents, and personal items. Includes laptop sleeve, tablet pocket, and quick-access front panel.</p>
+                        <ul class="feature-highlights">
+                            <li><i class="fas fa-check-circle"></i> Laptop compartment (up to 17")</li>
+                            <li><i class="fas fa-check-circle"></i> Tablet sleeve with padding</li>
+                            <li><i class="fas fa-check-circle"></i> Quick-access front pocket</li>
+                        </ul>
                     </div>
-                    <div class="feature-item">
-                        <h3>Multiple Compartments</h3>
-                        <p>Organized storage with various pockets and compartments for different gear.</p>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-check"></i>
+                            <div class="feature-badge">Comfort+</div>
+                        </div>
+                        <h3>Ergonomic Excellence</h3>
+                        <p>Advanced ergonomic design with breathable mesh back panel, adjustable padded shoulder straps, and load distribution system for maximum comfort during extended use.</p>
+                        <ul class="feature-highlights">
+                            <li><i class="fas fa-check-circle"></i> Breathable mesh back panel</li>
+                            <li><i class="fas fa-check-circle"></i> Adjustable chest and waist straps</li>
+                            <li><i class="fas fa-check-circle"></i> Load distribution system</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="specifications" class="specifications">
+        <!-- Specifications Section -->
+        <section id="specifications" class="specifications modern-specs">
             <div class="container">
-                <h2>Specifications</h2>
-                <div class="spec-table">
-                    <table>
-                        <tr>
-                            <td>Material</td>
-                            <td>500D TPU, 420D PVC, Nylon</td>
-                        </tr>
-                        <tr>
-                            <td>Capacity Range</td>
-                            <td>20L - 60L</td>
-                        </tr>
-                        <tr>
-                            <td>Waterproof Rating</td>
-                            <td>IPX8</td>
-                        </tr>
-                        <tr>
-                            <td>Weight</td>
-                            <td>0.8kg - 2.5kg</td>
-                        </tr>
-                        <tr>
-                            <td>Closure Type</td>
-                            <td>Roll-top, Zipper, Buckle</td>
-                        </tr>
-                        <tr>
-                            <td>Colors Available</td>
-                            <td>Custom colors available</td>
-                        </tr>
-                        <tr>
-                            <td>MOQ</td>
-                            <td>500 pieces</td>
-                        </tr>
-                        <tr>
-                            <td>Lead Time</td>
-                            <td>15-25 days</td>
-                        </tr>
-                    </table>
+                <div class="section-header">
+                    <h2 class="section-title">Technical Specifications</h2>
+                    <p class="section-subtitle">Detailed specifications for professional waterproof backpacks</p>
+                </div>
+                <div class="specs-content">
+                    <div class="specs-table-container">
+                        <table class="specs-table">
+                            <thead>
+                                <tr>
+                                    <th>Specification</th>
+                                    <th>Details</th>
+                                    <th>Performance</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Material Construction</strong></td>
+                                    <td>420D TPU-coated ripstop nylon with PVC reinforcement</td>
+                                    <td><span class="performance-badge excellent">Excellent</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Capacity Range</strong></td>
+                                    <td>20L, 25L, 30L, 35L, 40L, 50L, 60L options available</td>
+                                    <td><span class="performance-badge excellent">Versatile</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Weight</strong></td>
+                                    <td>0.8kg (20L) - 2.5kg (60L)</td>
+                                    <td><span class="performance-badge good">Lightweight</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Waterproof Rating</strong></td>
+                                    <td>IPX8 - Submersible up to 1m for 30 minutes</td>
+                                    <td><span class="performance-badge excellent">Military Grade</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Closure System</strong></td>
+                                    <td>Roll-top with buckle + YKK AquaGuard® zippers</td>
+                                    <td><span class="performance-badge excellent">Secure</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Carrying System</strong></td>
+                                    <td>Ergonomic padded straps, chest & waist belts</td>
+                                    <td><span class="performance-badge excellent">Comfortable</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Laptop Compatibility</strong></td>
+                                    <td>Fits laptops up to 17 inches with protective sleeve</td>
+                                    <td><span class="performance-badge good">Tech Ready</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Temperature Range</strong></td>
+                                    <td>-20°C to +60°C operational range</td>
+                                    <td><span class="performance-badge excellent">All Weather</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Color Options</strong></td>
+                                    <td>Black, Navy, Gray, Green + Custom colors available</td>
+                                    <td><span class="performance-badge good">Customizable</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Minimum Order</strong></td>
+                                    <td>500 pieces per design/color</td>
+                                    <td><span class="performance-badge standard">Wholesale</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Production Time</strong></td>
+                                    <td>15-25 days after sample approval</td>
+                                    <td><span class="performance-badge good">Fast Delivery</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="specs-highlights">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <h4>Quality Assurance</h4>
+                            <p>ISO 9001:2015 certified manufacturing with rigorous quality control at every stage</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-shipping-fast"></i>
+                            </div>
+                            <h4>Global Shipping</h4>
+                            <p>Worldwide delivery with tracking, insurance, and customs handling included</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <h4>Full Customization</h4>
+                            <p>Custom colors, logos, sizes, and features available for OEM/ODM orders</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="applications">
+        <!-- Applications Section -->
+        <section class="applications modern-applications">
             <div class="container">
-                <h2>Applications</h2>
+                <div class="section-header">
+                    <h2 class="section-title">Application Scenarios</h2>
+                    <p class="section-subtitle">Professional waterproof backpacks designed for every adventure and lifestyle</p>
+                </div>
                 <div class="applications-grid">
-                    <div class="application-item">
-                        <h3>Hiking & Trekking</h3>
-                        <p>Perfect for multi-day hiking trips and mountain adventures.</p>
+                    <div class="app-card">
+                        <div class="app-image">
+                            <img src="images/waterproof-backpacks-hero.jpg" alt="Hiking & Trekking" class="app-img">
+                            <div class="app-overlay">
+                                <div class="app-icon">
+                                    <i class="fas fa-mountain"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="app-content">
+                            <h3>Hiking & Trekking</h3>
+                            <p>Perfect for multi-day hiking trips, mountain adventures, and wilderness expeditions. Designed to withstand extreme weather conditions while keeping your gear completely dry.</p>
+                            <ul class="app-features">
+                                <li><i class="fas fa-hiking"></i> Multi-day capacity</li>
+                                <li><i class="fas fa-cloud-rain"></i> All-weather protection</li>
+                                <li><i class="fas fa-compass"></i> Navigation pocket</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="application-item">
-                        <h3>Water Sports</h3>
-                        <p>Ideal for kayaking, rafting, and other water-based activities.</p>
+                    <div class="app-card">
+                        <div class="app-image">
+                            <img src="images/waterproof-backpacks-hero.jpg" alt="Water Sports" class="app-img">
+                            <div class="app-overlay">
+                                <div class="app-icon">
+                                    <i class="fas fa-swimmer"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="app-content">
+                            <h3>Water Sports</h3>
+                            <p>Ideal for kayaking, rafting, surfing, and other water-based activities. Submersible design ensures your electronics and valuables stay completely dry even when submerged.</p>
+                            <ul class="app-features">
+                                <li><i class="fas fa-water"></i> Submersible design</li>
+                                <li><i class="fas fa-mobile-alt"></i> Electronics protection</li>
+                                <li><i class="fas fa-anchor"></i> Secure attachment points</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="application-item">
-                        <h3>Travel</h3>
-                        <p>Reliable protection for electronics and documents during travel.</p>
+                    <div class="app-card">
+                        <div class="app-image">
+                            <img src="images/waterproof-backpacks-hero.jpg" alt="Travel" class="app-img">
+                            <div class="app-overlay">
+                                <div class="app-icon">
+                                    <i class="fas fa-plane"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="app-content">
+                            <h3>Travel & Tourism</h3>
+                            <p>Reliable protection for electronics, documents, and valuables during international travel. TSA-friendly design with organized compartments for easy airport security.</p>
+                            <ul class="app-features">
+                                <li><i class="fas fa-passport"></i> Document protection</li>
+                                <li><i class="fas fa-laptop"></i> TSA-friendly design</li>
+                                <li><i class="fas fa-globe"></i> International travel ready</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="application-item">
-                        <h3>Daily Commute</h3>
-                        <p>Weather protection for everyday use in urban environments.</p>
+                    <div class="app-card">
+                        <div class="app-image">
+                            <img src="images/waterproof-backpacks-hero.jpg" alt="Daily Commute" class="app-img">
+                            <div class="app-overlay">
+                                <div class="app-icon">
+                                    <i class="fas fa-subway"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="app-content">
+                            <h3>Daily Commute</h3>
+                            <p>Weather protection for everyday use in urban environments. Professional appearance suitable for business settings while providing complete waterproof protection.</p>
+                            <ul class="app-features">
+                                <li><i class="fas fa-briefcase"></i> Professional appearance</li>
+                                <li><i class="fas fa-bus"></i> Urban mobility</li>
+                                <li><i class="fas fa-clock"></i> Quick access design</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
