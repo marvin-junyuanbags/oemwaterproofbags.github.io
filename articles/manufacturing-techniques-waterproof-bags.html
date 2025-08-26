@@ -321,6 +321,106 @@
 
                 <section id="introduction">
                     <h2>Introduction to Manufacturing Techniques</h2>
+                    
+                    <!-- Manufacturing Overview SVG -->
+                    <div class="process-diagram">
+                        <svg width="100%" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="manufacturingGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                                </linearGradient>
+                                <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+                                    <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)"/>
+                                </filter>
+                            </defs>
+                            
+                            <!-- Background -->
+                            <rect width="800" height="300" fill="#f8f9fa" rx="10"/>
+                            
+                            <!-- Title -->
+                            <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Waterproof Bag Manufacturing Process Flow</text>
+                            
+                            <!-- Process Steps -->
+                            <g transform="translate(50, 60)">
+                                <!-- Material Preparation -->
+                                <rect x="0" y="0" width="100" height="60" fill="url(#manufacturingGrad)" rx="8" filter="url(#shadow)"/>
+                                <text x="50" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Material</text>
+                                <text x="50" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Preparation</text>
+                                
+                                <!-- Arrow 1 -->
+                                <path d="M 110 30 L 130 30" stroke="#007bff" stroke-width="2" marker-end="url(#arrowhead)"/>
+                                
+                                <!-- Cutting -->
+                                <rect x="140" y="0" width="100" height="60" fill="url(#manufacturingGrad)" rx="8" filter="url(#shadow)"/>
+                                <text x="190" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Precision</text>
+                                <text x="190" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Cutting</text>
+                                
+                                <!-- Arrow 2 -->
+                                <path d="M 250 30 L 270 30" stroke="#007bff" stroke-width="2" marker-end="url(#arrowhead)"/>
+                                
+                                <!-- Welding -->
+                                <rect x="280" y="0" width="100" height="60" fill="url(#manufacturingGrad)" rx="8" filter="url(#shadow)"/>
+                                <text x="330" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Welding &</text>
+                                <text x="330" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Sealing</text>
+                                
+                                <!-- Arrow 3 -->
+                                <path d="M 390 30 L 410 30" stroke="#007bff" stroke-width="2" marker-end="url(#arrowhead)"/>
+                                
+                                <!-- Assembly -->
+                                <rect x="420" y="0" width="100" height="60" fill="url(#manufacturingGrad)" rx="8" filter="url(#shadow)"/>
+                                <text x="470" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Assembly &</text>
+                                <text x="470" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Hardware</text>
+                                
+                                <!-- Arrow 4 -->
+                                <path d="M 530 30 L 550 30" stroke="#007bff" stroke-width="2" marker-end="url(#arrowhead)"/>
+                                
+                                <!-- Quality Control -->
+                                <rect x="560" y="0" width="100" height="60" fill="url(#manufacturingGrad)" rx="8" filter="url(#shadow)"/>
+                                <text x="610" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Quality</text>
+                                <text x="610" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Control</text>
+                            </g>
+                            
+                            <!-- Quality Feedback Loop -->
+                            <g transform="translate(50, 140)">
+                                <path d="M 610 0 Q 350 -20 50 0" stroke="#28a745" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+                                <text x="350" y="-30" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#28a745">Continuous Quality Feedback Loop</text>
+                            </g>
+                            
+                            <!-- Key Technologies -->
+                            <g transform="translate(50, 180)">
+                                <text x="0" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Key Technologies:</text>
+                                
+                                <!-- Laser Cutting -->
+                                <circle cx="30" cy="50" r="8" fill="#007bff"/>
+                                <text x="45" y="55" font-family="Arial, sans-serif" font-size="11" fill="#333">Laser Cutting</text>
+                                
+                                <!-- Ultrasonic Welding -->
+                                <circle cx="150" cy="50" r="8" fill="#28a745"/>
+                                <text x="165" y="55" font-family="Arial, sans-serif" font-size="11" fill="#333">Ultrasonic Welding</text>
+                                
+                                <!-- Heat Sealing -->
+                                <circle cx="290" cy="50" r="8" fill="#ffc107"/>
+                                <text x="305" y="55" font-family="Arial, sans-serif" font-size="11" fill="#333">Heat Sealing</text>
+                                
+                                <!-- Automated Assembly -->
+                                <circle cx="420" cy="50" r="8" fill="#dc3545"/>
+                                <text x="435" y="55" font-family="Arial, sans-serif" font-size="11" fill="#333">Automated Assembly</text>
+                                
+                                <!-- Waterproof Testing -->
+                                <circle cx="580" cy="50" r="8" fill="#6f42c1"/>
+                                <text x="595" y="55" font-family="Arial, sans-serif" font-size="11" fill="#333">Waterproof Testing</text>
+                            </g>
+                            
+                            <!-- Arrow marker definition -->
+                            <defs>
+                                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                                    <polygon points="0 0, 10 3.5, 0 7" fill="#007bff"/>
+                                </marker>
+                            </defs>
+                        </svg>
+                    </div>
+                    
                     <p>The manufacturing of waterproof bags requires specialized techniques and technologies that ensure both structural integrity and waterproof performance. Modern production methods have evolved significantly, incorporating advanced materials science, precision engineering, and automated processes to deliver superior products that meet demanding performance standards.</p>
                     
                     <p>Successful waterproof bag manufacturing depends on the seamless integration of multiple technical disciplines, including material science, mechanical engineering, quality control, and process optimization. Each manufacturing step must be carefully controlled to maintain the waterproof barrier while achieving the required mechanical properties, aesthetic qualities, and cost targets.</p>
@@ -396,6 +496,150 @@
 
                 <section id="cutting-technologies">
                     <h2>Cutting Technologies and Methods</h2>
+                    
+                    <!-- Cutting Technologies SVG -->
+                    <div class="process-diagram">
+                        <svg width="100%" height="350" viewBox="0 0 900 350" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="cuttingGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#007bff;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#0056b3;stop-opacity:1" />
+                                </linearGradient>
+                                <linearGradient id="cuttingGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#28a745;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#1e7e34;stop-opacity:1" />
+                                </linearGradient>
+                                <linearGradient id="cuttingGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#ffc107;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#e0a800;stop-opacity:1" />
+                                </linearGradient>
+                                <linearGradient id="cuttingGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#dc3545;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#c82333;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            
+                            <!-- Background -->
+                            <rect width="900" height="350" fill="#f8f9fa" rx="10"/>
+                            
+                            <!-- Title -->
+                            <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Advanced Cutting Technologies Comparison</text>
+                            
+                            <!-- Laser Cutting -->
+                            <g transform="translate(50, 60)">
+                                <rect x="0" y="0" width="180" height="100" fill="url(#cuttingGrad1)" rx="10"/>
+                                <text x="90" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Laser Cutting</text>
+                                
+                                <!-- Laser beam visualization -->
+                                <g transform="translate(20, 35)">
+                                    <rect x="0" y="0" width="140" height="3" fill="#ff6b6b" opacity="0.8"/>
+                                    <rect x="0" y="10" width="140" height="20" fill="#4ecdc4" opacity="0.3"/>
+                                    <text x="70" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Precision: ±0.1mm</text>
+                                    <text x="70" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Sealed Edges</text>
+                                </g>
+                            </g>
+                            
+                            <!-- Ultrasonic Cutting -->
+                            <g transform="translate(250, 60)">
+                                <rect x="0" y="0" width="180" height="100" fill="url(#cuttingGrad2)" rx="10"/>
+                                <text x="90" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Ultrasonic Cutting</text>
+                                
+                                <!-- Ultrasonic waves visualization -->
+                                <g transform="translate(20, 35)">
+                                    <path d="M 0 15 Q 20 5 40 15 Q 60 25 80 15 Q 100 5 120 15 Q 140 25 160 15" stroke="#fff" stroke-width="2" fill="none"/>
+                                    <path d="M 0 20 Q 20 10 40 20 Q 60 30 80 20 Q 100 10 120 20 Q 140 30 160 20" stroke="#fff" stroke-width="2" fill="none" opacity="0.7"/>
+                                    <text x="70" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">20-40 kHz</text>
+                                    <text x="70" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">No Heat Zone</text>
+                                </g>
+                            </g>
+                            
+                            <!-- Die Cutting -->
+                            <g transform="translate(450, 60)">
+                                <rect x="0" y="0" width="180" height="100" fill="url(#cuttingGrad3)" rx="10"/>
+                                <text x="90" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Die Cutting</text>
+                                
+                                <!-- Die cutting visualization -->
+                                <g transform="translate(20, 35)">
+                                    <rect x="0" y="0" width="140" height="8" fill="#333" rx="2"/>
+                                    <rect x="0" y="15" width="140" height="15" fill="#4ecdc4" opacity="0.5"/>
+                                    <text x="70" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">High Speed</text>
+                                    <text x="70" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Low Cost</text>
+                                </g>
+                            </g>
+                            
+                            <!-- Water Jet Cutting -->
+                            <g transform="translate(650, 60)">
+                                <rect x="0" y="0" width="180" height="100" fill="url(#cuttingGrad4)" rx="10"/>
+                                <text x="90" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Water Jet Cutting</text>
+                                
+                                <!-- Water jet visualization -->
+                                <g transform="translate(20, 35)">
+                                    <circle cx="70" cy="5" r="3" fill="#87ceeb"/>
+                                    <rect x="68" y="8" width="4" height="25" fill="#87ceeb"/>
+                                    <text x="70" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">90,000 PSI</text>
+                                    <text x="70" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">All Materials</text>
+                                </g>
+                            </g>
+                            
+                            <!-- Performance Comparison Chart -->
+                            <g transform="translate(50, 200)">
+                                <text x="400" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Performance Comparison</text>
+                                
+                                <!-- Chart axes -->
+                                <line x1="0" y1="120" x2="800" y2="120" stroke="#333" stroke-width="2"/>
+                                <line x1="0" y1="20" x2="0" y2="120" stroke="#333" stroke-width="2"/>
+                                
+                                <!-- Y-axis labels -->
+                                <text x="-10" y="25" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">High</text>
+                                <text x="-10" y="75" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Medium</text>
+                                <text x="-10" y="120" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Low</text>
+                                
+                                <!-- Performance bars -->
+                                <!-- Precision -->
+                                <g transform="translate(50, 0)">
+                                    <text x="75" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Precision</text>
+                                    <rect x="20" y="30" width="30" height="90" fill="#007bff" opacity="0.8"/> <!-- Laser -->
+                                    <rect x="55" y="70" width="30" height="50" fill="#28a745" opacity="0.8"/> <!-- Ultrasonic -->
+                                    <rect x="90" y="80" width="30" height="40" fill="#ffc107" opacity="0.8"/> <!-- Die -->
+                                    <rect x="125" y="30" width="30" height="90" fill="#dc3545" opacity="0.8"/> <!-- Water Jet -->
+                                </g>
+                                
+                                <!-- Speed -->
+                                <g transform="translate(250, 0)">
+                                    <text x="75" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Speed</text>
+                                    <rect x="20" y="70" width="30" height="50" fill="#007bff" opacity="0.8"/> <!-- Laser -->
+                                    <rect x="55" y="30" width="30" height="90" fill="#28a745" opacity="0.8"/> <!-- Ultrasonic -->
+                                    <rect x="90" y="20" width="30" height="100" fill="#ffc107" opacity="0.8"/> <!-- Die -->
+                                    <rect x="125" y="90" width="30" height="30" fill="#dc3545" opacity="0.8"/> <!-- Water Jet -->
+                                </g>
+                                
+                                <!-- Cost -->
+                                <g transform="translate(450, 0)">
+                                    <text x="75" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Cost</text>
+                                    <rect x="20" y="70" width="30" height="50" fill="#007bff" opacity="0.8"/> <!-- Laser -->
+                                    <rect x="55" y="70" width="30" height="50" fill="#28a745" opacity="0.8"/> <!-- Ultrasonic -->
+                                    <rect x="90" y="90" width="30" height="30" fill="#ffc107" opacity="0.8"/> <!-- Die -->
+                                    <rect x="125" y="30" width="30" height="90" fill="#dc3545" opacity="0.8"/> <!-- Water Jet -->
+                                </g>
+                                
+                                <!-- Legend -->
+                                <g transform="translate(650, 30)">
+                                    <rect x="0" y="0" width="15" height="15" fill="#007bff"/>
+                                    <text x="20" y="12" font-family="Arial, sans-serif" font-size="10" fill="#333">Laser</text>
+                                    
+                                    <rect x="0" y="20" width="15" height="15" fill="#28a745"/>
+                                    <text x="20" y="32" font-family="Arial, sans-serif" font-size="10" fill="#333">Ultrasonic</text>
+                                    
+                                    <rect x="0" y="40" width="15" height="15" fill="#ffc107"/>
+                                    <text x="20" y="52" font-family="Arial, sans-serif" font-size="10" fill="#333">Die Cutting</text>
+                                    
+                                    <rect x="0" y="60" width="15" height="15" fill="#dc3545"/>
+                                    <text x="20" y="72" font-family="Arial, sans-serif" font-size="10" fill="#333">Water Jet</text>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    
                     <p>Precision cutting is fundamental to waterproof bag manufacturing, as clean, accurate cuts ensure proper seam formation and waterproof integrity. Modern cutting technologies offer various advantages depending on material type, production volume, and quality requirements.</p>
                     
                     <h3>Laser Cutting Technology</h3>
@@ -534,6 +778,212 @@
 
                 <section id="welding-techniques">
                     <h2>Welding and Joining Techniques</h2>
+                    
+                    <!-- Welding Technologies SVG -->
+                    <div class="process-diagram">
+                        <svg width="100%" height="400" viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="weldGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#ee5a52;stop-opacity:1" />
+                                </linearGradient>
+                                <linearGradient id="weldGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#4ecdc4;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#45b7b8;stop-opacity:1" />
+                                </linearGradient>
+                                <linearGradient id="weldGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#a8e6cf;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#88d8a3;stop-opacity:1" />
+                                </linearGradient>
+                                <linearGradient id="weldGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#ffd93d;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#ffcd3c;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            
+                            <!-- Background -->
+                            <rect width="900" height="400" fill="#f8f9fa" rx="10"/>
+                            
+                            <!-- Title -->
+                            <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Advanced Welding Technologies for Waterproof Seams</text>
+                            
+                            <!-- Hot Air Welding -->
+                            <g transform="translate(50, 60)">
+                                <rect x="0" y="0" width="200" height="120" fill="url(#weldGrad1)" rx="10"/>
+                                <text x="100" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Hot Air Welding</text>
+                                
+                                <!-- Hot air visualization -->
+                                <g transform="translate(20, 35)">
+                                    <!-- Hot air gun -->
+                                    <rect x="0" y="20" width="40" height="15" fill="#333" rx="3"/>
+                                    <rect x="40" y="25" width="15" height="5" fill="#666"/>
+                                    
+                                    <!-- Hot air flow -->
+                                    <path d="M 55 27.5 Q 80 20 100 27.5 Q 120 35 140 27.5" stroke="#ff6b6b" stroke-width="3" fill="none" opacity="0.8"/>
+                                    <path d="M 55 27.5 Q 80 35 100 27.5 Q 120 20 140 27.5" stroke="#ff9999" stroke-width="2" fill="none" opacity="0.6"/>
+                                    
+                                    <!-- Material layers -->
+                                    <rect x="140" y="15" width="40" height="8" fill="#4ecdc4" opacity="0.7"/>
+                                    <rect x="140" y="32" width="40" height="8" fill="#4ecdc4" opacity="0.7"/>
+                                    
+                                    <!-- Weld seam -->
+                                    <rect x="140" y="23" width="40" height="9" fill="#ff6b6b" opacity="0.5"/>
+                                    
+                                    <text x="90" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">200-600°C</text>
+                                    <text x="90" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">1-10 m/min</text>
+                                </g>
+                            </g>
+                            
+                            <!-- RF Welding -->
+                            <g transform="translate(275, 60)">
+                                <rect x="0" y="0" width="200" height="120" fill="url(#weldGrad2)" rx="10"/>
+                                <text x="100" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">RF Welding</text>
+                                
+                                <!-- RF welding visualization -->
+                                <g transform="translate(20, 35)">
+                                    <!-- RF electrodes -->
+                                    <rect x="40" y="10" width="80" height="8" fill="#333" rx="2"/>
+                                    <rect x="40" y="37" width="80" height="8" fill="#333" rx="2"/>
+                                    
+                                    <!-- RF waves -->
+                                    <g transform="translate(50, 20)">
+                                        <path d="M 0 8 Q 10 3 20 8 Q 30 13 40 8 Q 50 3 60 8" stroke="#4ecdc4" stroke-width="2" fill="none"/>
+                                        <path d="M 0 10 Q 10 5 20 10 Q 30 15 40 10 Q 50 5 60 10" stroke="#4ecdc4" stroke-width="2" fill="none" opacity="0.7"/>
+                                        <path d="M 0 12 Q 10 7 20 12 Q 30 17 40 12 Q 50 7 60 12" stroke="#4ecdc4" stroke-width="2" fill="none" opacity="0.5"/>
+                                    </g>
+                                    
+                                    <!-- Material layers -->
+                                    <rect x="40" y="18" width="80" height="6" fill="#a8e6cf" opacity="0.8"/>
+                                    <rect x="40" y="31" width="80" height="6" fill="#a8e6cf" opacity="0.8"/>
+                                    
+                                    <!-- Weld zone -->
+                                    <rect x="40" y="24" width="80" height="7" fill="#4ecdc4" opacity="0.6"/>
+                                    
+                                    <text x="90" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">27.12 MHz</text>
+                                    <text x="90" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">2-30 seconds</text>
+                                </g>
+                            </g>
+                            
+                            <!-- Ultrasonic Welding -->
+                            <g transform="translate(500, 60)">
+                                <rect x="0" y="0" width="200" height="120" fill="url(#weldGrad3)" rx="10"/>
+                                <text x="100" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Ultrasonic Welding</text>
+                                
+                                <!-- Ultrasonic welding visualization -->
+                                <g transform="translate(20, 35)">
+                                    <!-- Sonotrode -->
+                                    <rect x="60" y="5" width="40" height="12" fill="#333" rx="2"/>
+                                    <polygon points="60,17 80,25 100,17" fill="#666"/>
+                                    
+                                    <!-- Ultrasonic waves -->
+                                    <g transform="translate(30, 30)">
+                                        <circle cx="50" cy="0" r="15" stroke="#a8e6cf" stroke-width="2" fill="none" opacity="0.8"/>
+                                        <circle cx="50" cy="0" r="25" stroke="#a8e6cf" stroke-width="2" fill="none" opacity="0.6"/>
+                                        <circle cx="50" cy="0" r="35" stroke="#a8e6cf" stroke-width="2" fill="none" opacity="0.4"/>
+                                    </g>
+                                    
+                                    <!-- Material layers -->
+                                    <rect x="40" y="25" width="80" height="6" fill="#4ecdc4" opacity="0.7"/>
+                                    <rect x="40" y="37" width="80" height="6" fill="#4ecdc4" opacity="0.7"/>
+                                    
+                                    <!-- Weld zone -->
+                                    <rect x="40" y="31" width="80" height="6" fill="#a8e6cf" opacity="0.8"/>
+                                    
+                                    <text x="90" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">15-70 kHz</text>
+                                    <text x="90" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">0.1-5 seconds</text>
+                                </g>
+                            </g>
+                            
+                            <!-- Impulse Welding -->
+                            <g transform="translate(725, 60)">
+                                <rect x="0" y="0" width="150" height="120" fill="url(#weldGrad4)" rx="10"/>
+                                <text x="75" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Impulse Welding</text>
+                                
+                                <!-- Impulse welding visualization -->
+                                <g transform="translate(15, 35)">
+                                    <!-- Heating element -->
+                                    <rect x="30" y="15" width="60" height="4" fill="#333" rx="1"/>
+                                    
+                                    <!-- Electrical pulse visualization -->
+                                    <g transform="translate(35, 25)">
+                                        <rect x="0" y="0" width="8" height="15" fill="#ffd93d" opacity="0.8"/>
+                                        <rect x="12" y="0" width="8" height="15" fill="#ffd93d" opacity="0.6"/>
+                                        <rect x="24" y="0" width="8" height="15" fill="#ffd93d" opacity="0.8"/>
+                                        <rect x="36" y="0" width="8" height="15" fill="#ffd93d" opacity="0.4"/>
+                                    </g>
+                                    
+                                    <!-- Material layers -->
+                                    <rect x="30" y="19" width="60" height="6" fill="#4ecdc4" opacity="0.7"/>
+                                    <rect x="30" y="31" width="60" height="6" fill="#4ecdc4" opacity="0.7"/>
+                                    
+                                    <!-- Weld zone -->
+                                    <rect x="30" y="25" width="60" height="6" fill="#ffd93d" opacity="0.6"/>
+                                    
+                                    <text x="60" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">150-400°C</text>
+                                    <text x="60" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">1-10 seconds</text>
+                                </g>
+                            </g>
+                            
+                            <!-- Process Comparison Chart -->
+                            <g transform="translate(50, 220)">
+                                <text x="400" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Welding Process Comparison</text>
+                                
+                                <!-- Comparison table -->
+                                <g transform="translate(0, 30)">
+                                    <!-- Headers -->
+                                    <rect x="0" y="0" width="800" height="25" fill="#333"/>
+                                    <text x="100" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Process</text>
+                                    <text x="200" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Speed</text>
+                                    <text x="300" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Strength</text>
+                                    <text x="400" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Materials</text>
+                                    <text x="500" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Precision</text>
+                                    <text x="600" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Cost</text>
+                                    <text x="700" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Applications</text>
+                                    
+                                    <!-- Hot Air Row -->
+                                    <rect x="0" y="25" width="800" height="25" fill="#fff" stroke="#ddd"/>
+                                    <text x="100" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Hot Air</text>
+                                    <text x="200" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Medium</text>
+                                    <text x="300" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">High</text>
+                                    <text x="400" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">All Thermoplastics</text>
+                                    <text x="500" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Good</text>
+                                    <text x="600" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Low</text>
+                                    <text x="700" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">General Purpose</text>
+                                    
+                                    <!-- RF Row -->
+                                    <rect x="0" y="50" width="800" height="25" fill="#f8f9fa" stroke="#ddd"/>
+                                    <text x="100" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">RF</text>
+                                    <text x="200" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Very High</text>
+                                    <text x="300" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Very High</text>
+                                    <text x="400" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">PVC, TPU, PE</text>
+                                    <text x="500" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Excellent</text>
+                                    <text x="600" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Medium</text>
+                                    <text x="700" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">High Volume</text>
+                                    
+                                    <!-- Ultrasonic Row -->
+                                    <rect x="0" y="75" width="800" height="25" fill="#fff" stroke="#ddd"/>
+                                    <text x="100" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Ultrasonic</text>
+                                    <text x="200" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Very High</text>
+                                    <text x="300" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">High</text>
+                                    <text x="400" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Thin Materials</text>
+                                    <text x="500" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Excellent</text>
+                                    <text x="600" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">High</text>
+                                    <text x="700" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Precision Work</text>
+                                    
+                                    <!-- Impulse Row -->
+                                    <rect x="0" y="100" width="800" height="25" fill="#f8f9fa" stroke="#ddd"/>
+                                    <text x="100" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Impulse</text>
+                                    <text x="200" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Medium</text>
+                                    <text x="300" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Good</text>
+                                    <text x="400" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Sensitive Materials</text>
+                                    <text x="500" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Good</text>
+                                    <text x="600" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Low</text>
+                                    <text x="700" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Small Parts</text>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    
                     <p>Welding and joining techniques are critical for creating waterproof seams in bag manufacturing. The choice of welding method depends on material type, seam requirements, production volume, and quality specifications.</p>
                     
                     <h3>Hot Air Welding</h3>

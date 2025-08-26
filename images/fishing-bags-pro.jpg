@@ -1,0 +1,97 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1abc9c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16a085;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="fishingBagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background - water scene -->
+  <rect width="400" height="300" fill="url(#bgGrad4)"/>
+  
+  <!-- Water ripples -->
+  <ellipse cx="100" cy="250" rx="40" ry="8" fill="url(#waterGrad)" opacity="0.5"/>
+  <ellipse cx="300" cy="270" rx="50" ry="10" fill="url(#waterGrad)" opacity="0.4"/>
+  <ellipse cx="200" cy="280" rx="60" ry="12" fill="url(#waterGrad)" opacity="0.3"/>
+  
+  <!-- Fishing bag main body -->
+  <rect x="150" y="120" width="100" height="70" rx="8" fill="url(#fishingBagGrad)"/>
+  <rect x="155" y="125" width="90" height="60" rx="5" fill="#34495e"/>
+  
+  <!-- Tackle compartments -->
+  <rect x="160" y="135" width="25" height="20" rx="2" fill="#2c3e50" stroke="#95a5a6" stroke-width="1"/>
+  <rect x="190" y="135" width="25" height="20" rx="2" fill="#2c3e50" stroke="#95a5a6" stroke-width="1"/>
+  <rect x="220" y="135" width="20" height="20" rx="2" fill="#2c3e50" stroke="#95a5a6" stroke-width="1"/>
+  
+  <!-- Lower compartments -->
+  <rect x="160" y="160" width="35" height="15" rx="2" fill="#2c3e50" stroke="#95a5a6" stroke-width="1"/>
+  <rect x="200" y="160" width="35" height="15" rx="2" fill="#2c3e50" stroke="#95a5a6" stroke-width="1"/>
+  
+  <!-- Fishing tackle inside compartments -->
+  <!-- Lures -->
+  <ellipse cx="172" cy="145" rx="3" ry="1.5" fill="#e74c3c"/>
+  <ellipse cx="178" cy="142" rx="2.5" ry="1" fill="#f39c12"/>
+  <ellipse cx="202" cy="144" rx="3" ry="1.5" fill="#27ae60"/>
+  <ellipse cx="208" cy="147" rx="2" ry="1" fill="#3498db"/>
+  
+  <!-- Hooks -->
+  <g stroke="#95a5a6" stroke-width="1" fill="none">
+    <path d="M 225 140 Q 228 142 225 145"/>
+    <path d="M 230 142 Q 233 144 230 147"/>
+    <circle cx="227" cy="140" r="1" fill="#95a5a6"/>
+    <circle cx="232" cy="142" r="1" fill="#95a5a6"/>
+  </g>
+  
+  <!-- Fishing line spools -->
+  <circle cx="177" cy="167" r="4" fill="#f1c40f"/>
+  <circle cx="177" cy="167" r="2" fill="#f39c12"/>
+  <circle cx="217" cy="167" r="4" fill="#e74c3c"/>
+  <circle cx="217" cy="167" r="2" fill="#c0392b"/>
+  
+  <!-- Bag handle -->
+  <rect x="190" y="110" width="20" height="8" rx="4" fill="#7f8c8d"/>
+  <ellipse cx="200" cy="105" rx="15" ry="4" fill="none" stroke="#7f8c8d" stroke-width="3"/>
+  
+  <!-- Shoulder strap -->
+  <rect x="130" y="140" width="8" height="40" rx="4" fill="#7f8c8d"/>
+  <rect x="262" y="140" width="8" height="40" rx="4" fill="#7f8c8d"/>
+  
+  <!-- Waterproof zippers -->
+  <rect x="160" y="130" width="80" height="2" fill="#e67e22"/>
+  <circle cx="165" cy="131" r="2" fill="#d35400"/>
+  <rect x="160" y="180" width="80" height="2" fill="#e67e22"/>
+  <circle cx="235" cy="181" r="2" fill="#d35400"/>
+  
+  <!-- Rod holder attachment -->
+  <rect x="250" y="130" width="6" height="30" rx="3" fill="#2c3e50"/>
+  <circle cx="253" cy="135" r="2" fill="#95a5a6"/>
+  <circle cx="253" cy="155" r="2" fill="#95a5a6"/>
+  
+  <!-- Fishing rod (partial) -->
+  <rect x="260" y="100" width="3" height="60" fill="#8b4513" transform="rotate(15 261.5 130)"/>
+  <rect x="260" y="95" width="3" height="10" fill="#654321" transform="rotate(15 261.5 100)"/>
+  
+  <!-- Water droplets -->
+  <circle cx="120" cy="90" r="2" fill="#3498db" opacity="0.8"/>
+  <circle cx="280" cy="80" r="1.5" fill="#3498db" opacity="0.8"/>
+  <circle cx="320" cy="100" r="2.5" fill="#3498db" opacity="0.8"/>
+  
+  <!-- Fish silhouette in background -->
+  <g opacity="0.3" fill="#2c3e50">
+    <ellipse cx="80" cy="200" rx="15" ry="6" transform="rotate(-10 80 200)"/>
+    <polygon points="65,200 75,195 75,205" transform="rotate(-10 70 200)"/>
+    <polygon points="90,198 95,200 90,202" transform="rotate(-10 92.5 200)"/>
+  </g>
+  
+  <!-- Text overlay -->
+  <text x="200" y="270" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">FISHING BAGS</text>
+  <text x="200" y="285" text-anchor="middle" fill="#ecf0f1" font-family="Arial, sans-serif" font-size="12">Professional Marine Gear</text>
+</svg>

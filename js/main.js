@@ -116,7 +116,7 @@ function initializeLanguageSelector() {
 function getLanguageName(code) {
     const languages = {
         'en': 'English',
-        'zh': '中文',
+        'zh': 'Chinese',
         'es': 'Español',
         'fr': 'Français'
     };
