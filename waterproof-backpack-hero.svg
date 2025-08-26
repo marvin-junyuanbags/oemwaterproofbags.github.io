@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="backpackGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#34495e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="strapGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="zipperGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e67e22;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="3" dy="3" stdDeviation="3" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#ecf0f1"/>
+  
+  <!-- Main backpack body -->
+  <path d="M150 80 Q150 70 160 70 L240 70 Q250 70 250 80 L250 220 Q250 230 240 230 L160 230 Q150 230 150 220 Z" 
+        fill="url(#backpackGradient)" filter="url(#shadow)"/>
+  
+  <!-- Front pocket -->
+  <path d="M160 100 Q160 95 165 95 L235 95 Q240 95 240 100 L240 180 Q240 185 235 185 L165 185 Q160 185 160 180 Z" 
+        fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Zipper on front pocket -->
+  <line x1="165" y1="95" x2="235" y2="95" stroke="url(#zipperGradient)" stroke-width="3"/>
+  <circle cx="235" cy="95" r="3" fill="url(#zipperGradient)"/>
+  
+  <!-- Main zipper -->
+  <line x1="160" y1="70" x2="240" y2="70" stroke="url(#zipperGradient)" stroke-width="4"/>
+  <circle cx="240" cy="70" r="4" fill="url(#zipperGradient)"/>
+  
+  <!-- Left shoulder strap -->
+  <path d="M140 90 Q130 85 125 95 L120 200 Q118 210 125 215 Q135 220 145 210 L150 100" 
+        fill="url(#strapGradient)" filter="url(#shadow)"/>
+  
+  <!-- Right shoulder strap -->
+  <path d="M260 90 Q270 85 275 95 L280 200 Q282 210 275 215 Q265 220 255 210 L250 100" 
+        fill="url(#strapGradient)" filter="url(#shadow)"/>
+  
+  <!-- Strap padding -->
+  <ellipse cx="130" cy="140" rx="8" ry="25" fill="#95a5a6"/>
+  <ellipse cx="270" cy="140" rx="8" ry="25" fill="#95a5a6"/>
+  
+  <!-- Side pockets -->
+  <ellipse cx="140" cy="150" rx="12" ry="20" fill="#2c3e50" opacity="0.8"/>
+  <ellipse cx="260" cy="150" rx="12" ry="20" fill="#2c3e50" opacity="0.8"/>
+  
+  <!-- Waterproof symbol -->
+  <g transform="translate(180,120)">
+    <circle cx="20" cy="20" r="25" fill="#3498db" opacity="0.2"/>
+    <path d="M10 25 Q20 10 30 25 Q20 35 10 25" fill="#3498db"/>
+    <text x="20" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" font-weight="bold">IPX8</text>
+  </g>
+  
+  <!-- Buckles -->
+  <rect x="145" y="85" width="8" height="6" rx="2" fill="#7f8c8d"/>
+  <rect x="247" y="85" width="8" height="6" rx="2" fill="#7f8c8d"/>
+  
+  <!-- Reflective strips -->
+  <rect x="155" y="200" width="90" height="3" fill="#f1c40f" opacity="0.8"/>
+  <rect x="155" y="210" width="90" height="3" fill="#f1c40f" opacity="0.8"/>
+  
+  <!-- Brand label -->
+  <rect x="170" y="190" width="60" height="15" rx="3" fill="#2c3e50"/>
+  <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white" font-weight="bold">WATERPROOF</text>
+</svg>

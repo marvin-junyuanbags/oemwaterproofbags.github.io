@@ -1,0 +1,208 @@
+<svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="250" fill="#f5f5f5"/>
+  
+  <!-- Travel background -->
+  <defs>
+    <radialGradient id="travelBg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff3e0" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffcc02" stop-opacity="0.2"/>
+    </radialGradient>
+    <linearGradient id="wheeledBagGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6f00"/>
+      <stop offset="50%" stop-color="#ff8f00"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </linearGradient>
+    <linearGradient id="wheelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#424242"/>
+      <stop offset="50%" stop-color="#616161"/>
+      <stop offset="100%" stop-color="#212121"/>
+    </linearGradient>
+    <linearGradient id="handleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#757575"/>
+      <stop offset="50%" stop-color="#424242"/>
+      <stop offset="100%" stop-color="#212121"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="300" height="250" fill="url(#travelBg)"/>
+  
+  <!-- Main Wheeled Cooler Body -->
+  <g transform="translate(75, 80)">
+    <!-- Main compartment -->
+    <rect x="0" y="0" width="150" height="90" fill="url(#wheeledBagGradient)" rx="12"/>
+    <rect x="4" y="4" width="142" height="82" fill="#ff8f00" rx="10"/>
+    
+    <!-- Front panel -->
+    <rect x="10" y="10" width="130" height="70" fill="#ffb74d" rx="8"/>
+    <rect x="15" y="15" width="120" height="60" fill="#ffcc02" rx="6"/>
+    
+    <!-- Cooling compartment -->
+    <rect x="20" y="20" width="110" height="50" fill="#fff176" rx="4"/>
+    
+    <!-- Insulation pattern -->
+    <g stroke="#ff6f00" stroke-width="1.2" opacity="0.7">
+      <line x1="25" y1="28" x2="125" y2="28"/>
+      <line x1="25" y1="36" x2="125" y2="36"/>
+      <line x1="25" y1="44" x2="125" y2="44"/>
+      <line x1="25" y1="52" x2="125" y2="52"/>
+      <line x1="25" y1="60" x2="125" y2="60"/>
+    </g>
+    
+    <!-- Top lid -->
+    <rect x="0" y="-10" width="150" height="15" fill="#e65100" rx="7"/>
+    <rect x="4" y="-7" width="142" height="9" fill="#ff6f00" rx="4"/>
+    
+    <!-- Main zipper -->
+    <line x1="12" y1="-2" x2="138" y2="-2" stroke="#ffc107" stroke-width="3"/>
+    <circle cx="133" cy="-2" r="3" fill="#ff9800"/>
+    
+    <!-- Side handles -->
+    <rect x="-12" y="25" width="15" height="40" fill="url(#handleGradient)" rx="7"/>
+    <rect x="-9" y="28" width="9" height="34" fill="#424242" rx="4"/>
+    
+    <rect x="147" y="25" width="15" height="40" fill="url(#handleGradient)" rx="7"/>
+    <rect x="150" y="28" width="9" height="34" fill="#424242" rx="4"/>
+    
+    <!-- Front pocket -->
+    <rect x="40" y="35" width="70" height="25" fill="#ff6f00" rx="5"/>
+    <rect x="42" y="37" width="66" height="21" fill="#ff8f00" rx="3"/>
+    <line x1="45" y1="47" x2="105" y2="47" stroke="#ffc107" stroke-width="2"/>
+    <circle cx="102" cy="47" r="2" fill="#ff9800"/>
+    
+    <!-- Brand area -->
+    <rect x="55" y="50" width="40" height="12" fill="#ffffff" rx="2"/>
+    <text x="75" y="58" text-anchor="middle" fill="#ff6f00" font-size="8" font-weight="bold">WHEELED</text>
+    
+    <!-- Temperature display -->
+    <rect x="110" y="25" width="25" height="20" fill="#000000" rx="3"/>
+    <rect x="111" y="26" width="23" height="18" fill="#1a1a1a" rx="2"/>
+    <text x="122" y="33" text-anchor="middle" fill="#00ff00" font-size="7" font-weight="bold">0°C</text>
+    <text x="122" y="41" text-anchor="middle" fill="#00ff00" font-size="5">FRESH</text>
+  </g>
+  
+  <!-- Telescopic Handle -->
+  <g transform="translate(135, 30)">
+    <!-- Handle pole (extended) -->
+    <rect x="0" y="0" width="8" height="50" fill="url(#handleGradient)" rx="4"/>
+    <rect x="1" y="1" width="6" height="48" fill="#424242" rx="3"/>
+    
+    <!-- Handle grip -->
+    <rect x="-10" y="-8" width="28" height="12" fill="url(#handleGradient)" rx="6"/>
+    <rect x="-8" y="-6" width="24" height="8" fill="#424242" rx="4"/>
+    
+    <!-- Handle grip padding -->
+    <rect x="-6" y="-4" width="20" height="4" fill="#757575" rx="2"/>
+    
+    <!-- Extension mechanism -->
+    <rect x="2" y="15" width="4" height="8" fill="#212121" rx="2"/>
+    <rect x="2" y="30" width="4" height="8" fill="#212121" rx="2"/>
+  </g>
+  
+  <!-- Wheels -->
+  <g transform="translate(95, 175)">
+    <!-- Left wheel -->
+    <circle cx="0" cy="0" r="18" fill="url(#wheelGradient)"/>
+    <circle cx="0" cy="0" r="14" fill="#424242"/>
+    <circle cx="0" cy="0" r="10" fill="#616161"/>
+    <circle cx="0" cy="0" r="6" fill="#757575"/>
+    <circle cx="0" cy="0" r="3" fill="#212121"/>
+    
+    <!-- Wheel spokes -->
+    <g stroke="#212121" stroke-width="2">
+      <line x1="-8" y1="0" x2="8" y2="0"/>
+      <line x1="0" y1="-8" x2="0" y2="8"/>
+      <line x1="-6" y1="-6" x2="6" y2="6"/>
+      <line x1="-6" y1="6" x2="6" y2="-6"/>
+    </g>
+  </g>
+  
+  <g transform="translate(205, 175)">
+    <!-- Right wheel -->
+    <circle cx="0" cy="0" r="18" fill="url(#wheelGradient)"/>
+    <circle cx="0" cy="0" r="14" fill="#424242"/>
+    <circle cx="0" cy="0" r="10" fill="#616161"/>
+    <circle cx="0" cy="0" r="6" fill="#757575"/>
+    <circle cx="0" cy="0" r="3" fill="#212121"/>
+    
+    <!-- Wheel spokes -->
+    <g stroke="#212121" stroke-width="2">
+      <line x1="-8" y1="0" x2="8" y2="0"/>
+      <line x1="0" y1="-8" x2="0" y2="8"/>
+      <line x1="-6" y1="-6" x2="6" y2="6"/>
+      <line x1="-6" y1="6" x2="6" y2="-6"/>
+    </g>
+  </g>
+  
+  <!-- Wheel axle -->
+  <rect x="95" y="172" width="110" height="6" fill="url(#handleGradient)" rx="3"/>
+  <rect x="97" y="173" width="106" height="4" fill="#424242" rx="2"/>
+  
+  <!-- Ice cubes around -->
+  <g transform="translate(30, 200)">
+    <rect x="0" y="0" width="20" height="20" fill="#ffffff" opacity="0.9" rx="4"/>
+    <rect x="2" y="2" width="16" height="16" fill="#e3f2fd" opacity="0.8" rx="3"/>
+  </g>
+  
+  <g transform="translate(250, 190)">
+    <rect x="0" y="0" width="15" height="15" fill="#ffffff" opacity="0.9" rx="3"/>
+    <rect x="1" y="1" width="13" height="13" fill="#e3f2fd" opacity="0.8" rx="2"/>
+  </g>
+  
+  <!-- Travel beverages -->
+  <g transform="translate(40, 210)">
+    <!-- Sports drink -->
+    <rect x="0" y="0" width="10" height="25" fill="#4caf50" rx="5"/>
+    <rect x="1" y="2" width="8" height="21" fill="#66bb6a" rx="4"/>
+    <rect x="1" y="-3" width="8" height="5" fill="#2e7d32" rx="4"/>
+    <circle cx="5" cy="0" r="1.5" fill="#81c784"/>
+  </g>
+  
+  <g transform="translate(250, 210)">
+    <!-- Energy drink -->
+    <rect x="0" y="0" width="8" height="20" fill="#ff5722" rx="4"/>
+    <rect x="1" y="1" width="6" height="18" fill="#ff7043" rx="3"/>
+    <rect x="1" y="-2" width="6" height="3" fill="#d84315" rx="3"/>
+  </g>
+  
+  <!-- Travel badges -->
+  <g transform="translate(40, 50)">
+    <circle cx="0" cy="0" r="25" fill="#ff9800" opacity="0.95"/>
+    <circle cx="0" cy="0" r="20" fill="#ffb74d"/>
+    <text x="0" y="-5" text-anchor="middle" fill="#ffffff" font-size="8" font-weight="bold">EASY</text>
+    <text x="0" y="5" text-anchor="middle" fill="#ffffff" font-size="8" font-weight="bold">TRANSPORT</text>
+    <path d="M-8 -18 L8 -18 L0 -25 Z" fill="#e65100"/>
+  </g>
+  
+  <g transform="translate(260, 50)">
+    <circle cx="0" cy="0" r="22" fill="#2196f3" opacity="0.95"/>
+    <circle cx="0" cy="0" r="17" fill="#42a5f5"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#ffffff" font-size="7" font-weight="bold">ROLLING</text>
+    <text x="0" y="5" text-anchor="middle" fill="#ffffff" font-size="5">DESIGN</text>
+  </g>
+  
+  <!-- Motion lines (indicating movement) -->
+  <g transform="translate(20, 120)" opacity="0.4">
+    <g stroke="#ffcc02" stroke-width="2" fill="none">
+      <line x1="0" y1="0" x2="15" y2="0"/>
+      <line x1="0" y1="8" x2="12" y2="8"/>
+      <line x1="0" y1="16" x2="18" y2="16"/>
+      <line x1="0" y1="24" x2="10" y2="24"/>
+    </g>
+  </g>
+  
+  <g transform="translate(20, 160)" opacity="0.4">
+    <g stroke="#ffcc02" stroke-width="2" fill="none">
+      <line x1="0" y1="0" x2="12" y2="0"/>
+      <line x1="0" y1="6" x2="15" y2="6"/>
+      <line x1="0" y1="12" x2="8" y2="12"/>
+    </g>
+  </g>
+  
+  <!-- Airport/travel icons -->
+  <g transform="translate(150, 210)" opacity="0.5">
+    <!-- Airplane icon -->
+    <path d="M0 -8 L-12 4 L-4 4 L-4 8 L4 8 L4 4 L12 4 Z" fill="#757575"/>
+    <rect x="-2" y="-12" width="4" height="8" fill="#757575"/>
+  </g>
+</svg>
