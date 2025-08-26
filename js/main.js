@@ -4,7 +4,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     initializeNavigation();
     initializeAnimations();
-    initializeLanguageSelector();
     initializeScrollEffects();
     initializeMobileMenu();
 });
@@ -91,37 +90,7 @@ function initializeAnimations() {
     });
 }
 
-// Language selector functionality
-function initializeLanguageSelector() {
-    const languageSelect = document.getElementById('language-select');
-    
-    if (languageSelect) {
-        // Load saved language preference
-        const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
-        languageSelect.value = savedLanguage;
-        
-        // Handle language change
-        languageSelect.addEventListener('change', function() {
-            const selectedLanguage = this.value;
-            localStorage.setItem('selectedLanguage', selectedLanguage);
-            
-            // Here you would implement actual language switching
-            // For now, we'll just show a message
-            showNotification(`Language changed to ${getLanguageName(selectedLanguage)}`);
-        });
-    }
-}
 
-// Get language name from code
-function getLanguageName(code) {
-    const languages = {
-        'en': 'English',
-        'zh': 'Chinese',
-        'es': 'Español',
-        'fr': 'Français'
-    };
-    return languages[code] || 'English';
-}
 
 // Scroll effects
 function initializeScrollEffects() {

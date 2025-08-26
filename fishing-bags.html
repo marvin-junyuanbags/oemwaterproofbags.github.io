@@ -12,106 +12,264 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="nav-brand">
-                <img src="images/logo.svg" alt="OEM Waterproof Bags" class="logo">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="OEM Waterproof Bags Logo">
+                    <span>OEM Waterproof Bags</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="products.html">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="waterproof-backpacks.html">Waterproof Backpacks</a></li>
+                            <li><a href="travel-bags.html">Travel Bags</a></li>
+                            <li><a href="cooler-bags.html">Cooler Bags</a></li>
+                            <li><a href="fishing-bags.html" class="active">Fishing Bags</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="quality.html">Quality</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li class="dropdown">
-                    <a href="products.html">Products</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="waterproof-backpacks.html">Waterproof Backpacks</a></li>
-                        <li><a href="travel-bags.html">Travel Bags</a></li>
-                        <li><a href="cooler-bags.html">Cooler Bags</a></li>
-                        <li><a href="fishing-bags.html" class="active">Fishing Bags</a></li>
-                    </ul>
-                </li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="quality.html">Quality</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
         </nav>
     </header>
 
     <main>
-        <section class="hero-section">
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumb">
+            <div class="container">
+                <ol class="breadcrumb-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li class="active">Fishing Bags</li>
+                </ol>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-section product-hero">
             <div class="container">
                 <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-text">Professional Grade</span>
+                    </div>
                     <h1>Waterproof Fishing Bags</h1>
-                    <p>Professional OEM manufacturing of high-quality waterproof fishing bags and tackle storage solutions for anglers and fishing enthusiasts.</p>
+                    <p class="hero-description">Professional OEM manufacturing of high-quality waterproof fishing bags and tackle storage solutions designed for serious anglers and fishing enthusiasts.</p>
+                    <div class="hero-features">
+                        <div class="hero-feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>IPX8 Waterproof</span>
+                        </div>
+                        <div class="hero-feature">
+                            <i class="fas fa-fish"></i>
+                            <span>Fishing Optimized</span>
+                        </div>
+                        <div class="hero-feature">
+                            <i class="fas fa-tools"></i>
+                            <span>Tackle Organization</span>
+                        </div>
+                    </div>
                     <div class="hero-buttons">
-                        <a href="contact.html" class="btn btn-primary">Get Quote</a>
-                        <a href="#specifications" class="btn btn-secondary">View Specifications</a>
+                        <a href="contact.html" class="btn btn-primary">Get Custom Quote</a>
+                        <a href="#gallery" class="btn btn-secondary">View Gallery</a>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="images/dry-bag.svg" alt="Waterproof Fishing Bags">
+                    <img src="images/fishing-bags-hero.jpg" alt="Professional Waterproof Fishing Bags">
                 </div>
             </div>
         </section>
 
-        <section class="product-features">
+        <!-- Product Gallery -->
+        <section id="gallery" class="product-gallery">
             <div class="container">
-                <h2>Product Features</h2>
+                <div class="section-header">
+                    <h2 class="section-title">Product Gallery</h2>
+                    <p class="section-subtitle">Explore our comprehensive range of waterproof fishing bags</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item main-item">
+                        <img src="images/fishing-bags-collection.jpg" alt="Fishing Bags Collection" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Complete Collection</h3>
+                            <p>Professional fishing bag lineup</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/fishing-tackle-bag.jpg" alt="Tackle Bag" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Tackle Bags</h3>
+                            <p>Organized storage solutions</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/fishing-rod-case.jpg" alt="Rod Case" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Rod Cases</h3>
+                            <p>Protective gear storage</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/fishing-dry-bag.jpg" alt="Dry Bag" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Dry Bags</h3>
+                            <p>Electronics protection</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Features -->
+        <section class="product-features modern-features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Advanced Features</h2>
+                    <p class="section-subtitle">Engineered specifically for serious anglers and fishing professionals</p>
+                </div>
                 <div class="features-grid">
-                    <div class="feature-item">
-                        <h3>100% Waterproof</h3>
-                        <p>Complete protection for fishing gear, electronics, and personal items.</p>
+                    <div class="feature-card premium">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                            <div class="feature-badge">IPX8 Rated</div>
+                        </div>
+                        <h3>100% Waterproof Protection</h3>
+                        <p>Military-grade waterproof construction with welded seams and waterproof zippers. Complete protection for fishing gear, electronics, and personal items in any weather condition.</p>
+                        <ul class="feature-highlights">
+                            <li><i class="fas fa-check-circle"></i> Welded seam construction</li>
+                            <li><i class="fas fa-check-circle"></i> YKK AquaGuard® zippers</li>
+                            <li><i class="fas fa-check-circle"></i> Submersion tested to 1m</li>
+                        </ul>
                     </div>
-                    <div class="feature-item">
-                        <h3>Organized Storage</h3>
-                        <p>Multiple compartments and pockets for tackle, tools, and accessories.</p>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-th-large"></i>
+                            <div class="feature-badge">Smart Design</div>
+                        </div>
+                        <h3>Intelligent Tackle Organization</h3>
+                        <p>Multi-compartment design with removable tackle trays, adjustable dividers, and specialized pockets for lures, hooks, lines, and fishing accessories.</p>
+                        <ul class="feature-highlights">
+                            <li><i class="fas fa-check-circle"></i> Removable tackle trays</li>
+                            <li><i class="fas fa-check-circle"></i> Adjustable dividers</li>
+                            <li><i class="fas fa-check-circle"></i> Tool attachment points</li>
+                        </ul>
                     </div>
-                    <div class="feature-item">
-                        <h3>Durable Materials</h3>
-                        <p>Heavy-duty construction to withstand harsh marine environments.</p>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-hammer"></i>
+                            <div class="feature-badge">Marine Grade</div>
+                        </div>
+                        <h3>Extreme Durability</h3>
+                        <p>Heavy-duty 600D TPU materials with reinforced stress points, UV-resistant coating, and saltwater corrosion resistance for harsh marine environments.</p>
+                        <ul class="feature-highlights">
+                            <li><i class="fas fa-check-circle"></i> UV-resistant materials</li>
+                            <li><i class="fas fa-check-circle"></i> Saltwater corrosion proof</li>
+                            <li><i class="fas fa-check-circle"></i> Reinforced stress points</li>
+                        </ul>
                     </div>
-                    <div class="feature-item">
-                        <h3>Easy Access</h3>
-                        <p>Quick-access design for efficient gear retrieval while fishing.</p>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-hand-paper"></i>
+                            <div class="feature-badge">Ergonomic</div>
+                        </div>
+                        <h3>Quick Access Design</h3>
+                        <p>Ergonomic design with quick-access pockets, easy-grip handles, and efficient gear retrieval system for seamless fishing experience.</p>
+                        <ul class="feature-highlights">
+                            <li><i class="fas fa-check-circle"></i> Quick-access pockets</li>
+                            <li><i class="fas fa-check-circle"></i> Ergonomic handles</li>
+                            <li><i class="fas fa-check-circle"></i> Efficient organization</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="specifications" class="specifications">
+        <!-- Technical Specifications -->
+        <section id="specifications" class="specifications modern-specs">
             <div class="container">
-                <h2>Specifications</h2>
-                <div class="spec-table">
-                    <table>
-                        <tr>
-                            <td>Material</td>
-                            <td>500D TPU, 420D PVC, Ripstop Nylon</td>
-                        </tr>
-                        <tr>
-                            <td>Capacity Range</td>
-                            <td>10L - 80L</td>
-                        </tr>
-                        <tr>
-                            <td>Waterproof Rating</td>
-                            <td>IPX8</td>
-                        </tr>
-                        <tr>
-                            <td>Weight</td>
-                            <td>0.6kg - 3.2kg</td>
-                        </tr>
-                        <tr>
-                            <td>Closure Type</td>
-                            <td>Roll-top, Waterproof zippers</td>
-                        </tr>
-                        <tr>
-                            <td>Carrying Options</td>
-                            <td>Handles, Shoulder strap, Backpack straps</td>
-                        </tr>
-                        <tr>
-                            <td>MOQ</td>
-                            <td>300 pieces</td>
-                        </tr>
-                        <tr>
-                            <td>Lead Time</td>
-                            <td>18-25 days</td>
-                        </tr>
+                <div class="section-header">
+                    <h2 class="section-title">Technical Specifications</h2>
+                    <p class="section-subtitle">Detailed specifications for professional fishing bag manufacturing</p>
+                </div>
+                <div class="specs-table-container">
+                    <table class="specs-table">
+                        <thead>
+                            <tr>
+                                <th>Specification</th>
+                                <th>Details</th>
+                                <th>Options</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Material Construction</strong></td>
+                                <td>600D TPU-coated polyester with welded seams</td>
+                                <td>420D, 840D, 1000D options available</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Waterproof Rating</strong></td>
+                                <td>IPX8 - Submersible to 1 meter for 30 minutes</td>
+                                <td>IPX6, IPX7 ratings available</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Capacity Range</strong></td>
+                                <td>15L - 80L depending on bag type</td>
+                                <td>Custom sizes available</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Weight Range</strong></td>
+                                <td>0.8kg - 2.5kg depending on size and features</td>
+                                <td>Lightweight options available</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Closure System</strong></td>
+                                <td>Roll-top with buckle + YKK AquaGuard® zippers</td>
+                                <td>Velcro, magnetic, drawstring options</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Carrying System</strong></td>
+                                <td>Adjustable shoulder strap, backpack straps, handles</td>
+                                <td>Single strap, dual strap configurations</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Organization</strong></td>
+                                <td>Multiple compartments, removable tackle trays</td>
+                                <td>Custom compartment layouts</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Color Options</strong></td>
+                                <td>Black, Navy, Olive Green, Camo patterns</td>
+                                <td>Custom colors with Pantone matching</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Temperature Range</strong></td>
+                                <td>-20°C to +60°C operational range</td>
+                                <td>Extended range materials available</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Minimum Order Quantity</strong></td>
+                                <td>500 pieces per design/color combination</td>
+                                <td>Lower MOQ for existing designs</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Production Lead Time</strong></td>
+                                <td>15-25 days after sample approval</td>
+                                <td>Rush orders: 10-15 days (additional cost)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Quality Standards</strong></td>
+                                <td>ISO 9001:2015, REACH compliant</td>
+                                <td>Additional certifications available</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>

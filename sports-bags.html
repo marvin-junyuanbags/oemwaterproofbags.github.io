@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="nav-container">
             <div class="nav-brand">
                 <img src="images/logo.svg" alt="OEM Waterproof Bags" class="logo">
             </div>
@@ -36,83 +36,233 @@
     </header>
 
     <main>
-        <section class="hero-section">
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumb">
+            <div class="container">
+                <ol class="breadcrumb-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li class="active">Sports Bags</li>
+                </ol>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-section product-hero">
             <div class="container">
                 <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-text">Athletic Performance</span>
+                    </div>
                     <h1>Waterproof Sports Bags</h1>
-                    <p>Professional OEM manufacturing of high-quality waterproof sports bags and athletic gear storage solutions for active lifestyles.</p>
+                    <p class="hero-description">Professional OEM manufacturing of high-performance waterproof sports bags and athletic gear storage solutions designed for active lifestyles and competitive sports.</p>
+                    <div class="hero-features">
+                        <div class="hero-feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>IPX8 Waterproof</span>
+                        </div>
+                        <div class="hero-feature">
+                            <i class="fas fa-running"></i>
+                            <span>Athletic Optimized</span>
+                        </div>
+                        <div class="hero-feature">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>Gym Ready</span>
+                        </div>
+                    </div>
                     <div class="hero-buttons">
-                        <a href="contact.html" class="btn btn-primary">Get Quote</a>
-                        <a href="#specifications" class="btn btn-secondary">View Specifications</a>
+                        <a href="contact.html" class="btn btn-primary">Get Custom Quote</a>
+                        <a href="#gallery" class="btn btn-secondary">View Gallery</a>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="images/sports-bag.svg" alt="Waterproof Sports Bags">
+                    <img src="images/sports-bags-hero.jpg" alt="Professional Waterproof Sports Bags">
                 </div>
             </div>
         </section>
 
-        <section class="product-features">
+        <!-- Product Gallery -->
+        <section id="gallery" class="product-gallery">
             <div class="container">
-                <h2>Product Features</h2>
+                <div class="section-header">
+                    <h2 class="section-title">Product Gallery</h2>
+                    <p class="section-subtitle">Explore our comprehensive range of waterproof sports bags</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item main-item">
+                        <img src="images/sports-bags-collection.jpg" alt="Sports Bags Collection" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Complete Collection</h3>
+                            <p>Professional sports bag lineup</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gym-bag.jpg" alt="Gym Bag" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Gym Bags</h3>
+                            <p>Fitness center essentials</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/swimming-bag.jpg" alt="Swimming Bag" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Swimming Bags</h3>
+                            <p>Aquatic sports gear</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/team-sports-bag.jpg" alt="Team Sports Bag" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Team Sports</h3>
+                            <p>Professional team equipment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Features -->
+        <section class="product-features modern-features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Advanced Features</h2>
+                    <p class="section-subtitle">Engineered specifically for athletes and sports professionals</p>
+                </div>
                 <div class="features-grid">
-                    <div class="feature-item">
-                        <h3>Waterproof Protection</h3>
-                        <p>Keep sports equipment and gear dry in all weather conditions.</p>
+                    <div class="feature-card premium">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                            <div class="feature-badge">IPX8 Rated</div>
+                        </div>
+                        <h3>Complete Waterproof Protection</h3>
+                        <p>Advanced waterproof construction with welded seams and waterproof zippers. Keep sports equipment, electronics, and personal items completely dry in any weather condition.</p>
+                        <ul class="feature-highlights">
+                            <li><i class="fas fa-check-circle"></i> Welded seam technology</li>
+                            <li><i class="fas fa-check-circle"></i> YKK AquaGuard® zippers</li>
+                            <li><i class="fas fa-check-circle"></i> Submersion tested to 1m</li>
+                        </ul>
                     </div>
-                    <div class="feature-item">
-                        <h3>Organized Storage</h3>
-                        <p>Dedicated compartments for shoes, clothes, and sports equipment.</p>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-th-large"></i>
+                            <div class="feature-badge">Smart Organization</div>
+                        </div>
+                        <h3>Athletic Gear Organization</h3>
+                        <p>Intelligent compartment design with dedicated spaces for shoes, wet/dry separation, equipment storage, and quick-access pockets for essentials.</p>
+                        <ul class="feature-highlights">
+                            <li><i class="fas fa-check-circle"></i> Separate shoe compartment</li>
+                            <li><i class="fas fa-check-circle"></i> Wet/dry separation</li>
+                            <li><i class="fas fa-check-circle"></i> Equipment organization</li>
+                        </ul>
                     </div>
-                    <div class="feature-item">
-                        <h3>Durable Construction</h3>
-                        <p>Heavy-duty materials designed for active use and frequent handling.</p>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-hammer"></i>
+                            <div class="feature-badge">Athletic Grade</div>
+                        </div>
+                        <h3>Extreme Durability</h3>
+                        <p>Heavy-duty 600D TPU materials with reinforced stress points, designed for active use, frequent handling, and demanding sports environments.</p>
+                        <ul class="feature-highlights">
+                            <li><i class="fas fa-check-circle"></i> Reinforced stress points</li>
+                            <li><i class="fas fa-check-circle"></i> Abrasion resistant</li>
+                            <li><i class="fas fa-check-circle"></i> Impact protection</li>
+                        </ul>
                     </div>
-                    <div class="feature-item">
-                        <h3>Comfortable Carrying</h3>
-                        <p>Ergonomic design with padded straps and multiple carrying options.</p>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-friends"></i>
+                            <div class="feature-badge">Ergonomic</div>
+                        </div>
+                        <h3>Comfort & Performance</h3>
+                        <p>Ergonomic design with padded shoulder straps, breathable back panels, and multiple carrying options for maximum comfort during transport.</p>
+                        <ul class="feature-highlights">
+                            <li><i class="fas fa-check-circle"></i> Padded shoulder straps</li>
+                            <li><i class="fas fa-check-circle"></i> Breathable back panel</li>
+                            <li><i class="fas fa-check-circle"></i> Multiple carry options</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="specifications" class="specifications">
+        <!-- Technical Specifications -->
+        <section id="specifications" class="specifications modern-specs">
             <div class="container">
-                <h2>Specifications</h2>
-                <div class="spec-table">
-                    <table>
-                        <tr>
-                            <td>Material</td>
-                            <td>600D TPU, 500D PVC, Ripstop Polyester</td>
-                        </tr>
-                        <tr>
-                            <td>Capacity Range</td>
-                            <td>20L - 100L</td>
-                        </tr>
-                        <tr>
-                            <td>Waterproof Rating</td>
-                            <td>IPX7/IPX8</td>
-                        </tr>
-                        <tr>
-                            <td>Weight</td>
-                            <td>0.8kg - 4.5kg</td>
-                        </tr>
-                        <tr>
-                            <td>Closure Type</td>
-                            <td>Waterproof zippers, Roll-top</td>
-                        </tr>
-                        <tr>
-                            <td>Carrying Options</td>
-                            <td>Handles, Shoulder strap, Backpack straps</td>
-                        </tr>
-                        <tr>
-                            <td>MOQ</td>
-                            <td>200 pieces</td>
-                        </tr>
-                        <tr>
-                            <td>Lead Time</td>
-                            <td>15-22 days</td>
-                        </tr>
+                <div class="section-header">
+                    <h2 class="section-title">Technical Specifications</h2>
+                    <p class="section-subtitle">Detailed specifications for professional sports bag manufacturing</p>
+                </div>
+                <div class="specs-table-container">
+                    <table class="specs-table">
+                        <thead>
+                            <tr>
+                                <th>Specification</th>
+                                <th>Details</th>
+                                <th>Options</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Material Construction</strong></td>
+                                <td>600D TPU-coated polyester with welded seams</td>
+                                <td>420D, 840D, 1000D options available</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Waterproof Rating</strong></td>
+                                <td>IPX8 - Submersible to 1 meter for 30 minutes</td>
+                                <td>IPX6, IPX7 ratings available</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Capacity Range</strong></td>
+                                <td>20L - 100L depending on bag type</td>
+                                <td>Custom sizes available</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Weight Range</strong></td>
+                                <td>0.8kg - 4.5kg depending on size and features</td>
+                                <td>Lightweight options available</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Closure System</strong></td>
+                                <td>YKK AquaGuard® zippers + roll-top backup</td>
+                                <td>Velcro, magnetic, drawstring options</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Carrying System</strong></td>
+                                <td>Padded shoulder straps, handles, backpack option</td>
+                                <td>Single strap, dual strap configurations</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Organization</strong></td>
+                                <td>Shoe compartment, wet/dry separation, pockets</td>
+                                <td>Custom compartment layouts</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Color Options</strong></td>
+                                <td>Black, Navy, Red, Blue, Team colors</td>
+                                <td>Custom colors with Pantone matching</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Temperature Range</strong></td>
+                                <td>-20°C to +60°C operational range</td>
+                                <td>Extended range materials available</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Minimum Order Quantity</strong></td>
+                                <td>200 pieces per design/color combination</td>
+                                <td>Lower MOQ for existing designs</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Production Lead Time</strong></td>
+                                <td>15-22 days after sample approval</td>
+                                <td>Rush orders: 10-15 days (additional cost)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Quality Standards</strong></td>
+                                <td>ISO 9001:2015, REACH compliant</td>
+                                <td>Additional certifications available</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
