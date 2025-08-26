@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#f0f8ff" stroke="#0d6efd" stroke-width="2" rx="10"/>
+  <circle cx="100" cy="60" r="25" fill="#0d6efd"/>
+  <text x="100" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">ÖKO</text>
+  <rect x="60" y="90" width="80" height="30" fill="#ffffff" stroke="#0d6efd" stroke-width="2" rx="5"/>
+  <text x="100" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0d6efd">OEKO-TEX</text>
+  <rect x="70" y="130" width="60" height="15" fill="#0d6efd" rx="7"/>
+  <text x="100" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">Standard 100</text>
+  <circle cx="70" cy="160" r="6" fill="#28a745"/>
+  <circle cx="100" cy="160" r="6" fill="#28a745"/>
+  <circle cx="130" cy="160" r="6" fill="#28a745"/>
+  <text x="100" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Textile Safety</text>
+  <text x="100" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Certification</text>
+</svg>

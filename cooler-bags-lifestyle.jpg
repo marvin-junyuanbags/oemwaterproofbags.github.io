@@ -1,0 +1,87 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="coolerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecf0f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bdc3c7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#ecf0f1;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background - beach/outdoor scene -->
+  <rect width="400" height="300" fill="url(#bgGrad3)"/>
+  
+  <!-- Sand/ground -->
+  <ellipse cx="200" cy="280" rx="200" ry="30" fill="#f4d03f" opacity="0.6"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="50" r="25" fill="#f1c40f" opacity="0.8"/>
+  <g stroke="#f39c12" stroke-width="2" opacity="0.6">
+    <line x1="350" y1="15" x2="350" y2="25"/>
+    <line x1="385" y1="50" x2="375" y2="50"/>
+    <line x1="375" y1="25" x2="368" y2="32"/>
+    <line x1="375" y1="75" x2="368" y2="68"/>
+  </g>
+  
+  <!-- Cooler bag main body -->
+  <rect x="140" y="140" width="120" height="80" rx="8" fill="url(#coolerGrad)"/>
+  <rect x="145" y="145" width="110" height="70" rx="5" fill="#ecf0f1"/>
+  
+  <!-- Cooler lid -->
+  <rect x="140" y="130" width="120" height="15" rx="8" fill="#bdc3c7"/>
+  <rect x="145" y="132" width="110" height="11" rx="5" fill="#95a5a6"/>
+  
+  <!-- Handle -->
+  <rect x="190" y="120" width="20" height="8" rx="4" fill="#34495e"/>
+  <ellipse cx="200" cy="115" rx="15" ry="5" fill="none" stroke="#34495e" stroke-width="3"/>
+  
+  <!-- Side handles -->
+  <rect x="125" y="165" width="8" height="30" rx="4" fill="#34495e"/>
+  <rect x="267" y="165" width="8" height="30" rx="4" fill="#34495e"/>
+  
+  <!-- Zipper -->
+  <rect x="150" y="135" width="100" height="2" fill="#e74c3c"/>
+  <circle cx="155" cy="136" r="2" fill="#c0392b"/>
+  
+  <!-- Ice cubes spilling out -->
+  <rect x="170" y="125" width="8" height="8" rx="1" fill="url(#iceGrad)" transform="rotate(15 174 129)"/>
+  <rect x="185" y="120" width="6" height="6" rx="1" fill="url(#iceGrad)" transform="rotate(-20 188 123)"/>
+  <rect x="200" y="122" width="7" height="7" rx="1" fill="url(#iceGrad)" transform="rotate(30 203.5 125.5)"/>
+  
+  <!-- Drinks/bottles inside -->
+  <rect x="160" y="155" width="8" height="25" rx="4" fill="#27ae60" opacity="0.8"/>
+  <rect x="175" y="150" width="8" height="30" rx="4" fill="#e74c3c" opacity="0.8"/>
+  <rect x="190" y="155" width="8" height="25" rx="4" fill="#3498db" opacity="0.8"/>
+  <rect x="205" y="152" width="8" height="28" rx="4" fill="#f39c12" opacity="0.8"/>
+  
+  <!-- Bottle caps -->
+  <circle cx="164" cy="155" r="3" fill="#2ecc71"/>
+  <circle cx="179" cy="150" r="3" fill="#e67e22"/>
+  <circle cx="194" cy="155" r="3" fill="#2980b9"/>
+  <circle cx="209" cy="152" r="3" fill="#d68910"/>
+  
+  <!-- Insulation indicator -->
+  <g opacity="0.6">
+    <path d="M 120 160 Q 130 150 140 160" fill="none" stroke="#3498db" stroke-width="2"/>
+    <path d="M 115 170 Q 125 160 135 170" fill="none" stroke="#3498db" stroke-width="2"/>
+    <path d="M 110 180 Q 120 170 130 180" fill="none" stroke="#3498db" stroke-width="2"/>
+    
+    <path d="M 280 160 Q 270 150 260 160" fill="none" stroke="#e74c3c" stroke-width="2"/>
+    <path d="M 285 170 Q 275 160 265 170" fill="none" stroke="#e74c3c" stroke-width="2"/>
+    <path d="M 290 180 Q 280 170 270 180" fill="none" stroke="#e74c3c" stroke-width="2"/>
+  </g>
+  
+  <!-- Temperature display -->
+  <rect x="220" y="160" width="25" height="15" rx="3" fill="#2c3e50"/>
+  <text x="232.5" y="170" text-anchor="middle" fill="#00ff00" font-family="Arial, sans-serif" font-size="8" font-weight="bold">4°C</text>
+  
+  <!-- Text overlay -->
+  <text x="200" y="270" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">COOLER BAGS</text>
+  <text x="200" y="285" text-anchor="middle" fill="#ecf0f1" font-family="Arial, sans-serif" font-size="12">24H Cooling Technology</text>
+</svg>

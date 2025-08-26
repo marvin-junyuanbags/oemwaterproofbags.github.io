@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="complianceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E53E3E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C53030;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#complianceGradient)" stroke="#9B2C2C" stroke-width="2"/>
+  
+  <!-- Compliance Officer elements -->
+  <g transform="translate(50,50)">
+    <!-- Officer figure -->
+    <g transform="translate(0,-5)">
+      <!-- Head -->
+      <circle cx="0" cy="-15" r="8" fill="#F7FAFC" stroke="#9B2C2C" stroke-width="2"/>
+      <!-- Hair -->
+      <path d="M -6,-20 Q 0,-25 6,-20 Q 4,-22 0,-22 Q -4,-22 -6,-20" fill="#4A5568"/>
+      <!-- Glasses -->
+      <rect x="-5" y="-17" width="10" height="3" fill="none" stroke="#9B2C2C" stroke-width="2" rx="1.5"/>
+      <circle cx="-2.5" cy="-15.5" r="2" fill="rgba(255,255,255,0.3)" stroke="#9B2C2C" stroke-width="1"/>
+      <circle cx="2.5" cy="-15.5" r="2" fill="rgba(255,255,255,0.3)" stroke="#9B2C2C" stroke-width="1"/>
+      <!-- Bridge -->
+      <line x1="-0.5" y1="-15.5" x2="0.5" y2="-15.5" stroke="#9B2C2C" stroke-width="1"/>
+      <!-- Eyes -->
+      <circle cx="-2.5" cy="-15.5" r="0.5" fill="#9B2C2C"/>
+      <circle cx="2.5" cy="-15.5" r="0.5" fill="#9B2C2C"/>
+      <!-- Nose -->
+      <line x1="0" y1="-14" x2="0" y2="-12" stroke="#9B2C2C" stroke-width="1"/>
+      <!-- Mouth -->
+      <path d="M -2,-11 Q 0,-10 2,-11" fill="none" stroke="#9B2C2C" stroke-width="1" stroke-linecap="round"/>
+      
+      <!-- Professional suit -->
+      <rect x="-6" y="-7" width="12" height="20" fill="#2D3748" stroke="#9B2C2C" stroke-width="2" rx="2"/>
+      <!-- Shirt -->
+      <polygon points="-2,-7 2,-7 2,13 -2,13" fill="white"/>
+      <!-- Tie -->
+      <polygon points="0,-7 -1.5,-5 -1,8 1,8 1.5,-5" fill="#E53E3E"/>
+      <!-- Suit lapels -->
+      <path d="M -6,-7 L -2,-5 L -2,-7" fill="#1A202C"/>
+      <path d="M 6,-7 L 2,-5 L 2,-7" fill="#1A202C"/>
+      <!-- Suit buttons -->
+      <circle cx="-3" cy="-2" r="0.5" fill="#9B2C2C"/>
+      <circle cx="-3" cy="2" r="0.5" fill="#9B2C2C"/>
+      
+      <!-- Arms -->
+      <rect x="-10" y="-5" width="4" height="12" fill="#2D3748" stroke="#9B2C2C" stroke-width="2" rx="2"/>
+      <rect x="6" y="-5" width="4" height="12" fill="#2D3748" stroke="#9B2C2C" stroke-width="2" rx="2"/>
+      
+      <!-- Hands -->
+      <circle cx="-8" cy="7" r="2" fill="#F7FAFC" stroke="#9B2C2C" stroke-width="1"/>
+      <circle cx="8" cy="7" r="2" fill="#F7FAFC" stroke="#9B2C2C" stroke-width="1"/>
+      
+      <!-- Legs -->
+      <rect x="-4" y="13" width="3" height="12" fill="#2D3748" rx="1"/>
+      <rect x="1" y="13" width="3" height="12" fill="#2D3748" rx="1"/>
+      
+      <!-- Dress shoes -->
+      <ellipse cx="-2.5" cy="26" rx="2.5" ry="1.5" fill="#1A202C"/>
+      <ellipse cx="2.5" cy="26" rx="2.5" ry="1.5" fill="#1A202C"/>
+    </g>
+    
+    <!-- Legal documents -->
+    <g transform="translate(-18,8)">
+      <rect x="-3" y="-6" width="6" height="10" fill="#F7FAFC" stroke="#9B2C2C" stroke-width="1.5" rx="0.5"/>
+      <!-- Document header -->
+      <rect x="-2.5" y="-5.5" width="5" height="1.5" fill="#E53E3E" opacity="0.8"/>
+      <text x="0" y="-4.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="1.5" fill="white" font-weight="bold">COMPLIANCE</text>
+      <!-- Document lines -->
+      <line x1="-2" y1="-3" x2="2" y2="-3" stroke="#9B2C2C" stroke-width="0.3"/>
+      <line x1="-2" y1="-2" x2="2" y2="-2" stroke="#9B2C2C" stroke-width="0.3"/>
+      <line x1="-2" y1="-1" x2="2" y2="-1" stroke="#9B2C2C" stroke-width="0.3"/>
+      <line x1="-2" y1="0" x2="2" y2="0" stroke="#9B2C2C" stroke-width="0.3"/>
+      <line x1="-2" y1="1" x2="2" y2="1" stroke="#9B2C2C" stroke-width="0.3"/>
+      <line x1="-2" y1="2" x2="2" y2="2" stroke="#9B2C2C" stroke-width="0.3"/>
+      <!-- Official seal -->
+      <circle cx="1" cy="3" r="1" fill="#E53E3E" opacity="0.6"/>
+      <text x="1" y="3.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="1" fill="white" font-weight="bold">✓</text>
+    </g>
+    
+    <!-- Compliance badge -->
+    <g transform="translate(18,8)">
+      <polygon points="0,-4 -3,-1 -3,2 0,5 3,2 3,-1" fill="#FFD700" stroke="#B7791F" stroke-width="1.5"/>
+      <circle cx="0" cy="0.5" r="2.5" fill="#E53E3E"/>
+      <text x="0" y="-0.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="1.8" fill="white" font-weight="bold">C</text>
+      <text x="0" y="1.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="1.8" fill="white" font-weight="bold">O</text>
+      <!-- Ribbon -->
+      <polygon points="0,5 -1.5,8 0,7 1.5,8" fill="#C53030"/>
+    </g>
+    
+    <!-- Regulation books -->
+    <g transform="translate(-25,-5)">
+      <!-- Book 1 -->
+      <rect x="-1" y="-4" width="2" height="8" fill="#2B6CB0" stroke="#1A365D" stroke-width="1" rx="0.3"/>
+      <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="1.2" fill="white" font-weight="bold" transform="rotate(-90)">ISO</text>
+      <!-- Book 2 -->
+      <rect x="1.5" y="-3" width="2" height="7" fill="#38A169" stroke="#2F855A" stroke-width="1" rx="0.3"/>
+      <text x="2.5" y="0.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="1" fill="white" font-weight="bold" transform="rotate(-90)">REACH</text>
+      <!-- Book 3 -->
+      <rect x="4" y="-3.5" width="2" height="7.5" fill="#805AD5" stroke="#553C9A" stroke-width="1" rx="0.3"/>
+      <text x="5" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="1" fill="white" font-weight="bold" transform="rotate(-90)">CPSIA</text>
+    </g>
+    
+    <!-- Computer with compliance software -->
+    <g transform="translate(25,-5)">
+      <rect x="-3" y="-3" width="6" height="4" fill="#2D3748" stroke="#9B2C2C" stroke-width="1" rx="0.5"/>
+      <!-- Screen -->
+      <rect x="-2.5" y="-2.5" width="5" height="3" fill="#4299E1" opacity="0.3"/>
+      <!-- Compliance dashboard -->
+      <circle cx="-1.5" cy="-1" r="0.5" fill="#48BB78"/>
+      <circle cx="0" cy="-1" r="0.5" fill="#E53E3E"/>
+      <circle cx="1.5" cy="-1" r="0.5" fill="#FFD700"/>
+      <!-- Progress bars -->
+      <rect x="-2" y="0" width="1.5" height="0.3" fill="#48BB78"/>
+      <rect x="-0.2" y="0" width="2" height="0.3" fill="#E53E3E"/>
+    </g>
+    
+    <!-- Audit checklist -->
+    <g transform="translate(-8,-25)">
+      <rect x="-2" y="-3" width="4" height="6" fill="#F7FAFC" stroke="#9B2C2C" stroke-width="1" rx="0.5"/>
+      <text x="0" y="-2" text-anchor="middle" font-family="Arial, sans-serif" font-size="1.2" fill="#9B2C2C" font-weight="bold">AUDIT</text>
+      <!-- Checklist items -->
+      <path d="M -1.5,-1 L -1,-0.5 L -0.5,-1" fill="none" stroke="#48BB78" stroke-width="0.8" stroke-linecap="round"/>
+      <path d="M -1.5,0 L -1,0.5 L -0.5,0" fill="none" stroke="#48BB78" stroke-width="0.8" stroke-linecap="round"/>
+      <path d="M -1.5,1 L -1,1.5 L -0.5,1" fill="none" stroke="#E53E3E" stroke-width="0.8" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Compliance certificate -->
+    <g transform="translate(8,-25)">
+      <rect x="-2" y="-3" width="4" height="6" fill="#FFD700" stroke="#B7791F" stroke-width="1" rx="0.5"/>
+      <text x="0" y="-1.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="1" fill="#B7791F" font-weight="bold">CERTIFIED</text>
+      <text x="0" y="-0.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="0.8" fill="#B7791F">COMPLIANT</text>
+      <!-- Official stamp -->
+      <circle cx="0" cy="1" r="1" fill="#E53E3E" opacity="0.8"/>
+      <text x="0" y="1.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="1.2" fill="white" font-weight="bold">✓</text>
+    </g>
+    
+    <!-- Scale of justice -->
+    <g transform="translate(0,-30)">
+      <!-- Base -->
+      <rect x="-1" y="2" width="2" height="1" fill="#9B2C2C"/>
+      <!-- Pole -->
+      <line x1="0" y1="-3" x2="0" y2="2" stroke="#9B2C2C" stroke-width="2"/>
+      <!-- Balance beam -->
+      <line x1="-4" y1="-3" x2="4" y2="-3" stroke="#9B2C2C" stroke-width="1.5"/>
+      <!-- Left scale -->
+      <path d="M -4,-3 L -5,-1 L -3,-1 Z" fill="#FFD700" stroke="#B7791F" stroke-width="0.5"/>
+      <!-- Right scale -->
+      <path d="M 4,-3 L 3,-1 L 5,-1 Z" fill="#FFD700" stroke="#B7791F" stroke-width="0.5"/>
+      <!-- Chains -->
+      <line x1="-4" y1="-3" x2="-4" y2="-1" stroke="#9B2C2C" stroke-width="0.5" stroke-dasharray="0.3,0.3"/>
+      <line x1="4" y1="-3" x2="4" y2="-1" stroke="#9B2C2C" stroke-width="0.5" stroke-dasharray="0.3,0.3"/>
+    </g>
+  </g>
+  
+  <!-- Compliance Officer text -->
+  <text x="50" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="5" fill="#9B2C2C" font-weight="bold">Compliance Officer</text>
+</svg>

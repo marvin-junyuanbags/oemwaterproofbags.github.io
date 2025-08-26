@@ -1,0 +1,129 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Sky -->
+  <rect width="400" height="150" fill="#87CEEB"/>
+  
+  <!-- Mountains -->
+  <polygon points="0,150 80,50 160,150" fill="#8B7355"/>
+  <polygon points="120,150 200,40 280,150" fill="#A0522D"/>
+  <polygon points="240,150 320,60 400,150" fill="#8B7355"/>
+  
+  <!-- Snow caps -->
+  <polygon points="160,60 200,40 240,60" fill="#FFFFFF"/>
+  <polygon points="280,80 320,60 360,80" fill="#FFFFFF"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="150" width="400" height="150" fill="#228B22"/>
+  
+  <!-- Trees -->
+  <g transform="translate(50, 120)">
+    <rect x="-3" y="20" width="6" height="30" fill="#8B4513"/>
+    <polygon points="0,0 -15,25 15,25" fill="#006400"/>
+    <polygon points="0,10 -12,30 12,30" fill="#228B22"/>
+  </g>
+  
+  <g transform="translate(350, 130)">
+    <rect x="-2" y="15" width="4" height="20" fill="#8B4513"/>
+    <polygon points="0,0 -10,20 10,20" fill="#006400"/>
+    <polygon points="0,8 -8,22 8,22" fill="#228B22"/>
+  </g>
+  
+  <!-- Adventure Backpack -->
+  <g transform="translate(180, 100)">
+    <!-- Main backpack body -->
+    <rect x="0" y="0" width="40" height="60" fill="#FF6B35" rx="8"/>
+    <rect x="3" y="3" width="34" height="54" fill="#FF8C42" rx="6"/>
+    
+    <!-- Front pocket -->
+    <rect x="8" y="15" width="24" height="20" fill="#FF6B35" rx="4"/>
+    <rect x="10" y="17" width="20" height="16" fill="#E55A2B" rx="3"/>
+    
+    <!-- Straps -->
+    <rect x="-5" y="10" width="8" height="40" fill="#2C3E50" rx="4"/>
+    <rect x="37" y="10" width="8" height="40" fill="#2C3E50" rx="4"/>
+    
+    <!-- Buckles -->
+    <rect x="-3" y="20" width="4" height="6" fill="#F39C12" rx="1"/>
+    <rect x="39" y="20" width="4" height="6" fill="#F39C12" rx="1"/>
+    
+    <!-- Side pockets -->
+    <ellipse cx="-8" cy="35" rx="6" ry="12" fill="#3498DB"/>
+    <ellipse cx="48" cy="35" rx="6" ry="12" fill="#3498DB"/>
+    
+    <!-- Water bottle -->
+    <rect x="45" y="28" width="6" height="14" fill="#85C1E9" rx="3"/>
+    <rect x="46" y="26" width="4" height="4" fill="#2980B9" rx="2"/>
+  </g>
+  
+  <!-- Hiking boots -->
+  <g transform="translate(160, 180)">
+    <ellipse cx="0" cy="0" rx="25" ry="8" fill="#8B4513"/>
+    <ellipse cx="0" cy="-2" rx="22" ry="6" fill="#A0522D"/>
+    <rect x="-20" y="-8" width="40" height="8" fill="#654321" rx="4"/>
+    
+    <!-- Laces -->
+    <line x1="-15" y1="-6" x2="15" y2="-6" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="-12" y1="-4" x2="12" y2="-4" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  
+  <g transform="translate(220, 180)">
+    <ellipse cx="0" cy="0" rx="25" ry="8" fill="#8B4513"/>
+    <ellipse cx="0" cy="-2" rx="22" ry="6" fill="#A0522D"/>
+    <rect x="-20" y="-8" width="40" height="8" fill="#654321" rx="4"/>
+    
+    <!-- Laces -->
+    <line x1="-15" y1="-6" x2="15" y2="-6" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="-12" y1="-4" x2="12" y2="-4" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  
+  <!-- Compass -->
+  <g transform="translate(80, 200)">
+    <circle cx="0" cy="0" r="15" fill="#F4D03F"/>
+    <circle cx="0" cy="0" r="12" fill="#FFFFFF"/>
+    <polygon points="0,-8 -3,0 0,8 3,0" fill="#E74C3C"/>
+    <text x="0" y="-20" text-anchor="middle" fill="#2C3E50" font-size="8" font-weight="bold">N</text>
+  </g>
+  
+  <!-- Waterproof Badge -->
+  <g transform="translate(300, 180)">
+    <circle cx="0" cy="0" r="25" fill="#3498DB" opacity="0.9"/>
+    <path d="M-12 -8 Q0 -18 12 -8 Q0 8 -12 -8" fill="white"/>
+    <text x="0" y="18" text-anchor="middle" fill="#2C3E50" font-size="8" font-weight="bold">WATERPROOF</text>
+    <text x="0" y="28" text-anchor="middle" fill="#2C3E50" font-size="6">ADVENTURE READY</text>
+  </g>
+  
+  <!-- Adventure Badges -->
+  <g transform="translate(50, 250)">
+    <rect x="0" y="0" width="50" height="18" fill="#27AE60" rx="9"/>
+    <text x="25" y="11" text-anchor="middle" fill="white" font-size="8" font-weight="bold">HIKING</text>
+  </g>
+  
+  <g transform="translate(120, 250)">
+    <rect x="0" y="0" width="60" height="18" fill="#E67E22" rx="9"/>
+    <text x="30" y="11" text-anchor="middle" fill="white" font-size="8" font-weight="bold">CAMPING</text>
+  </g>
+  
+  <g transform="translate(200, 250)">
+    <rect x="0" y="0" width="70" height="18" fill="#8E44AD" rx="9"/>
+    <text x="35" y="11" text-anchor="middle" fill="white" font-size="8" font-weight="bold">TREKKING</text>
+  </g>
+  
+  <g transform="translate(290, 250)">
+    <rect x="0" y="0" width="80" height="18" fill="#C0392B" rx="9"/>
+    <text x="40" y="11" text-anchor="middle" fill="white" font-size="8" font-weight="bold">EXPEDITION</text>
+  </g>
+  
+  <!-- Sun -->
+  <g transform="translate(350, 50)">
+    <circle cx="0" cy="0" r="20" fill="#F1C40F"/>
+    <g stroke="#F39C12" stroke-width="3">
+      <line x1="0" y1="-30" x2="0" y2="-25"/>
+      <line x1="21" y1="-21" x2="18" y2="-18"/>
+      <line x1="30" y1="0" x2="25" y2="0"/>
+      <line x1="21" y1="21" x2="18" y2="18"/>
+      <line x1="0" y1="30" x2="0" y2="25"/>
+      <line x1="-21" y1="21" x2="-18" y2="18"/>
+      <line x1="-30" y1="0" x2="-25" y2="0"/>
+      <line x1="-21" y1="-21" x2="-18" y2="-18"/>
+    </g>
+  </g>
+</svg>

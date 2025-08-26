@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="ceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3182CE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2C5282;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#ceGradient)" stroke="#1A365D" stroke-width="2"/>
+  
+  <!-- CE elements -->
+  <g transform="translate(50,50)">
+    <!-- Certificate background -->
+    <rect x="-18" y="-20" width="36" height="40" fill="white" stroke="#1A365D" stroke-width="2" rx="2"/>
+    
+    <!-- CE logo area -->
+    <rect x="-15" y="-17" width="30" height="12" fill="#3182CE" rx="1"/>
+    
+    <!-- CE letters -->
+    <g transform="translate(0,-11)">
+      <!-- C letter -->
+      <g transform="translate(-6,0)">
+        <path d="M 2,-3 Q -2,-3 -2,0 Q -2,3 2,3" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
+      </g>
+      <!-- E letter -->
+      <g transform="translate(6,0)">
+        <line x1="-2" y1="-3" x2="-2" y2="3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <line x1="-2" y1="-3" x2="2" y2="-3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <line x1="-2" y1="0" x2="1" y2="0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <line x1="-2" y1="3" x2="2" y2="3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+      </g>
+    </g>
+    
+    <!-- Conformité Européenne text -->
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="2.5" fill="#1A365D">CONFORMITÉ</text>
+    <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="2.5" fill="#1A365D">EUROPÉENNE</text>
+    
+    <!-- European Union symbol -->
+    <g transform="translate(0,12)">
+      <!-- EU circle of stars -->
+      <circle cx="0" cy="0" r="6" fill="#2B6CB0" opacity="0.2"/>
+      <!-- 12 stars in circle -->
+      <g transform="rotate(0)">
+        <polygon points="0,-5 0.3,-4.7 0.6,-5 0.4,-4.4 0.7,-4.1 0,-4.1 -0.7,-4.1 -0.4,-4.4 -0.6,-5 -0.3,-4.7" fill="#FFD700"/>
+      </g>
+      <g transform="rotate(30)">
+        <polygon points="0,-5 0.3,-4.7 0.6,-5 0.4,-4.4 0.7,-4.1 0,-4.1 -0.7,-4.1 -0.4,-4.4 -0.6,-5 -0.3,-4.7" fill="#FFD700"/>
+      </g>
+      <g transform="rotate(60)">
+        <polygon points="0,-5 0.3,-4.7 0.6,-5 0.4,-4.4 0.7,-4.1 0,-4.1 -0.7,-4.1 -0.4,-4.4 -0.6,-5 -0.3,-4.7" fill="#FFD700"/>
+      </g>
+      <g transform="rotate(90)">
+        <polygon points="0,-5 0.3,-4.7 0.6,-5 0.4,-4.4 0.7,-4.1 0,-4.1 -0.7,-4.1 -0.4,-4.4 -0.6,-5 -0.3,-4.7" fill="#FFD700"/>
+      </g>
+      <g transform="rotate(120)">
+        <polygon points="0,-5 0.3,-4.7 0.6,-5 0.4,-4.4 0.7,-4.1 0,-4.1 -0.7,-4.1 -0.4,-4.4 -0.6,-5 -0.3,-4.7" fill="#FFD700"/>
+      </g>
+      <g transform="rotate(150)">
+        <polygon points="0,-5 0.3,-4.7 0.6,-5 0.4,-4.4 0.7,-4.1 0,-4.1 -0.7,-4.1 -0.4,-4.4 -0.6,-5 -0.3,-4.7" fill="#FFD700"/>
+      </g>
+      <g transform="rotate(180)">
+        <polygon points="0,-5 0.3,-4.7 0.6,-5 0.4,-4.4 0.7,-4.1 0,-4.1 -0.7,-4.1 -0.4,-4.4 -0.6,-5 -0.3,-4.7" fill="#FFD700"/>
+      </g>
+      <g transform="rotate(210)">
+        <polygon points="0,-5 0.3,-4.7 0.6,-5 0.4,-4.4 0.7,-4.1 0,-4.1 -0.7,-4.1 -0.4,-4.4 -0.6,-5 -0.3,-4.7" fill="#FFD700"/>
+      </g>
+      <g transform="rotate(240)">
+        <polygon points="0,-5 0.3,-4.7 0.6,-5 0.4,-4.4 0.7,-4.1 0,-4.1 -0.7,-4.1 -0.4,-4.4 -0.6,-5 -0.3,-4.7" fill="#FFD700"/>
+      </g>
+      <g transform="rotate(270)">
+        <polygon points="0,-5 0.3,-4.7 0.6,-5 0.4,-4.4 0.7,-4.1 0,-4.1 -0.7,-4.1 -0.4,-4.4 -0.6,-5 -0.3,-4.7" fill="#FFD700"/>
+      </g>
+      <g transform="rotate(300)">
+        <polygon points="0,-5 0.3,-4.7 0.6,-5 0.4,-4.4 0.7,-4.1 0,-4.1 -0.7,-4.1 -0.4,-4.4 -0.6,-5 -0.3,-4.7" fill="#FFD700"/>
+      </g>
+      <g transform="rotate(330)">
+        <polygon points="0,-5 0.3,-4.7 0.6,-5 0.4,-4.4 0.7,-4.1 0,-4.1 -0.7,-4.1 -0.4,-4.4 -0.6,-5 -0.3,-4.7" fill="#FFD700"/>
+      </g>
+    </g>
+    
+    <!-- Compliance checkmark -->
+    <g transform="translate(-12,8)">
+      <circle cx="0" cy="0" r="2" fill="#48BB78" opacity="0.8"/>
+      <path d="M -1,0 L 0,1 L 2,-1" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Safety symbol -->
+    <g transform="translate(12,8)">
+      <path d="M 0,-2 L -1.5,0 L -1.5,1.5 L 0,3 L 1.5,1.5 L 1.5,0 Z" fill="#3182CE" opacity="0.6"/>
+      <text x="0" y="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="2" fill="white" font-weight="bold">✓</text>
+    </g>
+    
+    <!-- Decorative elements -->
+    <line x1="-12" y1="17" x2="12" y2="17" stroke="#1A365D" stroke-width="1"/>
+    
+    <!-- Compliance stars -->
+    <g transform="translate(-10,17)">
+      <polygon points="0,-1 0.3,-0.3 1,-0.3 0.5,0.2 0.7,1 0,0.6 -0.7,1 -0.5,0.2 -1,-0.3 -0.3,-0.3" fill="#FFD700" stroke="#1A365D" stroke-width="0.2"/>
+    </g>
+    <g transform="translate(10,17)">
+      <polygon points="0,-1 0.3,-0.3 1,-0.3 0.5,0.2 0.7,1 0,0.6 -0.7,1 -0.5,0.2 -1,-0.3 -0.3,-0.3" fill="#FFD700" stroke="#1A365D" stroke-width="0.2"/>
+    </g>
+    
+    <!-- Ribbon corners -->
+    <polygon points="-18,-20 -15,-17 -18,-14" fill="#1A365D" opacity="0.3"/>
+    <polygon points="18,-20 15,-17 18,-14" fill="#1A365D" opacity="0.3"/>
+  </g>
+  
+  <!-- CE text -->
+  <text x="50" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#1A365D" font-weight="bold">CE</text>
+</svg>

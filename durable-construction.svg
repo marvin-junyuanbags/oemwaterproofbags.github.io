@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#f8f9fa" stroke="#6c757d" stroke-width="2" rx="10"/>
+  <rect x="60" y="40" width="80" height="100" fill="#6c757d" stroke="#ffffff" stroke-width="2" rx="5"/>
+  <rect x="70" y="50" width="60" height="20" fill="#ffffff" stroke="#6c757d" stroke-width="1" rx="2"/>
+  <rect x="70" y="80" width="60" height="20" fill="#ffffff" stroke="#6c757d" stroke-width="1" rx="2"/>
+  <rect x="70" y="110" width="60" height="20" fill="#ffffff" stroke="#6c757d" stroke-width="1" rx="2"/>
+  <circle cx="80" cy="60" r="3" fill="#6c757d"/>
+  <circle cx="120" cy="60" r="3" fill="#6c757d"/>
+  <circle cx="80" cy="90" r="3" fill="#6c757d"/>
+  <circle cx="120" cy="90" r="3" fill="#6c757d"/>
+  <circle cx="80" cy="120" r="3" fill="#6c757d"/>
+  <circle cx="120" cy="120" r="3" fill="#6c757d"/>
+  <rect x="50" y="150" width="100" height="15" fill="#6c757d" rx="7"/>
+  <text x="100" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Durable Construction</text>
+  <text x="100" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Built to Last</text>
+</svg>

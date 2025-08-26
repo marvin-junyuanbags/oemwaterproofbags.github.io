@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="cpsiaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D69E2E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B7791F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#cpsiaGradient)" stroke="#975A16" stroke-width="2"/>
+  
+  <!-- CPSIA elements -->
+  <g transform="translate(50,50)">
+    <!-- Certificate background -->
+    <rect x="-18" y="-20" width="36" height="40" fill="white" stroke="#975A16" stroke-width="2" rx="2"/>
+    
+    <!-- CPSIA logo area -->
+    <rect x="-15" y="-17" width="30" height="8" fill="#D69E2E" rx="1"/>
+    <text x="0" y="-11" text-anchor="middle" font-family="Arial, sans-serif" font-size="4.5" fill="white" font-weight="bold">CPSIA</text>
+    
+    <!-- Consumer Product Safety text -->
+    <text x="0" y="-2" text-anchor="middle" font-family="Arial, sans-serif" font-size="2.2" fill="#975A16">CONSUMER PRODUCT</text>
+    <text x="0" y="2" text-anchor="middle" font-family="Arial, sans-serif" font-size="2.2" fill="#975A16">SAFETY</text>
+    <text x="0" y="6" text-anchor="middle" font-family="Arial, sans-serif" font-size="2.2" fill="#975A16">IMPROVEMENT ACT</text>
+    
+    <!-- Child safety symbol -->
+    <g transform="translate(0,12)">
+      <!-- Child figure -->
+      <circle cx="0" cy="-2" r="1.5" fill="#D69E2E"/>
+      <rect x="-1" y="-0.5" width="2" height="3" fill="#D69E2E" rx="1"/>
+      <!-- Arms -->
+      <line x1="-1" y1="0" x2="-2" y2="1" stroke="#D69E2E" stroke-width="1" stroke-linecap="round"/>
+      <line x1="1" y1="0" x2="2" y2="1" stroke="#D69E2E" stroke-width="1" stroke-linecap="round"/>
+      <!-- Legs -->
+      <line x1="-0.5" y1="2.5" x2="-1" y2="4" stroke="#D69E2E" stroke-width="1" stroke-linecap="round"/>
+      <line x1="0.5" y1="2.5" x2="1" y2="4" stroke="#D69E2E" stroke-width="1" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Safety shield around child -->
+    <circle cx="0" cy="12" r="6" fill="none" stroke="#48BB78" stroke-width="2" opacity="0.5"/>
+    
+    <!-- US flag symbol -->
+    <g transform="translate(-12,8)">
+      <rect x="-2" y="-1.5" width="4" height="3" fill="#2B6CB0" rx="0.3"/>
+      <!-- Stars and stripes -->
+      <rect x="-2" y="-1.5" width="1.5" height="1.5" fill="#2B6CB0"/>
+      <line x1="-0.5" y1="-1" x2="2" y2="-1" stroke="#E53E3E" stroke-width="0.3"/>
+      <line x1="-0.5" y1="-0.3" x2="2" y2="-0.3" stroke="white" stroke-width="0.3"/>
+      <line x1="-0.5" y1="0.3" x2="2" y2="0.3" stroke="#E53E3E" stroke-width="0.3"/>
+      <line x1="-0.5" y1="1" x2="2" y2="1" stroke="white" stroke-width="0.3"/>
+      <!-- Stars -->
+      <circle cx="-1.2" cy="-1" r="0.15" fill="white"/>
+      <circle cx="-0.8" cy="-0.6" r="0.15" fill="white"/>
+      <circle cx="-1.2" cy="-0.2" r="0.15" fill="white"/>
+    </g>
+    
+    <!-- Testing/lab equipment -->
+    <g transform="translate(12,8)">
+      <!-- Magnifying glass -->
+      <circle cx="0" cy="0" r="1.5" fill="none" stroke="#D69E2E" stroke-width="1"/>
+      <line x1="1" y1="1" x2="2.5" y2="2.5" stroke="#D69E2E" stroke-width="1" stroke-linecap="round"/>
+      <!-- Checkmark inside -->
+      <path d="M -0.5,0 L 0,0.5 L 1,-0.5" fill="none" stroke="#48BB78" stroke-width="1" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Warning triangle -->
+    <g transform="translate(-8,-8)" opacity="0.6">
+      <polygon points="0,-2 -1.5,1 1.5,1" fill="#F56565" stroke="#E53E3E" stroke-width="0.5"/>
+      <text x="0" y="0.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="2" fill="white" font-weight="bold">!</text>
+    </g>
+    
+    <!-- Decorative elements -->
+    <line x1="-12" y1="17" x2="12" y2="17" stroke="#975A16" stroke-width="1"/>
+    
+    <!-- Safety stars -->
+    <g transform="translate(-10,17)">
+      <polygon points="0,-1 0.3,-0.3 1,-0.3 0.5,0.2 0.7,1 0,0.6 -0.7,1 -0.5,0.2 -1,-0.3 -0.3,-0.3" fill="#FFD700" stroke="#975A16" stroke-width="0.2"/>
+    </g>
+    <g transform="translate(10,17)">
+      <polygon points="0,-1 0.3,-0.3 1,-0.3 0.5,0.2 0.7,1 0,0.6 -0.7,1 -0.5,0.2 -1,-0.3 -0.3,-0.3" fill="#FFD700" stroke="#975A16" stroke-width="0.2"/>
+    </g>
+    
+    <!-- Ribbon corners -->
+    <polygon points="-18,-20 -15,-17 -18,-14" fill="#975A16" opacity="0.3"/>
+    <polygon points="18,-20 15,-17 18,-14" fill="#975A16" opacity="0.3"/>
+  </g>
+  
+  <!-- CPSIA text -->
+  <text x="50" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#975A16" font-weight="bold">CPSIA</text>
+</svg>

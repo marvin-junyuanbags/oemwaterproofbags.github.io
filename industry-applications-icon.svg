@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="industryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#industryGrad)" stroke="#065f46" stroke-width="2"/>
+  
+  <!-- Factory/building icon -->
+  <g transform="translate(50,50)">
+    <!-- Main building -->
+    <rect x="-20" y="-5" width="25" height="20" fill="white" opacity="0.9"/>
+    <rect x="-18" y="-3" width="3" height="3" fill="#059669"/>
+    <rect x="-13" y="-3" width="3" height="3" fill="#059669"/>
+    <rect x="-8" y="-3" width="3" height="3" fill="#059669"/>
+    <rect x="-18" y="2" width="3" height="3" fill="#059669"/>
+    <rect x="-13" y="2" width="3" height="3" fill="#059669"/>
+    <rect x="-8" y="2" width="3" height="3" fill="#059669"/>
+    <rect x="-18" y="7" width="3" height="3" fill="#059669"/>
+    <rect x="-13" y="7" width="3" height="3" fill="#059669"/>
+    <rect x="-8" y="7" width="3" height="3" fill="#059669"/>
+    
+    <!-- Chimney -->
+    <rect x="-12" y="-15" width="4" height="12" fill="white" opacity="0.9"/>
+    
+    <!-- Smoke -->
+    <circle cx="-10" cy="-18" r="2" fill="white" opacity="0.6"/>
+    <circle cx="-8" cy="-21" r="1.5" fill="white" opacity="0.5"/>
+    <circle cx="-6" cy="-23" r="1" fill="white" opacity="0.4"/>
+    
+    <!-- Second building -->
+    <rect x="8" y="0" width="15" height="15" fill="white" opacity="0.8"/>
+    <rect x="10" y="2" width="2" height="2" fill="#059669"/>
+    <rect x="14" y="2" width="2" height="2" fill="#059669"/>
+    <rect x="18" y="2" width="2" height="2" fill="#059669"/>
+    <rect x="10" y="6" width="2" height="2" fill="#059669"/>
+    <rect x="14" y="6" width="2" height="2" fill="#059669"/>
+    <rect x="18" y="6" width="2" height="2" fill="#059669"/>
+    
+    <!-- Gear overlay -->
+    <g transform="translate(15,-8) scale(0.4)">
+      <path d="M-8,-20 L-4,-18 L4,-18 L8,-20 L12,-12 L8,-4 L4,-2 L-4,-2 L-8,-4 L-12,-12 Z" 
+            fill="white" opacity="0.7"/>
+      <circle cx="0" cy="-12" r="6" fill="white" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

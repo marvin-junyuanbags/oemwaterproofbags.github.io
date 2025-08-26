@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="designGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#designGradient)" opacity="0.1"/>
+  
+  <!-- Design tools -->
+  <!-- Pencil -->
+  <g transform="translate(25, 25)">
+    <path d="M5 35 L15 25 L20 30 L10 40 Z" fill="#8b5cf6" stroke="#7c3aed" stroke-width="1.5"/>
+    <path d="M15 25 L35 5 L40 10 L20 30 Z" fill="#a78bfa" stroke="#7c3aed" stroke-width="1.5"/>
+    <circle cx="37" cy="7" r="3" fill="#fbbf24"/>
+    <path d="M5 35 L2 42 L9 39 Z" fill="#6b7280"/>
+  </g>
+  
+  <!-- Ruler -->
+  <g transform="translate(55, 15)">
+    <rect x="0" y="0" width="30" height="4" fill="#10b981" rx="2"/>
+    <line x1="5" y1="0" x2="5" y2="4" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="10" y1="0" x2="10" y2="4" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="15" y1="0" x2="15" y2="4" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="20" y1="0" x2="20" y2="4" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="25" y1="0" x2="25" y2="4" stroke="#ffffff" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Design sketch -->
+  <g transform="translate(15, 55)">
+    <rect x="0" y="0" width="35" height="25" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="2"/>
+    <!-- Bag outline -->
+    <path d="M8 8 L27 8 L27 18 L8 18 Z" fill="none" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="2,1"/>
+    <path d="M12 6 Q17.5 4 23 6" fill="none" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="1,1"/>
+    <!-- Dimension lines -->
+    <line x1="5" y1="8" x2="5" y2="18" stroke="#6b7280" stroke-width="0.5"/>
+    <line x1="4" y1="8" x2="6" y2="8" stroke="#6b7280" stroke-width="0.5"/>
+    <line x1="4" y1="18" x2="6" y2="18" stroke="#6b7280" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Color palette -->
+  <g transform="translate(55, 60)">
+    <circle cx="5" cy="5" r="3" fill="#ef4444"/>
+    <circle cx="15" cy="5" r="3" fill="#3b82f6"/>
+    <circle cx="25" cy="5" r="3" fill="#10b981"/>
+    <circle cx="5" cy="15" r="3" fill="#f59e0b"/>
+    <circle cx="15" cy="15" r="3" fill="#8b5cf6"/>
+    <circle cx="25" cy="15" r="3" fill="#6b7280"/>
+  </g>
+</svg>

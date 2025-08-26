@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#f0f8ff" stroke="#17a2b8" stroke-width="2" rx="10"/>
+  <rect x="30" y="50" width="140" height="60" fill="#17a2b8" rx="5"/>
+  <rect x="40" y="60" width="20" height="40" fill="#ffffff" rx="2"/>
+  <rect x="70" y="60" width="20" height="40" fill="#ffffff" rx="2"/>
+  <rect x="100" y="60" width="20" height="40" fill="#ffffff" rx="2"/>
+  <rect x="130" y="60" width="20" height="40" fill="#ffffff" rx="2"/>
+  <circle cx="50" cy="75" r="3" fill="#17a2b8"/>
+  <circle cx="80" cy="75" r="3" fill="#17a2b8"/>
+  <circle cx="110" cy="75" r="3" fill="#17a2b8"/>
+  <circle cx="140" cy="75" r="3" fill="#17a2b8"/>
+  <rect x="50" y="85" width="10" height="10" fill="#17a2b8" rx="1"/>
+  <rect x="80" y="85" width="10" height="10" fill="#17a2b8" rx="1"/>
+  <rect x="110" y="85" width="10" height="10" fill="#17a2b8" rx="1"/>
+  <rect x="140" y="85" width="10" height="10" fill="#17a2b8" rx="1"/>
+  <rect x="60" y="130" width="80" height="20" fill="#17a2b8" rx="10"/>
+  <text x="100" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Production</text>
+  <text x="100" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Manufacturing</text>
+  <text x="100" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Excellence</text>
+</svg>

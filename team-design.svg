@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#f8f9fa" stroke="#6f42c1" stroke-width="2" rx="10"/>
+  <rect x="40" y="40" width="120" height="80" fill="#ffffff" stroke="#6f42c1" stroke-width="2" rx="5"/>
+  <circle cx="70" cy="60" r="8" fill="#6f42c1"/>
+  <rect x="85" y="55" width="60" height="4" fill="#6f42c1" rx="2"/>
+  <rect x="85" y="65" width="40" height="4" fill="#6c757d" rx="2"/>
+  <circle cx="70" cy="85" r="8" fill="#6f42c1"/>
+  <rect x="85" y="80" width="50" height="4" fill="#6f42c1" rx="2"/>
+  <rect x="85" y="90" width="35" height="4" fill="#6c757d" rx="2"/>
+  <circle cx="70" cy="110" r="8" fill="#6f42c1"/>
+  <rect x="85" y="105" width="45" height="4" fill="#6f42c1" rx="2"/>
+  <rect x="85" y="115" width="30" height="4" fill="#6c757d" rx="2"/>
+  <rect x="50" y="140" width="100" height="20" fill="#6f42c1" rx="10"/>
+  <text x="100" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Design Team</text>
+  <text x="100" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Creative Solutions</text>
+</svg>

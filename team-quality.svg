@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#f8f9fa" stroke="#28a745" stroke-width="2" rx="10"/>
+  <path d="M100 30 L120 70 L170 70 L130 100 L150 150 L100 120 L50 150 L70 100 L30 70 L80 70 Z" fill="#28a745" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="100" cy="90" r="25" fill="#ffffff" stroke="#28a745" stroke-width="3"/>
+  <path d="M90 90 L95 95 L110 80" stroke="#28a745" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="60" y="160" width="80" height="20" fill="#28a745" rx="10"/>
+  <text x="100" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Quality Team</text>
+  <text x="100" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Assurance</text>
+</svg>

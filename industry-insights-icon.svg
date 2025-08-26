@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="insightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6d28d9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#insightGrad)" stroke="#5b21b6" stroke-width="2"/>
+  
+  <!-- Industry insights icon -->
+  <g transform="translate(50,50)">
+    <!-- Chart/graph background -->
+    <rect x="-20" y="-15" width="35" height="25" fill="white" opacity="0.9" rx="2"/>
+    
+    <!-- Bar chart -->
+    <rect x="-15" y="-5" width="4" height="10" fill="#7c3aed" opacity="0.8"/>
+    <rect x="-9" y="-8" width="4" height="13" fill="#7c3aed" opacity="0.8"/>
+    <rect x="-3" y="-12" width="4" height="17" fill="#7c3aed" opacity="0.8"/>
+    <rect x="3" y="-10" width="4" height="15" fill="#7c3aed" opacity="0.8"/>
+    <rect x="9" y="-6" width="4" height="11" fill="#7c3aed" opacity="0.8"/>
+    
+    <!-- Trend line -->
+    <path d="M-13,-2 L-7,-5 L-1,-9 L5,-7 L11,-3" stroke="#fbbf24" stroke-width="2" fill="none" opacity="0.9"/>
+    
+    <!-- Data points -->
+    <circle cx="-13" cy="-2" r="1.5" fill="#fbbf24"/>
+    <circle cx="-7" cy="-5" r="1.5" fill="#fbbf24"/>
+    <circle cx="-1" cy="-9" r="1.5" fill="#fbbf24"/>
+    <circle cx="5" cy="-7" r="1.5" fill="#fbbf24"/>
+    <circle cx="11" cy="-3" r="1.5" fill="#fbbf24"/>
+    
+    <!-- Magnifying glass -->
+    <g transform="translate(18,12) scale(0.8)">
+      <circle cx="0" cy="0" r="6" fill="none" stroke="white" stroke-width="2" opacity="0.9"/>
+      <circle cx="0" cy="0" r="4" fill="white" opacity="0.3"/>
+      <line x1="4" y1="4" x2="8" y2="8" stroke="white" stroke-width="2" opacity="0.9"/>
+    </g>
+    
+    <!-- Light bulb for insights -->
+    <g transform="translate(-22,12) scale(0.6)">
+      <circle cx="0" cy="-2" r="4" fill="white" opacity="0.9"/>
+      <rect x="-1" y="2" width="2" height="3" fill="white" opacity="0.9"/>
+      <rect x="-2" y="5" width="4" height="1" fill="white" opacity="0.9"/>
+      <!-- Light rays -->
+      <line x1="-6" y1="-6" x2="-8" y2="-8" stroke="white" stroke-width="1" opacity="0.7"/>
+      <line x1="6" y1="-6" x2="8" y2="-8" stroke="white" stroke-width="1" opacity="0.7"/>
+      <line x1="0" y1="-8" x2="0" y2="-10" stroke="white" stroke-width="1" opacity="0.7"/>
+      <line x1="-8" y1="-2" x2="-10" y2="-2" stroke="white" stroke-width="1" opacity="0.7"/>
+      <line x1="8" y1="-2" x2="10" y2="-2" stroke="white" stroke-width="1" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

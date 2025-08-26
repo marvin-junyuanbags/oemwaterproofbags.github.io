@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#e8f5e8" stroke="#198754" stroke-width="2" rx="10"/>
+  <rect x="40" y="70" width="120" height="70" fill="#198754" stroke="#ffffff" stroke-width="2" rx="8"/>
+  <rect x="50" y="80" width="100" height="50" fill="#ffffff" stroke="#198754" stroke-width="1" rx="5"/>
+  <rect x="60" y="90" width="80" height="8" fill="#198754" rx="2"/>
+  <rect x="60" y="105" width="60" height="6" fill="#6c757d" rx="1"/>
+  <rect x="60" y="115" width="70" height="6" fill="#6c757d" rx="1"/>
+  <rect x="80" y="50" width="40" height="20" fill="#198754" stroke="#ffffff" stroke-width="2" rx="3"/>
+  <circle cx="90" cy="60" r="3" fill="#ffffff"/>
+  <circle cx="110" cy="60" r="3" fill="#ffffff"/>
+  <path d="M30 150 Q50 140 70 150 Q90 160 110 150 Q130 140 150 150 Q170 160 190 150" stroke="#198754" stroke-width="2" fill="none"/>
+  <circle cx="60" cy="155" r="3" fill="#198754"/>
+  <circle cx="100" cy="160" r="3" fill="#198754"/>
+  <circle cx="140" cy="155" r="3" fill="#198754"/>
+  <path d="M170 30 L170 50 M165 35 L175 35" stroke="#198754" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="175" cy="40" r="2" fill="#198754"/>
+  <text x="100" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Fishing Bags</text>
+</svg>

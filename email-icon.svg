@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#f8f9fa" stroke="#007bff" stroke-width="2" rx="10"/>
+  <rect x="30" y="60" width="140" height="80" fill="#ffffff" stroke="#007bff" stroke-width="3" rx="5"/>
+  <path d="M30 60 L100 110 L170 60" stroke="#007bff" stroke-width="3" fill="none" stroke-linejoin="round"/>
+  <path d="M30 140 L70 100" stroke="#007bff" stroke-width="2" fill="none"/>
+  <path d="M170 140 L130 100" stroke="#007bff" stroke-width="2" fill="none"/>
+  <circle cx="100" cy="160" r="8" fill="#007bff"/>
+  <text x="100" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Email</text>
+</svg>

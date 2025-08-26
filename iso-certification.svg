@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#fff" stroke="#dc3545" stroke-width="2" rx="10"/>
+  <rect x="40" y="40" width="120" height="80" fill="#ffffff" stroke="#dc3545" stroke-width="3" rx="5"/>
+  <circle cx="100" cy="65" r="15" fill="#dc3545"/>
+  <text x="100" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">ISO</text>
+  <rect x="60" y="85" width="80" height="4" fill="#dc3545" rx="2"/>
+  <rect x="70" y="95" width="60" height="3" fill="#6c757d" rx="1.5"/>
+  <rect x="75" y="105" width="50" height="3" fill="#6c757d" rx="1.5"/>
+  <circle cx="60" cy="140" r="8" fill="#ffd700" stroke="#dc3545" stroke-width="2"/>
+  <path d="M56 140 L60 144 L64 136" stroke="#dc3545" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <rect x="80" y="135" width="60" height="15" fill="#dc3545" rx="7"/>
+  <text x="110" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">Certified</text>
+  <text x="100" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">ISO 9001</text>
+  <text x="100" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Quality Standard</text>
+</svg>

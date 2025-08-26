@@ -1,0 +1,33 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main travel bag body -->
+  <rect x="15" y="30" width="50" height="30" rx="4" fill="#059669" stroke="#047857" stroke-width="2"/>
+  
+  <!-- Top compartment -->
+  <rect x="18" y="25" width="44" height="8" rx="2" fill="#10b981" stroke="#047857" stroke-width="1.5"/>
+  
+  <!-- Handle -->
+  <path d="M30 25 Q30 18 35 18 L45 18 Q50 18 50 25" stroke="#047857" stroke-width="3" fill="none"/>
+  
+  <!-- Shoulder strap -->
+  <path d="M20 35 Q10 25 15 15 Q20 10 25 15 Q30 20 25 30" stroke="#047857" stroke-width="2" fill="none"/>
+  <path d="M60 35 Q70 25 65 15 Q60 10 55 15 Q50 20 55 30" stroke="#047857" stroke-width="2" fill="none"/>
+  
+  <!-- Zippers -->
+  <line x1="20" y1="28" x2="60" y2="28" stroke="#374151" stroke-width="2"/>
+  <circle cx="58" cy="28" r="2" fill="#374151"/>
+  
+  <line x1="20" y1="45" x2="60" y2="45" stroke="#374151" stroke-width="2"/>
+  <circle cx="58" cy="45" r="2" fill="#374151"/>
+  
+  <!-- Side pockets -->
+  <ellipse cx="12" cy="40" rx="4" ry="8" fill="#10b981" stroke="#047857" stroke-width="1"/>
+  <ellipse cx="68" cy="40" rx="4" ry="8" fill="#10b981" stroke="#047857" stroke-width="1"/>
+  
+  <!-- Wheels -->
+  <circle cx="22" cy="65" r="4" fill="#374151" stroke="#1f2937" stroke-width="2"/>
+  <circle cx="58" cy="65" r="4" fill="#374151" stroke="#1f2937" stroke-width="2"/>
+  
+  <!-- Telescopic handle -->
+  <rect x="38" y="15" width="4" height="15" fill="#6b7280" stroke="#374151" stroke-width="1"/>
+  <rect x="36" y="12" width="8" height="4" rx="2" fill="#374151"/>
+</svg>

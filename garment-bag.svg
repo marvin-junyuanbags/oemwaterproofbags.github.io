@@ -1,0 +1,70 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="garmentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#34495e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="#f8f9fa"/>
+  
+  <!-- Main Garment Bag Body -->
+  <rect x="120" y="40" width="60" height="140" rx="8" ry="8" 
+        fill="url(#garmentGradient)" filter="url(#shadow)"/>
+  
+  <!-- Front Panel -->
+  <rect x="125" y="45" width="50" height="130" rx="5" ry="5" 
+        fill="#34495e" stroke="#2c3e50" stroke-width="1"/>
+  
+  <!-- Main Zipper -->
+  <line x1="130" y1="50" x2="170" y2="50" stroke="#e74c3c" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="167" cy="50" r="3" fill="#c0392b"/>
+  
+  <!-- Side Zipper -->
+  <line x1="125" y1="55" x2="125" y2="165" stroke="#e74c3c" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="125" cy="162" r="3" fill="#c0392b"/>
+  
+  <!-- Hanger Hook -->
+  <circle cx="150" cy="25" r="8" fill="#8b4513" stroke="#654321" stroke-width="2"/>
+  <rect x="146" y="17" width="8" height="16" fill="#8b4513"/>
+  
+  <!-- Garment Outline (Suit) -->
+  <g opacity="0.3">
+    <rect x="135" y="60" width="30" height="40" rx="3" fill="#1a252f"/>
+    <rect x="140" y="100" width="20" height="50" rx="2" fill="#1a252f"/>
+    <rect x="145" y="150" width="10" height="20" rx="1" fill="#1a252f"/>
+  </g>
+  
+  <!-- Professional Badge -->
+  <rect x="200" y="60" width="40" height="15" rx="7" fill="#8e44ad"/>
+  <text x="220" y="69" text-anchor="middle" fill="white" font-size="7" font-weight="bold">PROFESSIONAL</text>
+  
+  <!-- Wrinkle-Free Icon -->
+  <g transform="translate(80, 80)">
+    <circle cx="0" cy="0" r="15" fill="#27ae60" opacity="0.9"/>
+    <path d="M-8,-3 L-3,2 L8,-8" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <text x="0" y="20" text-anchor="middle" fill="#27ae60" font-size="6" font-weight="bold">WRINKLE-FREE</text>
+  </g>
+  
+  <!-- Shoe Compartment -->
+  <rect x="130" y="160" width="40" height="12" rx="6" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1"/>
+  <ellipse cx="140" cy="166" rx="4" ry="2" fill="#2c3e50"/>
+  <ellipse cx="160" cy="166" rx="4" ry="2" fill="#2c3e50"/>
+  
+  <!-- Waterproof Badge -->
+  <circle cx="220" cy="120" r="18" fill="#3498db" opacity="0.9"/>
+  <path d="M216,116 Q220,112 224,116 Q220,120 216,116" fill="white"/>
+  <text x="220" y="128" text-anchor="middle" fill="white" font-size="5" font-weight="bold">IPX8</text>
+  
+  <!-- Capacity Label -->
+  <rect x="70" y="140" width="30" height="15" rx="7" fill="#e67e22"/>
+  <text x="85" y="149" text-anchor="middle" fill="white" font-size="8" font-weight="bold">25-45L</text>
+  
+  <!-- Handle -->
+  <ellipse cx="150" cy="35" rx="15" ry="5" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+</svg>

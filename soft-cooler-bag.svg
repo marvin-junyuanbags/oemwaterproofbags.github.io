@@ -1,0 +1,131 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bagGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c5aa0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3d6f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="zipperGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c0c0c0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#808080;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Picnic table surface -->
+  <rect x="0" y="220" width="400" height="80" fill="#8B4513" opacity="0.3"/>
+  
+  <!-- Main soft cooler bag body -->
+  <path d="M80 120 Q80 110 90 110 L310 110 Q320 110 320 120 L320 200 Q320 210 310 210 L90 210 Q80 210 80 200 Z" fill="url(#bagGradient)" stroke="#1a2d4a" stroke-width="2"/>
+  
+  <!-- Bag side panels (showing flexibility) -->
+  <path d="M80 120 Q70 125 70 160 Q70 195 80 200" fill="#1e3d6f" stroke="#1a2d4a" stroke-width="1"/>
+  <path d="M320 120 Q330 125 330 160 Q330 195 320 200" fill="#1e3d6f" stroke="#1a2d4a" stroke-width="1"/>
+  
+  <!-- Top zipper -->
+  <rect x="90" y="108" width="220" height="4" fill="url(#zipperGradient)" rx="2"/>
+  <circle cx="100" cy="110" r="3" fill="#606060"/>
+  <circle cx="300" cy="110" r="3" fill="#606060"/>
+  
+  <!-- Zipper teeth pattern -->
+  <g stroke="#404040" stroke-width="0.5">
+    <line x1="110" y1="108" x2="110" y2="112"/>
+    <line x1="120" y1="108" x2="120" y2="112"/>
+    <line x1="130" y1="108" x2="130" y2="112"/>
+    <line x1="140" y1="108" x2="140" y2="112"/>
+    <line x1="150" y1="108" x2="150" y2="112"/>
+    <line x1="160" y1="108" x2="160" y2="112"/>
+    <line x1="170" y1="108" x2="170" y2="112"/>
+    <line x1="180" y1="108" x2="180" y2="112"/>
+    <line x1="190" y1="108" x2="190" y2="112"/>
+    <line x1="200" y1="108" x2="200" y2="112"/>
+    <line x1="210" y1="108" x2="210" y2="112"/>
+    <line x1="220" y1="108" x2="220" y2="112"/>
+    <line x1="230" y1="108" x2="230" y2="112"/>
+    <line x1="240" y1="108" x2="240" y2="112"/>
+    <line x1="250" y1="108" x2="250" y2="112"/>
+    <line x1="260" y1="108" x2="260" y2="112"/>
+    <line x1="270" y1="108" x2="270" y2="112"/>
+    <line x1="280" y1="108" x2="280" y2="112"/>
+    <line x1="290" y1="108" x2="290" y2="112"/>
+  </g>
+  
+  <!-- Carrying handles -->
+  <ellipse cx="140" cy="95" rx="25" ry="8" fill="none" stroke="#1a2d4a" stroke-width="4"/>
+  <ellipse cx="260" cy="95" rx="25" ry="8" fill="none" stroke="#1a2d4a" stroke-width="4"/>
+  
+  <!-- Shoulder strap -->
+  <path d="M115 95 Q50 80 30 120 Q25 140 35 160 Q50 180 80 170" fill="none" stroke="#1a2d4a" stroke-width="3"/>
+  <path d="M285 95 Q350 80 370 120 Q375 140 365 160 Q350 180 320 170" fill="none" stroke="#1a2d4a" stroke-width="3"/>
+  
+  <!-- Front pocket -->
+  <rect x="120" y="140" width="160" height="50" fill="#2c5aa0" stroke="#1a2d4a" stroke-width="1" rx="5"/>
+  <rect x="125" y="138" width="150" height="3" fill="url(#zipperGradient)" rx="1"/>
+  <circle cx="135" cy="139.5" r="2" fill="#606060"/>
+  
+  <!-- Insulation pattern (showing cooling capability) -->
+  <g opacity="0.6">
+    <circle cx="150" cy="155" r="3" fill="#87CEEB"/>
+    <circle cx="170" cy="165" r="2" fill="#87CEEB"/>
+    <circle cx="190" cy="155" r="3" fill="#87CEEB"/>
+    <circle cx="210" cy="170" r="2" fill="#87CEEB"/>
+    <circle cx="230" cy="160" r="3" fill="#87CEEB"/>
+    <circle cx="250" cy="175" r="2" fill="#87CEEB"/>
+  </g>
+  
+  <!-- Brand logo area -->
+  <rect x="180" y="125" width="40" height="15" fill="#ffffff" opacity="0.8" rx="3"/>
+  <text x="200" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#1a2d4a">COOL</text>
+  
+  <!-- Waterproof badge -->
+  <circle cx="350" cy="50" r="25" fill="#0066cc" stroke="#ffffff" stroke-width="2"/>
+  <path d="M340 45 Q350 35 360 45 Q355 55 350 60 Q345 55 340 45" fill="#ffffff"/>
+  <text x="350" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#0066cc">WATERPROOF</text>
+  
+  <!-- Collapsible indicator -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="30" height="20" fill="#ff6b35" rx="3"/>
+    <path d="M5 10 L15 5 L25 10 L15 15 Z" fill="#ffffff"/>
+    <text x="15" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ff6b35">COLLAPSIBLE</text>
+  </g>
+  
+  <!-- Capacity indicator -->
+  <g transform="translate(320, 250)">
+    <rect x="0" y="0" width="60" height="25" fill="#28a745" rx="3"/>
+    <text x="30" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">6L-30L</text>
+    <text x="30" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#ffffff">CAPACITY</text>
+  </g>
+  
+  <!-- Lightweight indicator -->
+  <g transform="translate(20, 250)">
+    <circle r="15" fill="#6f42c1"/>
+    <path d="M-8 -3 L8 -3 L8 3 L-8 3 Z" fill="#ffffff"/>
+    <circle cx="0" cy="0" r="2" fill="#ffffff"/>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#6f42c1">LIGHTWEIGHT</text>
+  </g>
+  
+  <!-- Ice cubes inside (visible through semi-transparent effect) -->
+  <g opacity="0.4">
+    <rect x="100" y="130" width="8" height="8" fill="#e6f3ff" stroke="#b3d9ff" stroke-width="0.5" rx="1"/>
+    <rect x="115" y="135" width="6" height="6" fill="#e6f3ff" stroke="#b3d9ff" stroke-width="0.5" rx="1"/>
+    <rect x="130" y="132" width="7" height="7" fill="#e6f3ff" stroke="#b3d9ff" stroke-width="0.5" rx="1"/>
+    <rect x="280" y="130" width="8" height="8" fill="#e6f3ff" stroke="#b3d9ff" stroke-width="0.5" rx="1"/>
+    <rect x="290" y="135" width="6" height="6" fill="#e6f3ff" stroke="#b3d9ff" stroke-width="0.5" rx="1"/>
+  </g>
+  
+  <!-- Drinks/bottles inside -->
+  <g opacity="0.5">
+    <rect x="160" y="125" width="8" height="25" fill="#ff6b6b" rx="4"/>
+    <rect x="175" y="125" width="8" height="25" fill="#4ecdc4" rx="4"/>
+    <rect x="190" y="125" width="8" height="25" fill="#45b7d1" rx="4"/>
+    <rect x="205" y="125" width="8" height="25" fill="#96ceb4" rx="4"/>
+    <rect x="220" y="125" width="8" height="25" fill="#feca57" rx="4"/>
+    <rect x="235" y="125" width="8" height="25" fill="#ff9ff3" rx="4"/>
+  </g>
+</svg>

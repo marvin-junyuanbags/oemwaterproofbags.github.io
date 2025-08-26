@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bagGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bagGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bagGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8fafc"/>
+  
+  <!-- Main backpack -->
+  <g transform="translate(150, 50)">
+    <!-- Backpack body -->
+    <path d="M20 40 L80 40 L80 140 L20 140 Z" fill="url(#bagGradient1)" stroke="#1e40af" stroke-width="2" rx="8"/>
+    <!-- Front pocket -->
+    <path d="M25 60 L75 60 L75 100 L25 100 Z" fill="#60a5fa" stroke="#1e40af" stroke-width="1.5" rx="4"/>
+    <!-- Straps -->
+    <path d="M15 45 Q10 50 15 55 L15 120 Q10 125 15 130" fill="none" stroke="#1e40af" stroke-width="3" stroke-linecap="round"/>
+    <path d="M85 45 Q90 50 85 55 L85 120 Q90 125 85 130" fill="none" stroke="#1e40af" stroke-width="3" stroke-linecap="round"/>
+    <!-- Top handle -->
+    <path d="M35 35 Q50 25 65 35" fill="none" stroke="#1e40af" stroke-width="3" stroke-linecap="round"/>
+    <!-- Zippers -->
+    <line x1="30" y1="58" x2="70" y2="58" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+    <line x1="25" y1="42" x2="75" y2="42" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+  </g>
+  
+  <!-- Side bag 1 -->
+  <g transform="translate(50, 80)">
+    <path d="M10 30 L50 30 L50 80 L10 80 Z" fill="url(#bagGradient2)" stroke="#047857" stroke-width="2" rx="6"/>
+    <path d="M15 40 L45 40 L45 60 L15 60 Z" fill="#34d399" stroke="#047857" stroke-width="1" rx="3"/>
+    <path d="M20 25 Q30 20 40 25" fill="none" stroke="#047857" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Side bag 2 -->
+  <g transform="translate(280, 100)">
+    <path d="M10 20 L40 20 L40 60 L10 60 Z" fill="url(#bagGradient3)" stroke="#b45309" stroke-width="2" rx="5"/>
+    <path d="M15 30 L35 30 L35 45 L15 45 Z" fill="#fbbf24" stroke="#b45309" stroke-width="1" rx="2"/>
+    <path d="M18 15 Q25 12 32 15" fill="none" stroke="#b45309" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Water drops effect -->
+  <g opacity="0.6">
+    <circle cx="120" cy="180" r="3" fill="#3b82f6"/>
+    <circle cx="200" cy="200" r="2" fill="#10b981"/>
+    <circle cx="280" cy="170" r="2.5" fill="#f59e0b"/>
+    <circle cx="160" cy="220" r="2" fill="#3b82f6"/>
+    <circle cx="240" cy="190" r="1.5" fill="#10b981"/>
+  </g>
+  
+  <!-- Quality badge -->
+  <g transform="translate(320, 20)">
+    <circle cx="25" cy="25" r="20" fill="#059669" stroke="#047857" stroke-width="2"/>
+    <path d="M18 25 L22 29 L32 19" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e40af">Premium Waterproof Bags</text>
+</svg>
