@@ -921,7 +921,42 @@ footer {
     }
     
     .nav-menu {
-        display: none;
+        position: fixed;
+        left: -100%;
+        top: 80px;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0,0,0,0.05);
+        padding: 20px 0;
+        z-index: 999;
+        height: calc(100vh - 80px);
+        overflow-y: auto;
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+    }
+    
+    .nav-list li {
+        margin: 15px 0;
+        width: 100%;
+    }
+    
+    .nav-list a {
+        display: block;
+        padding: 15px 20px;
+        font-size: 1.1rem;
+        border-bottom: 1px solid #f0f0f0;
+        border-radius: 0;
     }
     
     .hamburger {
@@ -1005,10 +1040,18 @@ footer {
     }
     
     .feature-item {
-        padding: 20px;
+        padding: 25px;
+    }
+    
+    .product-content {
+        padding: 25px;
     }
     
     .contact-form {
         padding: 30px;
+    }
+    
+    .main-content {
+        padding: 15px 10px;
     }
 }
