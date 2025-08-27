@@ -214,6 +214,37 @@ header {
     transition: 0.3s;
 }
 
+/* Responsive Design for Hero */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        padding: 80px 20px 60px;
+    }
+    
+    .hero-text {
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    .hero-visual {
+        max-width: 100%;
+    }
+    
+    .hero-img {
+        height: 100px;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero p {
+        font-size: 1.1rem;
+    }
+}
+
 /* Main Content */
 main {
     margin-top: 80px;
@@ -327,28 +358,32 @@ main {
 
 /* Hero Visual Grid */
 .hero-visual {
-    margin-top: 40px;
+    flex: 1;
+    max-width: 900px;
+    width: 100%;
 }
 
 .hero-image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    max-width: 600px;
+    width: 100%;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .hero-img {
     width: 100%;
-    height: 90px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    transition: transform 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .hero-img:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.5);
 }
 
 /* Page Header */
@@ -1260,6 +1295,19 @@ footer {
     color: white;
     text-align: center;
     padding: 120px 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.hero-text {
+    flex: 1;
+    text-align: center;
+    max-width: 800px;
 }
 
 .breadcrumb {
@@ -3153,5 +3201,845 @@ footer {
     .articles-cta .cta-buttons {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+/* Enhanced Article Content Styles */
+.conclusion-overview {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    border-radius: 16px;
+    padding: 40px;
+    margin: 30px 0;
+    border-left: 5px solid #3b82f6;
+}
+
+.conclusion-intro {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #1e293b;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.key-takeaways {
+    margin: 40px 0;
+}
+
+.key-takeaways h3 {
+    color: #1e40af;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.takeaway-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.takeaway-item {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.takeaway-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.takeaway-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.takeaway-item h4 {
+    color: #1e40af;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.takeaway-item p {
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.selection-guidance {
+    margin: 50px 0;
+    background: white;
+    border-radius: 12px;
+    padding: 35px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.selection-guidance h3 {
+    color: #1e40af;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.selection-guidance > p {
+    font-size: 1.1rem;
+    color: #475569;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.guidance-factors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.factor-group {
+    background: #f8fafc;
+    border-radius: 10px;
+    padding: 25px;
+    border-left: 4px solid #3b82f6;
+}
+
+.factor-group h4 {
+    color: #1e40af;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.factor-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.factor-group li {
+    padding: 8px 0;
+    color: #475569;
+    line-height: 1.6;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.factor-group li:last-child {
+    border-bottom: none;
+}
+
+.factor-group li strong {
+    color: #1e293b;
+    font-weight: 600;
+}
+
+.future-perspective {
+    margin: 50px 0;
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    border-radius: 16px;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.future-perspective h3 {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+.future-summary {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    opacity: 0.95;
+}
+
+.call-to-action {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.call-to-action p {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: white;
+}
+
+.technology-overview {
+    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+    border-radius: 16px;
+    padding: 40px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.timeline-container {
+    margin: 40px 0;
+    position: relative;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #3b82f6;
+}
+
+.timeline-year {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1e40af;
+    min-width: 80px;
+    margin-right: 20px;
+}
+
+.timeline-content h4 {
+    color: #1e293b;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.timeline-content p {
+    color: #64748b;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.protection-levels {
+    margin: 40px 0;
+}
+
+.protection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.protection-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 2px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.protection-card:hover {
+    border-color: #3b82f6;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.protection-card h4 {
+    color: #1e40af;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.protection-card .rating {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3b82f6;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.protection-card p {
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Market Trends Article Styles */
+.key-highlights {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 30px 0;
+    border: 1px solid #dee2e6;
+}
+
+.key-highlights h3 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.highlight-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.highlight-item:hover {
+    transform: translateY(-5px);
+}
+
+.highlight-number {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 8px;
+}
+
+.highlight-label {
+    font-size: 0.9em;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+/* Market Overview Grid */
+.market-overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.overview-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.overview-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.card-header {
+    padding: 20px;
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-icon {
+    font-size: 1.8em;
+}
+
+.card-header h4 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.card-content {
+    padding: 25px;
+}
+
+/* Stats Card Specific */
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #f1f3f4;
+}
+
+.stat-item:last-child {
+    border-bottom: none;
+}
+
+.stat-label {
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.stat-value {
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Drivers Card Specific */
+.driver-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f1f3f4;
+}
+
+.driver-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.driver-title {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.driver-desc {
+    color: #6c757d;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+/* Challenges Card Specific */
+.challenge-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f1f3f4;
+}
+
+.challenge-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.challenge-title {
+    font-weight: bold;
+    color: #dc3545;
+    margin-bottom: 5px;
+}
+
+.challenge-desc {
+    color: #6c757d;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+/* Regional Analysis Grid */
+.regional-analysis-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.region-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.region-card:hover {
+    transform: translateY(-5px);
+}
+
+.region-header {
+    padding: 20px;
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: white;
+    text-align: center;
+}
+
+.region-flag {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.region-header h4 {
+    margin: 10px 0 5px 0;
+    font-size: 1.2em;
+}
+
+.market-share {
+    font-size: 0.9em;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.region-content {
+    padding: 25px;
+}
+
+.region-section {
+    margin-bottom: 20px;
+}
+
+.region-section:last-child {
+    margin-bottom: 0;
+}
+
+.region-section h5 {
+    color: #2c3e50;
+    margin-bottom: 8px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.region-section p {
+    color: #6c757d;
+    font-size: 0.95em;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Consumer Trends Showcase */
+.consumer-trends-showcase {
+    margin: 30px 0;
+}
+
+.trend-category {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.trend-category h4 {
+    background: linear-gradient(135deg, #6f42c1 0%, #8e44ad 100%);
+    color: white;
+    margin: 0;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.trend-items {
+    padding: 25px;
+}
+
+.trend-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 0;
+    border-bottom: 1px solid #f1f3f4;
+}
+
+.trend-item:last-child {
+    border-bottom: none;
+}
+
+.trend-label {
+    font-weight: bold;
+    color: #2c3e50;
+    flex: 0 0 40%;
+}
+
+.trend-description {
+    color: #6c757d;
+    flex: 1;
+    text-align: right;
+    font-size: 0.95em;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .conclusion-overview {
+        padding: 25px;
+        margin: 20px 0;
+    }
+    
+    .takeaway-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .guidance-factors {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .future-perspective {
+        padding: 25px;
+        margin: 30px 0;
+    }
+    
+    .protection-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .timeline-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .timeline-year {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .highlights-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+    
+    .market-overview-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .regional-analysis-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .trend-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .trend-label {
+        flex: none;
+    }
+    
+    .trend-description {
+        text-align: left;
+        flex: none;
+    }
+}
+
+/* IoT Features Grid */
+.iot-features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    padding: 25px;
+    transition: all 0.3s ease;
+    border: 1px solid #f1f3f4;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.feature-icon {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 15px;
+    filter: grayscale(0.2);
+}
+
+.feature-card h3 {
+    color: #2c3e50;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.feature-card p {
+    color: #6c757d;
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-card li {
+    color: #555;
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.feature-card li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Manufacturing Technology Grid */
+.manufacturing-tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.tech-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    padding: 25px;
+    transition: all 0.3s ease;
+    border: 1px solid #f1f3f4;
+}
+
+.tech-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.tech-icon {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 15px;
+    filter: grayscale(0.2);
+}
+
+.tech-card h3 {
+    color: #2c3e50;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.tech-card p {
+    color: #6c757d;
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tech-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tech-card li {
+    color: #555;
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.tech-card li:before {
+    content: "⚙️";
+    position: absolute;
+    left: 0;
+    font-size: 0.8em;
+}
+
+/* Energy Systems Grid */
+.energy-systems-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.energy-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    padding: 25px;
+    transition: all 0.3s ease;
+    border: 1px solid #f1f3f4;
+}
+
+.energy-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.energy-icon {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 15px;
+    filter: grayscale(0.2);
+}
+
+.energy-card h3 {
+    color: #2c3e50;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.energy-card p {
+    color: #6c757d;
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.energy-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.energy-card li {
+    color: #555;
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.energy-card li:before {
+    content: "⚡";
+    position: absolute;
+    left: 0;
+    font-size: 0.8em;
+}
+
+@media (max-width: 768px) {
+    .iot-features-grid,
+    .manufacturing-tech-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .energy-systems-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .feature-card,
+    .tech-card,
+    .energy-card {
+        padding: 20px;
+    }
+    
+    .feature-icon,
+    .tech-icon,
+    .energy-icon {
+        font-size: 2em;
     }
 }
