@@ -1,74 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
   <defs>
-    <linearGradient id="travelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#4299E1;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3182CE;stop-opacity:1" />
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B7355;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5D4E37;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="planeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8E53;stop-opacity:1" />
     </linearGradient>
   </defs>
   
-  <!-- Background circle -->
-  <circle cx="50" cy="50" r="45" fill="url(#travelGradient)" stroke="#2C5282" stroke-width="2"/>
+  <!-- Background Sky -->
+  <rect width="100" height="100" fill="url(#skyGradient)"/>
   
-  <!-- Travel tourism elements -->
-  <g transform="translate(50,50)">
-    <!-- Airplane -->
-    <g transform="translate(-15,-10) rotate(-15)">
-      <!-- Fuselage -->
-      <ellipse cx="0" cy="0" rx="8" ry="2" fill="white" stroke="#2C5282" stroke-width="1"/>
-      <!-- Wings -->
-      <ellipse cx="-2" cy="0" rx="3" ry="6" fill="white" stroke="#2C5282" stroke-width="1"/>
-      <!-- Tail -->
-      <polygon points="6,0 10,-2 10,2" fill="white" stroke="#2C5282" stroke-width="1"/>
-      <!-- Windows -->
-      <circle cx="-3" cy="0" r="0.8" fill="#4299E1"/>
-      <circle cx="-1" cy="0" r="0.8" fill="#4299E1"/>
-      <circle cx="1" cy="0" r="0.8" fill="#4299E1"/>
-    </g>
-    
-    <!-- Suitcase -->
-    <rect x="5" y="5" width="12" height="8" fill="#8B4513" stroke="#744210" stroke-width="1" rx="1"/>
-    <rect x="7" y="7" width="8" height="1" fill="#744210"/>
-    <rect x="7" y="10" width="8" height="1" fill="#744210"/>
-    <!-- Handle -->
-    <rect x="10" y="3" width="2" height="2" fill="none" stroke="#744210" stroke-width="1" rx="1"/>
-    <!-- Wheels -->
-    <circle cx="7" cy="14" r="1" fill="#2D3748"/>
-    <circle cx="15" cy="14" r="1" fill="#2D3748"/>
-    
-    <!-- Globe/Earth -->
-    <circle cx="-8" cy="8" r="6" fill="#48BB78" stroke="#38A169" stroke-width="1"/>
-    <!-- Continents -->
-    <path d="M -10,5 Q -6,3 -4,6 Q -8,8 -10,5" fill="#2F855A"/>
-    <path d="M -6,10 Q -4,12 -2,10 Q -4,14 -6,10" fill="#2F855A"/>
-    <ellipse cx="-10" cy="12" rx="2" ry="1.5" fill="#2F855A"/>
-    
-    <!-- Camera -->
-    <rect x="8" y="-8" width="8" height="5" fill="#2D3748" stroke="#1A202C" stroke-width="1" rx="1"/>
-    <circle cx="12" cy="-5.5" r="2" fill="#4A5568" stroke="#2D3748" stroke-width="1"/>
-    <circle cx="12" cy="-5.5" r="1.2" fill="#1A202C"/>
-    <rect x="14.5" y="-7" width="1" height="1" fill="#E53E3E" rx="0.2"/>
-    
-    <!-- Passport -->
-    <rect x="-18" y="-5" width="6" height="8" fill="#C53030" stroke="#9B2C2C" stroke-width="1" rx="0.5"/>
-    <rect x="-17" y="-3" width="4" height="1" fill="#FFD700"/>
-    <rect x="-16" y="-1" width="2" height="2" fill="#F7FAFC" stroke="#9B2C2C" stroke-width="0.5"/>
-    <rect x="-17" y="2" width="4" height="0.5" fill="#9B2C2C"/>
-    
-    <!-- Location pins -->
-    <g transform="translate(15,-15)">
-      <path d="M 0,-3 Q -2,-3 -2,-1 Q -2,1 0,3 Q 2,1 2,-1 Q 2,-3 0,-3" fill="#E53E3E"/>
-      <circle cx="0" cy="-1" r="1" fill="white"/>
-    </g>
-    
-    <g transform="translate(-20,15)">
-      <path d="M 0,-3 Q -2,-3 -2,-1 Q -2,1 0,3 Q 2,1 2,-1 Q 2,-3 0,-3" fill="#E53E3E"/>
-      <circle cx="0" cy="-1" r="1" fill="white"/>
-    </g>
-    
-    <!-- Travel route line -->
-    <path d="M -15,-10 Q 0,-20 15,-15 Q 10,0 -8,8" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.8"/>
+  <!-- Mountains -->
+  <polygon points="0,70 25,45 50,60 75,40 100,55 100,100 0,100" fill="url(#mountainGradient)"/>
+  
+  <!-- Mountain peaks with snow -->
+  <polygon points="20,50 25,45 30,50" fill="#FFFFFF" opacity="0.8"/>
+  <polygon points="70,45 75,40 80,45" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="20" cy="25" rx="8" ry="5" fill="#FFFFFF" opacity="0.7"/>
+  <ellipse cx="25" cy="23" rx="6" ry="4" fill="#FFFFFF" opacity="0.7"/>
+  <ellipse cx="30" cy="25" rx="7" ry="4" fill="#FFFFFF" opacity="0.7"/>
+  
+  <ellipse cx="70" cy="20" rx="9" ry="6" fill="#FFFFFF" opacity="0.6"/>
+  <ellipse cx="76" cy="18" rx="7" ry="5" fill="#FFFFFF" opacity="0.6"/>
+  <ellipse cx="82" cy="20" rx="8" ry="5" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Airplane -->
+  <g transform="translate(45,35) rotate(-10)">
+    <!-- Plane body -->
+    <ellipse cx="0" cy="0" rx="12" ry="3" fill="url(#planeGradient)"/>
+    <!-- Wings -->
+    <ellipse cx="-3" cy="0" rx="8" ry="1.5" fill="#FF8E53"/>
+    <!-- Tail -->
+    <polygon points="10,0 15,-2 15,2" fill="#FF6B6B"/>
+    <!-- Window -->
+    <circle cx="-5" cy="0" r="1.5" fill="#87CEEB" opacity="0.8"/>
   </g>
   
-  <!-- Travel tourism text -->
-  <text x="50" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2C5282" font-weight="bold">TRAVEL & TOURISM</text>
+  <!-- Airplane trail -->
+  <path d="M 35 32 Q 25 30 15 28" stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 33 34 Q 23 32 13 30" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.4"/>
+  
+  <!-- Sun -->
+  <circle cx="85" cy="15" r="8" fill="#FFD700" opacity="0.9"/>
+  <g stroke="#FFD700" stroke-width="1.5" opacity="0.7">
+    <line x1="85" y1="3" x2="85" y2="7"/>
+    <line x1="85" y1="23" x2="85" y2="27"/>
+    <line x1="73" y1="15" x2="77" y2="15"/>
+    <line x1="93" y1="15" x2="97" y2="15"/>
+    <line x1="76.5" y1="6.5" x2="79.3" y2="9.3"/>
+    <line x1="90.7" y1="20.7" x2="93.5" y2="23.5"/>
+    <line x1="93.5" y1="6.5" x2="90.7" y2="9.3"/>
+    <line x1="79.3" y1="20.7" x2="76.5" y2="23.5"/>
+  </g>
+  
+  <!-- Travel landmarks -->
+  <!-- Palm tree -->
+  <g transform="translate(15,75)">
+    <rect x="-1" y="0" width="2" height="15" fill="#8B4513"/>
+    <ellipse cx="0" cy="-2" rx="4" ry="3" fill="#228B22"/>
+    <ellipse cx="-3" cy="-1" rx="3" ry="2" fill="#32CD32"/>
+    <ellipse cx="3" cy="-1" rx="3" ry="2" fill="#32CD32"/>
+  </g>
+  
+  <!-- Building/Tower -->
+  <g transform="translate(85,75)">
+    <rect x="-2" y="0" width="4" height="20" fill="#696969"/>
+    <rect x="-3" y="15" width="6" height="5" fill="#808080"/>
+    <circle cx="0" cy="12" r="1" fill="#FFD700"/>
+  </g>
 </svg>
